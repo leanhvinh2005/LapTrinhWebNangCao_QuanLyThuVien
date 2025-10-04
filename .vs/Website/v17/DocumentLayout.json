@@ -1,0 +1,519 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\Website2\\Website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\bookborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\bookborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\views\\shared\\master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\shared\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\shared\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\shared\\navbar\\nologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\shared\\navbar\\nologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\views\\shared\\components\\navbar\\nologin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\components\\navbar\\nologin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\shared\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\shared\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\views\\shared\\components\\footer\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\components\\footer\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\views\\shared\\components\\navbar\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\components\\navbar\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\views\\shared\\components\\navbar\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\components\\navbar\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\models\\view\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\view\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Cart.cshtml",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-04T02:45:40.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Website\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Website\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T09:25:34.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Tag.cs",
+              "RelativeToolTip": "Website\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:58:15.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Chapter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Chapter.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Chapter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Chapter.cs",
+              "RelativeToolTip": "Website\\Models\\Chapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:57:08.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Borrow.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Borrow.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Borrow.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Borrow.cs",
+              "RelativeToolTip": "Website\\Models\\Borrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:55:51.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Book.cs",
+              "RelativeToolTip": "Website\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T03:37:19.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Librarian.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Librarian.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Librarian.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Librarian.cs",
+              "RelativeToolTip": "Website\\Models\\Librarian.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:03:55.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Home.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Home.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Home.cshtml",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T10:50:01.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T03:06:21.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:09:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\appsettings.json",
+              "RelativeDocumentMoniker": "Website\\appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\appsettings.json",
+              "RelativeToolTip": "Website\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-03T13:57:36.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\User.cs",
+              "RelativeToolTip": "Website\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:58:24.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Card.cs",
+              "RelativeToolTip": "Website\\Models\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:56:44.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookBorrow.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\BookBorrow.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\BookBorrow.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\BookBorrow.cs",
+              "RelativeToolTip": "Website\\Models\\BookBorrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:55:26.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Collection.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Collection.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Collection.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Collection.cs",
+              "RelativeToolTip": "Website\\Models\\Collection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:57:19.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\Member.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Member.cs",
+              "RelativeToolTip": "Website\\Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:58:06.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Master.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Master.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Master.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Master.cshtml",
+              "RelativeToolTip": "Website\\Views\\Shared\\Master.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T01:40:59.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Master.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Master.css",
+              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Master.css",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Master.css",
+              "RelativeToolTip": "Website\\wwwroot\\CSS\\Shared\\Master.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-01T11:49:59.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NoLogin.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
+              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
+              "RelativeToolTip": "Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-22T03:38:11.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
+              "RelativeToolTip": "Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T11:11:26.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Program.cs",
+              "RelativeDocumentMoniker": "Website\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Program.cs",
+              "RelativeToolTip": "Website\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:13:39.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NoLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
+              "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T03:57:18.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Footer.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Footer.css",
+              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Footer.css",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Footer.css",
+              "RelativeToolTip": "Website\\wwwroot\\CSS\\Shared\\Footer.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-02T11:12:12.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:06:01.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Browse.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Browse.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Browse.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Browse.cshtml",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\Browse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T09:04:00.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T03:57:25.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\About.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\About.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\About.cshtml",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T09:02:49.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
+              "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T03:55:39.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Website\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T03:56:02.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Website.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Website.csproj",
+              "RelativeDocumentMoniker": "Website\\Website.csproj",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Website.csproj",
+              "RelativeToolTip": "Website\\Website.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-27T04:00:50.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\View\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\View\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\View\\ErrorViewModel.cs",
+              "RelativeToolTip": "Website\\Models\\View\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:10:48.719Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
