@@ -5,10 +5,10 @@ using Website.Models;
 namespace Website.Areas.User.Controllers
 {
     [Area("User")]
-    public class AuthorDetailController : Controller
+    public class CollectionDetailController : Controller
     {
-        [Route("/Browse/AuthorDetail")]
-        public IActionResult AuthorDetail()
+        [Route("/Browse/CollectionDetail")]
+        public IActionResult CollectionDetail()
         {
             return View();
         }

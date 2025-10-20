@@ -3,6 +3,74 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\Website2\\Website\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\collectiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\collectiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\bookdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\bookdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\collectiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\collectiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\bookdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\bookdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\collection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\collection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\authordetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\authordetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\bookdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\bookdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\collectiondetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\collectiondetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\components\\cartitem\\cartitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -135,18 +199,6 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\shared\\navbar\\nologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\bookdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\bookdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -171,10 +223,6 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -187,24 +235,12 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\admin\\views\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\author.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\author.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\borrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\collection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\collection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\tag.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -283,10 +319,6 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\other\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\other\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -326,76 +358,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\CartController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAwEsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CollectionDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\CollectionDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\CollectionDetailController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\CollectionDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\CollectionDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:13:43.404Z",
+              "WhenOpened": "2025-10-20T04:04:44.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CartItem.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
-              "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T11:09:39.492Z",
+              "Title": "CollectionDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:00:12.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BookCard.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
-              "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T11:41:16.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CollectionController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
               "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T08:57:45.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:11:27.438Z",
+              "WhenOpened": "2025-10-19T08:56:58.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BookDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BookDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BookDetailController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BookDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\BookDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T09:12:45.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:09:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T03:59:33.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T09:12:12.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BookDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BookDetailController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BookDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\BookDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T03:59:55.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthorDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:00:47.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthorDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\AuthorDetail.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\AuthorDetail.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\AuthorDetail.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\AuthorDetail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T03:57:36.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T03:57:30.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CollectionDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\CollectionDetail.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\CollectionDetail.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\CollectionDetail.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\CollectionDetail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T03:51:59.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Account.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Account.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Account.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T08:45:19.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Collection.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Collection.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Collection.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Collection.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Collection.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T08:45:05.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T08:57:39.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\LoginController.cs",
@@ -403,12 +578,35 @@
               "RelativeToolTip": "Website\\Areas\\User\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T12:21:34.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T12:21:34.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T09:11:27.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookCard.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T11:41:16.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "User.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
@@ -416,12 +614,11 @@
               "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T03:55:39.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T03:55:39.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Program.cs",
               "RelativeDocumentMoniker": "Website\\Program.cs",
@@ -434,7 +631,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T08:45:12.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T11:09:39.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwEsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T09:13:43.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Cart.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Cart.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Cart.cshtml",
@@ -442,12 +676,11 @@
               "RelativeToolTip": "Website\\Areas\\User\\Views\\Cart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T13:46:09.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T13:46:09.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "CartItemViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\CartItem\\CartItemViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItemViewComponent.cs",
@@ -455,12 +688,11 @@
               "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItemViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T11:05:17.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T11:05:17.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 26,
               "Title": "CartListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\ViewModels\\CartListViewModel.cs",
               "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\CartListViewModel.cs",
@@ -468,12 +700,11 @@
               "RelativeToolTip": "Website\\Models\\ViewModels\\CartListViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T11:51:06.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T11:51:06.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "NavbarViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\NavbarViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\NavbarViewComponent.cs",
@@ -481,12 +712,11 @@
               "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\NavbarViewComponent.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:23:41.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T09:23:41.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "DisplayNumber.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumber.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumber.cshtml",
@@ -494,12 +724,11 @@
               "RelativeToolTip": "Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumber.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T13:28:15.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T13:28:15.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "DisplayNumberViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumberViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumberViewComponent.cs",
@@ -507,12 +736,11 @@
               "RelativeToolTip": "Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumberViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T13:28:42.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T13:28:42.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "BookCardViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\BookCard\\BookCardViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCardViewComponent.cs",
@@ -520,12 +748,11 @@
               "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCardViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T11:05:53.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T11:05:53.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "Browse.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Browse.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Browse.cshtml",
@@ -533,12 +760,11 @@
               "RelativeToolTip": "Website\\Areas\\User\\Views\\Browse.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T13:47:28.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T13:47:28.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "NoLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
@@ -546,12 +772,11 @@
               "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T03:57:18.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T03:57:18.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "BrowseController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BrowseController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BrowseController.cs",
@@ -559,12 +784,11 @@
               "RelativeToolTip": "Website\\Areas\\User\\Controllers\\BrowseController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T08:57:26.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T08:57:26.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "Admin.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
@@ -572,12 +796,11 @@
               "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T03:57:25.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T03:57:25.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "RegisterCardController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\RegisterCardController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\RegisterCardController.cs",
@@ -589,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "RegisterAccountController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\RegisterAccountController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\RegisterAccountController.cs",
@@ -601,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "RegisterCard.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\RegisterCard.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\RegisterCard.cshtml",
@@ -613,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "CartItem.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\User\\Components\\CartItem.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Components\\CartItem.css",
@@ -625,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 84,
               "Title": "Footer.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
@@ -637,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "Master.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Master.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Master.cshtml",
@@ -649,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "BookshelfController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BookshelfController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BookshelfController.cs",
@@ -661,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "RegisterAccount.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\RegisterAccount.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\RegisterAccount.cshtml",
@@ -673,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "BirthDateAttribute.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Other\\BirthDateAttribute.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Other\\BirthDateAttribute.cs",
@@ -685,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Book.cs",
@@ -697,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Login.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Login.cshtml",
@@ -709,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 45,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\User.cs",
               "RelativeDocumentMoniker": "Website\\Models\\User.cs",
@@ -721,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 46,
               "Title": "Admin.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Navbar\\Admin.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Navbar\\Admin.css",
@@ -733,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 47,
               "Title": "User.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Navbar\\User.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Navbar\\User.css",
@@ -745,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 48,
               "Title": "NoLogin.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
@@ -757,43 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "BookDetailController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BookDetailController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BookDetailController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BookDetailController.cs",
-              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\BookDetailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:12:45.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "TagController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T08:57:39.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T08:56:58.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 49,
               "Title": "BorrowController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
@@ -805,7 +992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BookController.cs",
@@ -817,7 +1004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
@@ -829,7 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 52,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AccountController.cs",
@@ -841,7 +1028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 53,
               "Title": "TagService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\TagService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\TagService.cs",
@@ -853,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\AboutController.cs",
@@ -865,19 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "AuthorDetailController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
-              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:12:12.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 55,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\HomeController.cs",
@@ -889,7 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 56,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Dashboard.cshtml",
@@ -901,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 57,
               "Title": "Dashboard.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Admin\\Views\\Dashboard.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Dashboard.css",
@@ -913,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 58,
               "Title": "Author.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Author.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Author.cshtml",
@@ -925,31 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Account.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Account.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Account.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T08:45:19.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Book.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T08:45:12.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "Borrow.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Borrow.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow.cshtml",
@@ -961,19 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Collection.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Collection.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Collection.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Collection.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Collection.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T08:45:05.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "Tag.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Tag.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag.cshtml",
@@ -985,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\BookService.cs",
@@ -997,7 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "LibrarianService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\LibrarianService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\LibrarianService.cs",
@@ -1009,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\appsettings.json",
               "RelativeDocumentMoniker": "Website\\appsettings.json",
@@ -1021,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\About.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\About.cshtml",
@@ -1033,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\UserService.cs",
@@ -1045,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "MemberService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\MemberService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\MemberService.cs",
@@ -1057,7 +1196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 67,
               "Title": "Librarian.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Librarian.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Librarian.cs",
@@ -1069,7 +1208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "Member.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Member.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Member.cs",
@@ -1081,7 +1220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Card.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Card.cs",
@@ -1093,7 +1232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 70,
               "Title": "BorrowService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\BorrowService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\BorrowService.cs",
@@ -1105,7 +1244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 71,
               "Title": "CardService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\CardService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\CardService.cs",
@@ -1117,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 72,
               "Title": "ChapterService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\ChapterService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\ChapterService.cs",
@@ -1129,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 73,
               "Title": "CollectionService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\CollectionService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\CollectionService.cs",
@@ -1141,7 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 74,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Website\\Data\\ApplicationDbContext.cs",
@@ -1153,7 +1292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 75,
               "Title": "BookBorrow.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\BookBorrow.cs",
               "RelativeDocumentMoniker": "Website\\Models\\BookBorrow.cs",
@@ -1165,7 +1304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 76,
               "Title": "Borrow.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Borrow.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Borrow.cs",
@@ -1177,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 77,
               "Title": "Chapter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Chapter.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Chapter.cs",
@@ -1189,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 78,
               "Title": "Collection.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Collection.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Collection.cs",
@@ -1201,19 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T09:09:43.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 79,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\Other\\EmailService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\Other\\EmailService.cs",
@@ -1225,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 86,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\_ViewStart.cshtml",
@@ -1237,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 80,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Home.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Home.cshtml",
@@ -1249,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 81,
               "Title": "DateFutureAttribute.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Models\\Other\\DateFutureAttribute.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Other\\DateFutureAttribute.cs",
@@ -1261,7 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 85,
               "Title": "Website.csproj",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Website.csproj",
               "RelativeDocumentMoniker": "Website\\Website.csproj",
@@ -1273,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 83,
               "Title": "Footer.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Footer.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Footer.css",
@@ -1285,7 +1412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 82,
               "Title": "Master.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Shared\\Master.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Master.css",

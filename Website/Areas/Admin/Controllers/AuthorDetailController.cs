@@ -1,13 +1,13 @@
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Website.Models;
 
-namespace Website.Areas.User.Controllers
+namespace Website.Areas.Admin.Controllers
 {
-    [Area("User")]
+    [Area("Admin")]
+    [Authorize(Roles = "Admin")]    
     public class AuthorDetailController : Controller
     {
-        [Route("/Browse/AuthorDetail")]
+        [Route("/Author/AuthorDetail")]
         public IActionResult AuthorDetail()
         {
             return View();
