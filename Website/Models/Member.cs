@@ -1,16 +1,30 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Website.Models
 {
     public class Member
     {
         [Key]
-        public required int idMember { get; set; }
-        public required string statusMember { get; set; }
-        public required char idCard { get; set; }
-        public required int idUser { get; set; }
+        [Required]
+        public int idMember { get; set; }
 
-        public required Card cardMember { get; set; }
-        public required User userMember { get; set; }
+        [Required]
+        [StringLength(100)]
+        public string statusMember { get; set; }
+
+        [Required]
+        [StringLength(12, MinimumLength = 12)]
+        public string idCard { get; set; }
+
+        [Required]
+        public int idUser { get; set; }
+
+
+        [NotMapped]
+        public Card? cardMember { get; set; }
+
+        [NotMapped]
+        public User? userMember { get; set; }
     }
 }

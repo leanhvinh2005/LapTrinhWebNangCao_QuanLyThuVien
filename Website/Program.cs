@@ -1,7 +1,13 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
+using System.Drawing.Text;
 using Website.Data;
+using Website.Models;
+using Website.Models.ViewModels;
+using Website.Services;
+using Website.Services.Other;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,9 +24,41 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+
+builder.Services.AddScoped<BookService>();
+builder.Services.AddScoped<BorrowService>();
+builder.Services.AddScoped<CardService>();
+builder.Services.AddScoped<ChapterService>();
+builder.Services.AddScoped<CollectionService>();
+builder.Services.AddScoped<LibrarianService>();
+builder.Services.AddScoped<MemberService>();
+builder.Services.AddScoped<TagService>();
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<EmailService>();
+
+builder.Services.Configure<EmailSettings>(
+    builder.Configuration.GetSection("EmailSettings"));
+
+builder.Services.AddTransient<IEmailService, EmailService>();
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); 
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Login";
+        options.LogoutPath = "/";
+        options.AccessDeniedPath = "/";
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+    });
 
 var app = builder.Build();
 
@@ -41,8 +79,14 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseSession();
+
+app.MapControllerRoute(
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Dashboard}/{action=Dashboard}/{id?}");
 app.MapControllerRoute(
     name: "User",
     pattern: "{area:exists}/{controller=Home}/{action=Home}/{id?}");

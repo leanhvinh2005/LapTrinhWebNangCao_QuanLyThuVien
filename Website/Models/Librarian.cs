@@ -1,16 +1,33 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Website.Models.Custom;
 
 namespace Website.Models
 {
     public class Librarian
     {
         [Key]
-        public required int idLibrarian { get; set; }
-        public required string roleLibrarian { get; set; }
-        public required DateOnly hireLibrarian { get; set; }
-        public required string statusLibrarian { get; set; }
-        public required int idUser { get; set; }   
-        
-        public required User userLibrarian { get; set; }
+        [Required]
+        public int idLibrarian { get; set; }
+
+        [Required]
+        [StringLength(30)]
+        public string roleLibrarian { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        [DateFuture]
+        public DateOnly hireLibrarian { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string statusLibrarian { get; set; }
+
+        [Required]
+        public int idUser { get; set; }
+
+
+        [NotMapped]
+        public User? userLibrarian { get; set; }
     }
 }

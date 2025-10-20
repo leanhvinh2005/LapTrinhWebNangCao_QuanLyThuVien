@@ -1,2 +1,120 @@
 ﻿body {
+    margin: 0;
 }
+
+main {
+
+}
+
+.uppercontainer {
+    display: grid;
+    grid-template-areas:
+        "p p"
+        "input button";
+    grid-template-rows: auto auto;
+    grid-template-columns: 4fr 1fr;
+    grid-column-gap: 15px;
+    padding: 20px 450px;
+    background-color: lightgray;
+}
+
+    .uppercontainer p {
+        grid-area: p;
+    }
+
+    .uppercontainer input {
+        grid-area: input;
+    }
+
+    .uppercontainer button {
+        grid-area: button;
+    }
+
+.lowercontainer {
+    display: grid;
+    grid-template-areas:
+        "filtercontainer catalogcontainer"
+        "filtercontainer catalogcontainer"
+        "filtercontainer pagenavigation";
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 20px;
+    padding: 20px;
+}
+
+    .filtercontainer {
+        grid-area: filtercontainer;
+        background-color: red;
+    }
+
+    .catalogcontainer {
+        grid-area: catalogcontainer;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .pagenavigation {
+        grid-area: pagenavigation;
+        display: flex;
+        justify-content: center;
+        background-color: green;
+    }
+
+        .arrowlink {
+            display: inline-block;
+            margin: 0 2px;
+            padding: 7.5px 0;
+        }
+
+            .arrowlink a:link, .arrowlink a:visited {
+                padding: 8px 10px;
+            }
+
+            .arrowlink:hover a:link, .arrowlink:hover a:visited {
+                background-color: black;
+                transition: 0.2s;
+            }
+
+            .arrowlink:hover .arrow {
+                border-color: white;
+                transition: 0.2s;
+            } 
+
+            .arrow {
+                border: solid black;
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 3px;
+            }
+
+            .arrowleft {
+                transform: rotate(135deg);
+                -webkit-transform: rotate(135deg);
+            }
+
+            .arrowright {
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+            }
+
+        .pagelink {
+            display: inline-block;
+            border: 2px solid black;
+            margin: 0 2px;
+            padding: 6px 0;
+        }
+
+            .pagelink a:link, .pagelink a:visited {
+                padding: 8px 10px;
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                font-family: Raleway;
+                font-weight: 550;
+            }
+
+            .pagelink:hover a:link, .pagelink:hover a:visited {
+                background-color: black;
+                color: white;
+                transition: 0.2s;
+            } 

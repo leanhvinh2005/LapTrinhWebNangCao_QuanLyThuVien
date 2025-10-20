@@ -1,2 +1,72 @@
 ﻿body {
+    margin: 0;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 0;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px 0 10px 0;
+    flex-grow: 1;
+    height: 60px;
+    background-color: ghostwhite;
+}
+
+.flower1, .flower2 {
+    width: 200px;
+    height: auto;
+}
+
+.flower1 {
+    position: relative;
+    right: 60px;
+}
+
+.flower2 {
+    position: relative;
+    left: 60px;
+}
+
+.navbar .arcadialogosmall {
+    width: 180px;
+    height: auto;
+}
+
+.lower {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    flex-grow: 1;
+    height: 30px;
+    background-color: blue;
+}
+
+.navlink {
+    display: inline-block;
+}
+
+    .navlink a:link, .navlink a:visited {
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: 550;
+    }
+
+    .navlink:hover a:link, .navlink:hover a:visited {
+        background-color: white;
+        border-radius: 25px;
+        color: black;
+        transition: 0.2s;
+    }

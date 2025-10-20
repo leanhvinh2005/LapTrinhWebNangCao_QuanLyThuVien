@@ -1,2 +1,41 @@
-﻿<h2>Navbar</h2>
+﻿@model Website.Models.ViewModels.CartListViewModel
 
+<link rel="stylesheet" href="~/CSS/Shared/Navbar/User.css" />
+
+<nav class="navbar">
+    <div class="upper">
+        <img src="~/Images/Decorations/Flower.png" alt="Flower1" class="flower1" />
+        <img src="~/Images/Logos/ArcadiaLogoSmall.png" alt="ArcadiaLogoSmall" class="arcadialogosmall" />
+        <img src="~/Images/Decorations/Flower.png" alt="Flower2" class="flower2" />
+    </div>
+    <div class="lower">
+        <div class="left">
+            <div class="navlink">
+                <a asp-area="User" asp-controller="Home" asp-action="Home">Home</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="User" asp-controller="Browse" asp-action="Browse">Browse</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="User" asp-controller="About" asp-action="About">About</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="User" asp-controller="Contact" asp-action="Contact">Contact</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="navlink">
+                @if (Model.Books.Count > 0)
+                {
+                    @await Component.InvokeAsync("DisplayNumber", new { count = Model.Books.Count.ToString() })
+                }
+                <a asp-area="User" asp-controller="Cart" asp-action="Cart">Cart</a>
+            </div>
+            <div class="navlink">
+                <form asp-area="User" asp-controller="Login" asp-action="Logout" method="post">
+                    <button type="submit">Logout</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>

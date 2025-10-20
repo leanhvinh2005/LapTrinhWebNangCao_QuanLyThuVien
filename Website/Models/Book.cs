@@ -1,23 +1,60 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Website.Models.Custom;
 
 namespace Website.Models
 {
     public class Book
     {
         [Key]
-        public required char idBook { get; set; } //Example: CR01. Hai chữ đầu là tên sách, hai số cuối là bản copy thứ mấy
-        public required string nameBook { get; set; }
-        public required string descriptionBook { get; set; }
-        public required string typeBook { get; set; }
-        public required string authorBook { get; set; }
-        public required string publisherBook { get; set; }
-        public required DateOnly dateBook { get; set; }
-        public required string formatBook { get; set; }
-        public required string noteBook { get; set; }
-        public required string statusBook { get; set; }
-        public required string imageBook { get; set; }
+        [Required(ErrorMessage = "Please enter book ID")]
+        [StringLength(4, MinimumLength = 4, ErrorMessage = "Invalid book ID")]
+        public string idBook { get; set; } //Example: CR01. Hai chữ đầu là tên sách, hai số cuối là bản copy thứ mấy
 
+        [Required(ErrorMessage = "Please enter name")]
+        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        public string nameBook { get; set; }
+
+        [Required(ErrorMessage = "Please enter description")]
+        public string descriptionBook { get; set; }
+
+        [Required(ErrorMessage = "Please enter type")]
+        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        public string typeBook { get; set; }
+
+        [Required(ErrorMessage = "Please enter author")]
+        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        public string authorBook { get; set; }
+
+        [Required(ErrorMessage = "Please enter publisher")]
+        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        public string publisherBook { get; set; }
+
+        [Required(ErrorMessage = "Please enter date of publishing")]
+        [DataType(DataType.Date)]
+        [DateFuture]
+        public DateOnly dateBook { get; set; }
+
+        [Required]
+        [StringLength(20, ErrorMessage = "Can't exceed 20 character limit")]
+        public string formatBook { get; set; }
+
+        [StringLength(200, ErrorMessage = "Can't exceed 200 character limit")]
+        public string? noteBook { get; set; }
+
+        [Required]
+        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        public string statusBook { get; set; }
+
+        [Required(ErrorMessage = "Please enter image path")]
+        [StringLength(200, ErrorMessage = "Can't exceed 200 character limit")]
+        public string imageBook { get; set; }
+
+
+        [NotMapped]
         public List<Tag> tags { get; set; } = new();
+
+        [NotMapped]
         public List<Chapter> chapters { get; set; } = new();
     }
 }

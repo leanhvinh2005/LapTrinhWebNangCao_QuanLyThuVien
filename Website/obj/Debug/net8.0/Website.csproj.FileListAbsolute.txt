@@ -252,6 +252,7 @@ C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\Website.MvcApplica
 C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\Website.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\Website.RazorAssemblyInfo.cache
 C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\Website.RazorAssemblyInfo.cs
+C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\Website.sourcelink.json
 C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\pc\Desktop\Website2\Website\Website\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

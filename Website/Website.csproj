@@ -18,16 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\User\Data\" />
     <Folder Include="Areas\User\Models\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Data\Migrations\" />
     <Folder Include="wwwroot\CSS\Admin\Components\" />
-    <Folder Include="wwwroot\CSS\Admin\Views\" />
-    <Folder Include="wwwroot\CSS\User\Components\" />
   </ItemGroup>
 
   <ItemGroup>

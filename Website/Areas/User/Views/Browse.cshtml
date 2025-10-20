@@ -1,10 +1,43 @@
-﻿
+﻿@model Website.Models.ViewModels.BookListViewModel
 @{
     ViewBag.Title = "Browse";
     Layout = "~/Views/Shared/Master.cshtml";
 }
+<link rel="stylesheet" href="~/CSS/User/Views/Browse.css" />
 
 <main>
-    <p>Browse</p>
+    <div class="uppercontainer">
+        <p>EXPLORE BOOKS</p>
+        <input type="text" placeholder="Search..." />
+        <button></button>
+    </div>
+    <div class="lowercontainer">
+        <div class="filtercontainer">
+
+        </div>
+        <div class="catalogcontainer">
+            @foreach (var item in Model.Books)
+            {
+                <div>
+                    @await Component.InvokeAsync("BookCard", new { book = item, count = "" })
+                </div>
+            }
+        </div>
+        <div class="pagenavigation">
+            <div class="arrowlink">
+                <a asp-area="User" asp-controller="Browse" asp-action="Browse" asp-route-currentpage="Model.PagingInfo.CurrentPage - 1"><i class="arrow arrowleft"></i></a>
+            </div>
+            @for (int i = 1; i <= Model.PagingInfo.TotalPage; i++)
+            {
+                <div class="pagelink">
+                    <a asp-area="User" asp-controller="Browse" asp-action="Browse" asp-route-currentpage="@i">@i</a>
+                </div>
+            }
+            <div class="arrowlink">
+                <a asp-area="User" asp-controller="Browse" asp-action="Browse" asp-route-currentpage="Model.PagingInfo.CurrentPage - 1"><i class="arrow arrowright"></i></a>
+            </div>
+        </div>
+    </div>
+
 </main>
 

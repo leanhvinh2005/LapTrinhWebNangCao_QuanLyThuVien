@@ -1,8 +1,25 @@
-﻿
+﻿@model Website.Models.User
 @{
     ViewBag.Title = "Login";
     Layout = "~/Views/Shared/Master.cshtml";
 }
+<link rel="stylesheet" href="~/CSS/User/Views/Login.css" />
 
-<h2>Login</h2>
+<main>
+    <p>Login to account</p>
+    <form asp-action="Login" method="post">
+        <div class="inputfield">
+            <label asp-for="emailUser">Email</label>
+            <span asp-validation-for="emailUser"></span>
+            <input asp-for="emailUser" placeholder="Enter email" />
+        </div>
+        <div class="inputfield">
+            <label asp-for="passwordUser">Password</label>
+            <span asp-validation-for="passwordUser"></span>
+            <input asp-for="passwordUser" placeholder="Enter password" />
+        </div>
+        <div asp-validation-summary="ModelOnly"></div>
+        <button type="submit">Login</button>
+    </form>
+</main>
 

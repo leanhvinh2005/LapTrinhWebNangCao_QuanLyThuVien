@@ -55,19 +55,19 @@
             display: inline-block;
         }
 
-        .navlink a:link, .navlink a:visited {
-            padding: 8px;
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-            font-family: Raleway;
-            font-weight: 550;
-        }
+            .navlink a:link, .navlink a:visited {
+                padding: 8px;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-family: Raleway;
+                font-weight: 550;
+            }
 
-        .navlink:hover a:link, .navlink:hover a:visited {
-            background-color: white;
-            border-radius: 25px;
-            color: black;
-            transition: 0.2s;
-        }
+            .navlink:hover a:link, .navlink:hover a:visited {
+                background-color: white;
+                border-radius: 25px;
+                color: black;
+                transition: 0.2s;
+            }
 

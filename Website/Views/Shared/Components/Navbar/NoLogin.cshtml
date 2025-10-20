@@ -1,4 +1,6 @@
-﻿<link rel="stylesheet" href="~/CSS/Shared/Navbar/NoLogin.css" />
+﻿@model Website.Models.ViewModels.CartListViewModel
+
+<link rel="stylesheet" href="~/CSS/Shared/Navbar/NoLogin.css" />
 
 <nav class="navbar">
     <div class="upper">
@@ -20,9 +22,18 @@
             <div class="navlink">
                 <a asp-area="User" asp-controller="Contact" asp-action="Contact">Contact</a>
             </div>
+            <div class="navlink">
+                <a asp-area="User" asp-controller="RegisterCard" asp-action="RegisterCard">RegisterCard</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="User" asp-controller="RegisterAccount" asp-action="RegisterAccount">RegisterAccount</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="User" asp-controller="Login" asp-action="Login">Login</a>
+            </div>
         </div>
         <div class="right">
-
+            
         </div>
     </div>
 </nav>

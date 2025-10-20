@@ -1,2 +1,36 @@
-﻿<h2>Navbar</h2>
+﻿<link rel="stylesheet" href="~/CSS/Shared/Navbar/Admin.css" />
 
+<nav class="navbar">
+    <div class="upper">
+        <img src="~/Images/Decorations/Flower.png" alt="Flower1" class="flower1" />
+        <img src="~/Images/Logos/ArcadiaLogoSmall.png" alt="ArcadiaLogoSmall" class="arcadialogosmall" />
+        <img src="~/Images/Decorations/Flower.png" alt="Flower2" class="flower2" />
+    </div>
+    <div class="lower">
+        <div class="left">
+            <div class="navlink">
+                <a asp-area="Admin" asp-controller="Dashboard" asp-action="Dashboard">Dashboard</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="Admin" asp-controller="Account" asp-action="Account">Account</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="Admin" asp-controller="Author" asp-action="Author">Author</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="Admin" asp-controller="Book" asp-action="Book">Book</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="Admin" asp-controller="Borrow" asp-action="Borrow">Borrow</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="Admin" asp-controller="Collection" asp-action="Collection">Collection</a>
+            </div>
+            <div class="navlink">
+                <a asp-area="Admin" asp-controller="Tag" asp-action="Tag">Tag</a>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+</nav>

@@ -1,16 +1,36 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Website.Models.Custom;
 
 namespace Website.Models
 {
     public class BookBorrow
     {
-        public required int idBorrow { get; set; }
-        public required char idBook { get; set; }
-        public required DateOnly startDate { get; set; }
-        public required DateOnly returnDate { get; set; }
-        public required string statusBookBorrow { get; set; }
+        [Required]
+        public int idBorrow { get; set; }
 
-        public required Borrow borrow { get; set; }
-        public required Book book { get; set; }
+        [Required]
+        [StringLength(4, MinimumLength = 4)]
+        public string idBook { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        [DateFuture]
+        public DateOnly startDate { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        public DateOnly returnDate { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string statusBookBorrow { get; set; }
+
+
+        [NotMapped]
+        public Borrow? borrow { get; set; }
+
+        [NotMapped]
+        public Book? book { get; set; }
     }
 }

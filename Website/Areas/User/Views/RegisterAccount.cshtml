@@ -1,8 +1,34 @@
-﻿
+﻿@model Website.Models.User
 @{
     ViewBag.Title = "RegisterAccount";
     Layout = "~/Views/Shared/Master.cshtml";
 }
+<link rel="stylesheet" href="~/CSS/User/Views/RegisterAccount.css" />
 
-<h2>RegisterAccount</h2>
+<main>
+    <p>Register account</p>
+    <form asp-action="RegisterAccount" method="post">
+        <div class="inputfield">
+            <label asp-for="nameUser">Username</label>
+            <span asp-validation-for="nameUser"></span>
+            <input asp-for="nameUser" placeholder="Enter username" />
+        </div>
+        <div class="inputfield">
+            <label asp-for="emailUser">Email</label>
+            <span asp-validation-for="emailUser"></span>
+            <input asp-for="emailUser" placeholder="Enter email" />
+        </div>
+        <div class="inputfield">
+            <label asp-for="passwordUser">Password</label>
+            <span asp-validation-for="passwordUser"></span>
+            <input asp-for="passwordUser" placeholder="Enter password" />
+        </div>
+        <div class="inputfield">
+            <label for="cardid">Card ID</label>
+            <input type="text" placeholder="Enter card" name="cardid" required />
+        </div>
+        <div asp-validation-summary="ModelOnly"></div>
+        <button type="submit">Register</button>
+    </form>
+</main>
 

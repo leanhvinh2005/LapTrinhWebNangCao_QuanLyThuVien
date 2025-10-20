@@ -1,8 +1,9 @@
 wwwroot\CSS\Shared\Footer.css
 wwwroot\CSS\Shared\Master.css
-wwwroot\CSS\Shared\Navbar\Admin.css
-wwwroot\CSS\Shared\Navbar\NoLogin.css
 wwwroot\CSS\Shared\Navbar\User.css
+wwwroot\CSS\Shared\Navbar\NoLogin.css
+wwwroot\CSS\Shared\Navbar\Admin.css
+wwwroot\CSS\User\Components\BookCard.css
 wwwroot\CSS\User\Views\About.css
 wwwroot\CSS\User\Views\AuthorDetail.css
 wwwroot\CSS\User\Views\BookDetail.css
@@ -19,6 +20,7 @@ wwwroot\favicon.ico
 wwwroot\Images\Decorations\Flower.png
 wwwroot\Images\Logos\ArcadiaLogo.png
 wwwroot\Images\Logos\ArcadiaLogoSmall.png
+wwwroot\Images\Placeholders\placeholder.png
 wwwroot\JS\site.js
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -77,3 +79,11 @@ wwwroot\Lib\jquery\dist\jquery.js
 wwwroot\Lib\jquery\dist\jquery.min.js
 wwwroot\Lib\jquery\dist\jquery.min.map
 wwwroot\Lib\jquery\LICENSE.txt
+wwwroot\CSS\Admin\Views\Dashboard.css
+wwwroot\CSS\Admin\Views\Borrow.css
+wwwroot\CSS\Admin\Views\Book.css
+wwwroot\CSS\Admin\Views\Collection.css
+wwwroot\CSS\Admin\Views\Author.css
+wwwroot\CSS\Admin\Views\Account.css
+wwwroot\CSS\Admin\Views\Card.css
+wwwroot\CSS\User\Components\CartItem.css

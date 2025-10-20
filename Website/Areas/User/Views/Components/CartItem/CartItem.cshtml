@@ -1,0 +1,13 @@
+﻿@model Website.Models.Book
+<link rel="stylesheet" href="~/CSS/User/Components/CartItem.css" />
+
+<div class="cardcontainer">
+    <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
+    <h1>@Model.nameBook</h1>
+    <h2>@Model.authorBook</h2>
+    <form action="/Cart/Remove" method="post">
+        <input type="hidden" name="idbook" value="@Model.idBook" />
+        <button>Remove from Cart</button>
+    </form>
+</div>
+
