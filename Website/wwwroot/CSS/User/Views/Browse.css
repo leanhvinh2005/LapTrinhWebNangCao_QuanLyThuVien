@@ -38,18 +38,18 @@ main {
         "filtercontainer pagenavigation";
     grid-template-columns: 1fr 3fr;
     grid-column-gap: 20px;
-    padding: 20px;
+    padding: 30px;
 }
 
     .filtercontainer {
+        display: flex;
+        justify-content: center;
         grid-area: filtercontainer;
-        background-color: red;
     }
 
     .catalogcontainer {
         grid-area: catalogcontainer;
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
     }
 
@@ -57,13 +57,10 @@ main {
         grid-area: pagenavigation;
         display: flex;
         justify-content: center;
-        background-color: green;
     }
 
         .arrowlink {
-            display: inline-block;
-            margin: 0 2px;
-            padding: 7.5px 0;
+            display: flex;
         }
 
             .arrowlink a:link, .arrowlink a:visited {
@@ -98,10 +95,9 @@ main {
             }
 
         .pagelink {
-            display: inline-block;
+            display: flex;
             border: 2px solid black;
-            margin: 0 2px;
-            padding: 6px 0;
+            margin: 1px;
         }
 
             .pagelink a:link, .pagelink a:visited {

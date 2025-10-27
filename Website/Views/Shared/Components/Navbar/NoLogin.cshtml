@@ -1,39 +1,31 @@
-﻿@model Website.Models.ViewModels.CartListViewModel
-
-<link rel="stylesheet" href="~/CSS/Shared/Navbar/NoLogin.css" />
+﻿<link rel="stylesheet" href="~/CSS/Shared/Navbar/NoLogin.css" />
 
 <nav class="navbar">
-    <div class="upper">
-        <img src="~/Images/Decorations/Flower.png" alt="Flower1" class="flower1" />
-        <img src="~/Images/Logos/ArcadiaLogoSmall.png" alt="ArcadiaLogoSmall" class="arcadialogosmall" />
-        <img src="~/Images/Decorations/Flower.png" alt="Flower2" class="flower2" />
+    <div class="left_navbar">
+        <img src="~/Images/Logos/ArcadiaLogoSmall.png" alt="ArcadiaLogo" class="arcadialogo_navbar" />
     </div>
-    <div class="lower">
-        <div class="left">
-            <div class="navlink">
-                <a asp-area="User" asp-controller="Home" asp-action="Home">Home</a>
-            </div>
-            <div class="navlink">
-                <a asp-area="User" asp-controller="Browse" asp-action="Browse">Browse</a>
-            </div>
-            <div class="navlink">
-                <a asp-area="User" asp-controller="About" asp-action="About">About</a>
-            </div>
-            <div class="navlink">
-                <a asp-area="User" asp-controller="Contact" asp-action="Contact">Contact</a>
-            </div>
-            <div class="navlink">
-                <a asp-area="User" asp-controller="RegisterCard" asp-action="RegisterCard">RegisterCard</a>
-            </div>
-            <div class="navlink">
-                <a asp-area="User" asp-controller="RegisterAccount" asp-action="RegisterAccount">RegisterAccount</a>
-            </div>
-            <div class="navlink">
-                <a asp-area="User" asp-controller="Login" asp-action="Login">Login</a>
+    <div class="right_navbar">
+        <div class="navlink">
+            <a asp-area="User" asp-controller="Home" asp-action="Home">Trang chủ</a>
+        </div>
+        <div class="navlink">
+            <a asp-area="User" asp-controller="Browse" asp-action="Browse">Khám phá</a>
+        </div>
+        <div class="navlink">
+            <a asp-area="User" asp-controller="About" asp-action="About">Giới thiệu</a>
+        </div>
+        <div class="navlink">
+            <a asp-area="User" asp-controller="Contact" asp-action="Contact">Liên hệ</a>
+        </div>
+        <div class="dropdown_navbar">
+            <button class="dropmenu_navbar">Đăng ký</button>
+            <div class="dropcontent_navbar">
+                <a asp-area="User" asp-controller="RegisterCard" asp-action="RegisterCard">Thẻ thư viện</a>
+                <a asp-area="User" asp-controller="RegisterAccount" asp-action="RegisterAccount">Tài khoản</a>
             </div>
         </div>
-        <div class="right">
-            
+        <div class="navlink_login">
+            <a asp-area="User" asp-controller="Login" asp-action="Login">Login</a>
         </div>
     </div>
 </nav>

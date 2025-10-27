@@ -1,0 +1,113 @@
+﻿body {
+    margin: 0;
+}
+
+.formfilter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+    .dropdown_browse {
+        
+    }
+
+        .dropmenu_browse {
+            border: 2px solid grey;
+            border-radius: 20px;
+            height: 38px;
+            width: 350px;
+            background-color: lightgrey;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-family: Raleway;
+            font-weight: 600;
+        }
+
+        .dropcontent_browse {
+            display: none;
+            position: relative;
+            background-color: ghostwhite;
+            min-width: 130px;
+            padding: 8px;
+            margin-top: 8px;
+        }
+
+            label {
+                display: block;
+                position: relative;
+                padding-left: 32px;
+                cursor: pointer;
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 600;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            label input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+                height: 0;
+                width: 0;
+            }
+
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 22px;
+                width: 22px;
+                background-color: #eee;
+            }
+
+            label:hover input ~ .checkmark {
+                background-color: #ccc;
+                transition: 0.2s;
+            }
+
+            label input:checked ~ .checkmark {
+                background-color: #2196F3;
+            }
+
+            .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+
+            label input:checked ~ .checkmark:after {
+                display: block;
+            }
+
+            label .checkmark:after {    
+                left: 8.5px;
+                top: 5px;
+                width: 3px;
+                height: 8px;
+                border: solid white;
+                border-width: 0 3px 3px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+
+    .filtersubmit {
+        border: 2px solid black;
+        border-radius: 20px;
+        height: 38px;
+        width: 350px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 600;
+        cursor: pointer;
+    }

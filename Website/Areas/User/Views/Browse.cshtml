@@ -7,20 +7,29 @@
 
 <main>
     <div class="uppercontainer">
-        <p>EXPLORE BOOKS</p>
-        <input type="text" placeholder="Search..." />
-        <button></button>
+        <p>Explore books</p>
+        <form action="/Browse/Search" method="post">
+            <input type="text" name="search" placeholder="Search..." />
+            <button>Search</button>
+        </form>
     </div>
     <div class="lowercontainer">
         <div class="filtercontainer">
-
+            @await Component.InvokeAsync("FilterTag")
         </div>
         <div class="catalogcontainer">
-            @foreach (var item in Model.Books)
+            @if (Model.Books == null || Model.Books.Count == 0)
             {
-                <div>
-                    @await Component.InvokeAsync("BookCard", new { book = item, count = "" })
-                </div>
+                <p>Không kết quả</p>
+            }
+            else
+            {
+                @foreach (var item in Model.Books)
+                {
+                    <div>
+                        @await Component.InvokeAsync("BookCard", new { book = item, count = "" })
+                    </div>
+                }
             }
         </div>
         <div class="pagenavigation">

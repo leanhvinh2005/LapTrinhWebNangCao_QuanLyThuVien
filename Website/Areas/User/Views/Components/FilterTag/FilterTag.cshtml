@@ -1,0 +1,25 @@
+﻿@using Website.Models.ViewModels
+@model List<TagGroup>
+<link rel="stylesheet" href="~/CSS/User/Components/FilterTag.css" />
+<script type="text/javascript" src="~/JS/ToggleFilterDropdown.js"></script>
+
+<form action="/Browse/Filter" method="post" class="formfilter">
+    @foreach (var group in Model)
+    {
+        <div class="dropdown_browse">
+            <button type="button" class="dropmenu_browse">@group.TypeTag</button>
+            <div class="dropcontent_browse">
+                @foreach (var tag in group.Tags)
+                {
+                    <label>
+                        <input type="checkbox" name="selectedTags" value="@tag.idTag" />
+                        <span class="checkmark"></span>
+                        <p>@tag.nameTag</p>
+                    </label>
+                }
+            </div>
+        </div>
+    }
+    <button type="submit" class="filtersubmit">Lọc</button>
+</form>
+

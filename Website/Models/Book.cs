@@ -18,10 +18,6 @@ namespace Website.Models
         [Required(ErrorMessage = "Please enter description")]
         public string descriptionBook { get; set; }
 
-        [Required(ErrorMessage = "Please enter type")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
-        public string typeBook { get; set; }
-
         [Required(ErrorMessage = "Please enter author")]
         [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
         public string authorBook { get; set; }

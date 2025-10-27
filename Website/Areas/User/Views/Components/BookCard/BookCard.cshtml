@@ -1,14 +1,18 @@
 ﻿@model Website.Models.Book
+@using System.Security.Claims
 <link rel="stylesheet" href="~/CSS/User/Components/BookCard.css" />
 
 <div class="cardcontainer">
     <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
     <h1>@Model.nameBook</h1>
     <h2>@Model.authorBook</h2>
-    <h3>@ViewData["Count"] available</h3>
-    <form action="/Cart/Add" method="post">
-        <input type="hidden" name="idbook" value="@Model.idBook" />
-        <button>Add to Cart</button>
-    </form>
+    @if (User.IsInRole("User"))
+    {
+        <h3>@ViewData["Count"] available</h3>
+        <form action="/Cart/Add" method="post">
+            <input type="hidden" name="idbook" value="@Model.idBook" />
+            <button>Add to Cart</button>
+        </form>
+    }
 </div>
 

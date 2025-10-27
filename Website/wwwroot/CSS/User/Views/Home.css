@@ -1,2 +1,117 @@
 ﻿body {
+    margin: 0;
 }
+
+.introblack {
+    display: flex;
+    align-items: center;
+    height: 650px;
+    background-color: black;
+    color: white;
+}
+
+    .introblack .textcontainer_intro {
+        margin-right: 150px;
+    }
+
+    .bookflipping {
+        width: 400px;
+        height: auto;
+    }
+
+    .guyholdingbook {
+        width: 400px;
+        height: auto;
+    }
+
+.introwhite {
+    display: flex;
+    align-items: center;
+    height: 650px;
+    background-color: white;
+    color: black;
+}
+
+    .introwhite .textcontainer_intro {
+        margin-left: 150px;
+    }
+
+    .handholdingbook {
+        width: 400px;
+        height: auto;
+    }
+
+.paddingcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+    .textcontainer_intro {
+        font-family: Raleway;
+        font-weight: 550;
+    }
+
+        .textcontainer_intro h1 {
+            font-size: 28px;
+        }
+
+        .textcontainer_intro p {
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+.paddingcontainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+    .point {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        font-family: Raleway;
+        font-weight: 550;
+        margin: 80px;
+    }
+
+        .point h1 {
+            font-size: 24px;
+        }
+
+        .point p {
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .clock {
+            border: 2px solid black;
+            border-radius: 40px;
+            width: 70px;
+            height: auto;
+            background-color: black;
+            padding: 12px;
+        }
+
+        .book {
+            border: 2px solid black;
+            border-radius: 40px;
+            width: 80px;
+            height: 60px;
+            background-color: black;
+            padding: 12px;
+        }
+
+        .manholdingbook {
+            border: 2px solid black;
+            border-radius: 40px;
+            width: 90px;
+            height: auto;
+            background-color: black;
+            padding: 2px;
+        }

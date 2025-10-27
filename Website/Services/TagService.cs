@@ -19,8 +19,9 @@ namespace Website.Services
         public async Task AddTag(Tag tag)
         {
             await _context.Database.ExecuteSqlRawAsync(
-                "EXEC AddTag @name",
-                new SqlParameter("@name", tag.nameTag)
+                "EXEC AddTag @name, @type",
+                new SqlParameter("@name", tag.nameTag),
+                new SqlParameter("@type", tag.typeTag)
             );
         }
 
@@ -35,9 +36,10 @@ namespace Website.Services
         public async Task EditTag(Tag tag)
         {
             await _context.Database.ExecuteSqlRawAsync(
-                "EXEC EditTag @id, @name",
+                "EXEC EditTag @id, @name, @type",
                 new SqlParameter("@id", tag.idTag),
-                new SqlParameter("@name", tag.nameTag)
+                new SqlParameter("@name", tag.nameTag),
+                new SqlParameter("@type", tag.typeTag)
             );
         }
     }

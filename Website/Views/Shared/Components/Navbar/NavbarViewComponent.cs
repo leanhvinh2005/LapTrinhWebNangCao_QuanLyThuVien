@@ -20,15 +20,6 @@ namespace Website.Views.Shared.Components.Navbar
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var session = _httpContextAccessor.HttpContext.Session;
-            var cartJson = session.GetString("Cart");
-
-            CartListViewModel cart;
-            if (string.IsNullOrEmpty(cartJson))
-                cart = new CartListViewModel();
-            else
-                cart = JsonConvert.DeserializeObject<CartListViewModel>(cartJson) ?? new CartListViewModel();
-
             var user = HttpContext?.User;
 
             if (user?.Identity?.IsAuthenticated == true)
@@ -38,7 +29,17 @@ namespace Website.Views.Shared.Components.Navbar
                 if (role == "Admin")
                     return View("Admin");
                 else
+                {
+                    var session = _httpContextAccessor.HttpContext.Session;
+                    var cartJson = session.GetString("Cart");
+
+                    CartListViewModel cart;
+                    if (string.IsNullOrEmpty(cartJson))
+                        cart = new CartListViewModel();
+                    else
+                        cart = JsonConvert.DeserializeObject<CartListViewModel>(cartJson) ?? new CartListViewModel();
                     return View("User", cart);
+                }               
             }
             return View("NoLogin");
         }

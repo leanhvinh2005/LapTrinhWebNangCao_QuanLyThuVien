@@ -14,19 +14,20 @@ namespace Website.Areas.User.Controllers
     public class BrowseController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly BookService _bookController;
-        public int itemperpage = 4;
+        private readonly BookService _bookService;
+        public int itemperpage = 12;
 
-        public BrowseController(ApplicationDbContext context, BookService bookController)
+        public BrowseController(ApplicationDbContext context, BookService bookService)
         {
             _context = context;
-            _bookController = bookController;
+            _bookService = bookService;
         }
 
         [Route("/Browse")]
         public async Task<IActionResult> Browse(int currentpage = 1)
         {
-            var books = await _bookController.GetAllBooks();
+
+            var books = await _bookService.GetAllBooks();
 
             var skipbooks = books.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
 
@@ -43,6 +44,50 @@ namespace Website.Areas.User.Controllers
             };
             
             return View(bookList);
+        }
+
+        [HttpPost("/Browse/Search")]
+        public async Task<IActionResult> Search(string search, int currentpage = 1)
+        {
+            var books = await _bookService.SearchBook(search);
+
+            var skipbooks = books.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
+
+            BookListViewModel bookList = new BookListViewModel
+            {
+                Books = skipbooks,
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = currentpage,
+                    ItemPerPage = itemperpage,
+                    TotalItem = books.Count,
+                    TotalPage = (int)Math.Ceiling((double)books.Count() / itemperpage)
+                }
+            };
+
+            return View("Browse", bookList);
+        }
+
+        [HttpPost("/Browse/Filter")]
+        public async Task<IActionResult> Filter(List<int> selectedtags, int currentpage = 1)
+        {
+            var books = await _bookService.FilterBook(selectedtags);
+
+            var skipbooks = books.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
+
+            BookListViewModel bookList = new BookListViewModel
+            {
+                Books = skipbooks,
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = currentpage,
+                    ItemPerPage = itemperpage,
+                    TotalItem = books.Count,
+                    TotalPage = (int)Math.Ceiling((double)books.Count() / itemperpage)
+                }
+            };
+
+            return View("Browse", bookList);
         }
     }
 }

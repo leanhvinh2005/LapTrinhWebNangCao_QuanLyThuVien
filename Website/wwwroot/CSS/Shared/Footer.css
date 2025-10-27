@@ -3,10 +3,80 @@
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     bottom: 0;
     width: 100%;
     min-width: 0;
-    height: 80px;
     background-color: black;
 }
+
+    .flower1_footer, .flower2_footer {
+        width: 200px;
+        height: auto;
+    }
+
+    .flower1_footer {
+        position: relative;
+        right: 40px;
+    }
+
+    .flower2_footer {
+        position: relative;
+        left: 40px;
+    }
+
+    .container_footer { 
+        padding: 30px 240px;
+    }
+
+        .upper_footer {
+            display: flex;
+            justify-content: center;
+        }
+
+            .upper_footer p {
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 550;
+                color: white;
+                padding: 0 0 0 60px;
+            }
+
+            .arcadialogo_footer {
+                width: 200px;
+                height: auto;
+            }
+
+        .lower_footer {
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid white;
+            border-radius: 20px;
+            margin-top: 12px;
+            padding: 30px;
+        }
+
+            .list_footer {
+                display: flex;
+                flex-direction: column;
+                font-family: Raleway;
+                font-weight: 550;
+                color: white;
+            }
+
+                .list_footer p {
+                    border: 2px solid white;
+                    margin: 6px 0;
+                }
+
+                .list_footer h1 {
+                    font-size: 18px;
+                    margin: 6px 0;
+                }
+
+                .list_footer h2 {
+                    font-size: 16px;
+                    margin: 6px 0;
+                }

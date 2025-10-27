@@ -4,64 +4,44 @@
 
 .navbar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     position: fixed;
     top: 0;
+    height: 70px;
     width: 100%;
     min-width: 0;
+    background-color: black;
+    z-index: 1000;
 }
 
-    .upper {
+    .left_navbar {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        overflow: hidden;
-        padding: 10px 0 10px 0;
-        flex-grow: 1;
-        height: 60px;
-        background-color: ghostwhite;
+        padding-left: 140px;
     }
 
-        .flower1, .flower2 {
-            width: 200px;
+        .arcadialogo_navbar {
+            width: 160px;
             height: auto;
         }
 
-        .flower1 {
-            position: relative;
-            right: 60px;
-        }
-
-        .flower2 {
-            position: relative;
-            left: 60px;
-        }
-
-        .navbar .arcadialogosmall {
-            width: 180px;
-            height: auto;
-        }
-
-    .lower {
+    .right_navbar {
         display: flex;
         align-items: center;
-        padding: 5px 5px;
-        flex-grow: 1;
-        height: 30px;
-        background-color: black;
+        padding-right: 80px;
     }
 
         .navlink {
-            display: inline-block;
+            margin: 3px;
         }
 
             .navlink a:link, .navlink a:visited {
                 padding: 8px;
                 text-decoration: none;
                 color: white;
-                font-size: 20px;
+                font-size: 18px;
                 font-family: Raleway;
-                font-weight: 550;
+                font-weight: 600;
             }
 
             .navlink:hover a:link, .navlink:hover a:visited {
@@ -71,3 +51,89 @@
                 transition: 0.2s;
             }
 
+
+        .dropdown_navbar {
+            margin: 8px;
+        }
+
+            .dropdown_navbar:hover .dropcontent_navbar {
+                display: block;
+            }
+
+            .dropdown_navbar:hover .dropmenu_navbar {
+                border: 2px solid #1AC09B;
+                background-color: #1AC09B;
+                transition: 0.2s;
+            }
+
+            .dropmenu_navbar {
+                border: 2px solid white;
+                border-radius: 20px;
+                height: 38px;
+                width: 110px;
+                background-color: black;
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                font-family: Raleway;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+                .dropcontent_navbar {
+                    display: none;
+                    position: absolute;
+                    background-color: ghostwhite;
+                    min-width: 130px;
+                    margin-top: 8px;
+                }
+
+                    .dropcontent_navbar a {
+                        display: block;
+                        padding: 4px 6px;
+                    }
+
+
+                    .dropcontent_navbar a:link, .dropcontent_navbar a:visited {
+                        padding: 8px;
+                        text-decoration: none;
+                        color: black;
+                        font-size: 18px;
+                        font-family: Raleway;
+                        font-weight: 600;
+                    }
+
+                    .dropcontent_navbar a:hover {
+                        background-color: #1AC09B;
+                        color: white;
+                        transition: 0.2s;
+                    }
+
+        .navlink_login {
+
+        }
+
+            .navlink_login a {
+                border: 2px solid white;
+                border-radius: 20px;
+                height: 38px;
+                width: 110px;
+                padding: 8px 10px;
+                background-color: white;
+                cursor: pointer;
+            }
+
+            .navlink_login a:link, .navlink_login a:visited {
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+                font-family: Raleway;
+                font-weight: 600;
+            }
+
+            .navlink_login:hover a:link, .navlink_login:hover a:visited {
+                border: 2px solid #1AC09B;
+                background-color: #1AC09B;
+                color: white;
+                transition: 0.2s;
+            }
