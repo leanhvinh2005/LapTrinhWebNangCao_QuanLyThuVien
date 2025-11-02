@@ -1,18 +1,29 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Website.Data;
 using Website.Models;
 
 namespace Website.Services
 {
-    public class CollectionService : Controller
+    // 1. ĐÃ XÓA ": Controller"
+    public class CollectionService
     {
         private readonly ApplicationDbContext _context;
 
         public CollectionService(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+        // 2. THÊM HÀM CÒN THIẾU (Bắt buộc cho Edit/Delete)
+        // (Giả sử bạn có SP `GetCollectionById` và DbSet `SUUTAP`)
+        public async Task<Collection?> GetCollectionByIdAsync(string id)
+        {
+            var param = new SqlParameter("@id", id);
+            var collection = await _context.SUUTAP
+                .FromSqlRaw("EXEC GetCollectionById @id", param)
+                .ToListAsync();
+            return collection.FirstOrDefault();
         }
 
         public async Task AddCollection(Collection collection)
@@ -29,8 +40,7 @@ namespace Website.Services
         public async Task DeleteCollection(string id)
         {
             await _context.Database.ExecuteSqlRawAsync(
-                "EXEC DeleteCollection @id",
-                new SqlParameter("@id", id)
+                "EXEC DeleteCollection @id", new SqlParameter("@id", id)
             );
         }
 
@@ -64,6 +74,7 @@ namespace Website.Services
 
         public async Task<List<Collection>> SearchCollection(string search)
         {
+            // (Giả sử DbSet của bạn tên là SUUTAP)
             return await _context.SUUTAP
                 .FromSqlRaw("EXEC SearchCollection @search", new SqlParameter("@search", search))
                 .ToListAsync();

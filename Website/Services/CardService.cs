@@ -1,18 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Website.Data;
 using Website.Models;
 
 namespace Website.Services
 {
-    public class CardService : Controller
+    // 1. ĐÃ XÓA ": Controller"
+    public class CardService
     {
         private readonly ApplicationDbContext _context;
 
         public CardService(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+        // 2. THÊM HÀM CÒN THIẾU (Bắt buộc cho Edit/Delete)
+        // (Giả sử bạn có SP `GetCardById` và DbSet `THETHUVIEN`)
+        public async Task<Card?> GetCardByIdAsync(string id)
+        {
+            var card = await _context.THETHUVIEN
+                .FromSqlRaw("EXEC GetCardById @id", new SqlParameter("@id", id))
+                .ToListAsync();
+            return card.FirstOrDefault();
         }
 
         public async Task AddCard(Card card)
@@ -31,8 +41,7 @@ namespace Website.Services
         public async Task DeleteCard(string id)
         {
             await _context.Database.ExecuteSqlRawAsync(
-                "EXEC DeleteCard @id",
-                new SqlParameter("@id", id)
+                "EXEC DeleteCard @id", new SqlParameter("@id", id)
             );
         }
 
@@ -52,25 +61,24 @@ namespace Website.Services
 
         public async Task<List<Card>> SearchCard(string search)
         {
+            // (Giả sử DbSet của bạn tên là THETHUVIEN)
             return await _context.THETHUVIEN
                 .FromSqlRaw("EXEC SearchCard @search", new SqlParameter("@search", search))
                 .ToListAsync();
         }
 
+        // 3. HÀM "XỊN" CỦA BẠN (Controller sẽ dùng)
         public string GenerateCardID()
         {
             const string letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             var random = new Random();
-
             char firstChar = letters[random.Next(letters.Length)];
-
             var rest = new char[11];
             for (int i = 0; i < 11; i++)
             {
                 rest[i] = chars[random.Next(chars.Length)];
             }
-
             return firstChar + new string(rest);
         }
     }

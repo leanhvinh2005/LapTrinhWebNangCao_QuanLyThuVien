@@ -1,0 +1,49 @@
+﻿@model Website.Models.User
+
+@{
+    ViewData["Title"] = "Chỉnh sửa tài khoản";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="idUser" />
+
+            <div class="form-group">
+                <label asp-for="nameUser" class="control-label">Tên</label>
+                <input asp-for="nameUser" class="form-control" />
+                <span asp-validation-for="nameUser" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="emailUser" class="control-label">Email</label>
+                <input asp-for="emailUser" class="form-control" />
+                <span asp-validation-for="emailUser" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="passwordUser" class="control-label">Mật khẩu mới (bỏ trống nếu không đổi)</label>
+                <input asp-for="passwordUser" class="form-control" type="password" value="" />
+                <span asp-validation-for="passwordUser" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay lại danh sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

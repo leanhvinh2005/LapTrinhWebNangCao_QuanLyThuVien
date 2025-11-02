@@ -1,0 +1,31 @@
+﻿@model Website.Models.Tag
+
+@{
+    ViewData["Title"] = "Xác nhận xóa Tag";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Bạn có chắc chắn muốn xóa Tag này không?</h3>
+<div>
+    <h4>Tag</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.idTag</dd>
+
+        <dt class="col-sm-2">Tên Tag</dt>
+        <dd class="col-sm-10">@Model.nameTag</dd>
+
+        <dt class="col-sm-2">Loại</dt>
+        <dd class="col-sm-10">@Model.typeTag</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idTag" />
+
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Hủy</a>
+    </form>
+</div>

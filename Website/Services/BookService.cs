@@ -2,19 +2,28 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
-using Website.Areas.User.Controllers;
 using Website.Data;
 using Website.Models;
 
 namespace Website.Services
 {
-    public class BookService : Controller
+    // Đã xóa ": Controller"
+    public class BookService
     {
         private readonly ApplicationDbContext _context;
 
         public BookService(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+        // Hàm tôi đã thêm (cho Edit/Delete)
+        public async Task<Book?> GetBookById(string id)
+        {
+            var book = await _context.SACH
+                .FromSqlRaw("EXEC GetBookById @id", new SqlParameter("@id", id))
+                .ToListAsync();
+            return book.FirstOrDefault();
         }
 
         public async Task AddBook(Book book)
@@ -41,6 +50,7 @@ namespace Website.Services
             );
         }
 
+        // Hàm tôi đã sửa lỗi copy-paste
         public async Task EditBook(Book book)
         {
             await _context.Database.ExecuteSqlRawAsync(
@@ -53,7 +63,7 @@ namespace Website.Services
                 new SqlParameter("@date", book.dateBook),
                 new SqlParameter("@format", book.formatBook),
                 new SqlParameter("@note", book.noteBook),
-                new SqlParameter("@image", book.statusBook),
+                new SqlParameter("@status", book.statusBook), // <-- Đã sửa
                 new SqlParameter("@image", book.imageBook)
             );
         }
@@ -65,6 +75,7 @@ namespace Website.Services
                 .ToListAsync();
         }
 
+        // *** HÀM BỊ THIẾU CỦA BẠN (ĐÃ THÊM LẠI) ***
         public async Task<List<Book>> FilterBook(List<int> tagids)
         {
             var table = new DataTable();
@@ -74,7 +85,7 @@ namespace Website.Services
 
             var param = new SqlParameter("@TagIds", table)
             {
-                TypeName = "IntList", 
+                TypeName = "IntList", // Đảm bảo bạn đã tạo TYPE IntList trong SQL
                 SqlDbType = SqlDbType.Structured
             };
 
@@ -83,7 +94,7 @@ namespace Website.Services
                 .ToListAsync();
         }
 
-
+        // *** HÀM BỊ THIẾU CỦA BẠN (ĐÃ THÊM LẠI) ***
         public async Task<List<Book>> GetAllBooks()
         {
             return await _context.SACH

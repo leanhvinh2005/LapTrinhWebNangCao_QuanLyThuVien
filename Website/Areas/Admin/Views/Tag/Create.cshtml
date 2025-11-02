@@ -1,0 +1,42 @@
+﻿@model Website.Models.Tag
+
+@{
+    ViewData["Title"] = "Tạo Tag mới";
+    
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="nameTag" class="control-label">Tên Tag</label>
+                <input asp-for="nameTag" class="form-control" />
+                <span asp-validation-for="nameTag" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="typeTag" class="control-label">Loại (ví dụ: Thể loại, Tác giả)</label>
+                <input asp-for="typeTag" class="form-control" />
+                <span asp-validation-for="typeTag" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-2">
+    <a asp-action="Index">Quay lại danh sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

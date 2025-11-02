@@ -1,13 +1,12 @@
-﻿using Azure;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Website.Data;
 using Website.Models;
 
 namespace Website.Services
 {
-    public class TagService : Controller
+    // 1. ĐÃ XÓA ": Controller"
+    public class TagService
     {
         private readonly ApplicationDbContext _context;
 
@@ -16,6 +15,23 @@ namespace Website.Services
             _context = context;
         }
 
+        // 2. THÊM HÀM LẤY TẤT CẢ TAG (dùng LINQ)
+        // (Giả sử DbSet của bạn là TAG)
+        public async Task<List<Tag>> GetTagsAsync()
+        {
+            return await _context.TAG
+                .OrderBy(t => t.nameTag)
+                .ToListAsync();
+        }
+
+        // 3. THÊM HÀM LẤY 1 TAG (dùng LINQ)
+        // (FindAsync là cách nhanh nhất để tìm bằng [Key])
+        public async Task<Tag?> GetTagByIdAsync(int id)
+        {
+            return await _context.TAG.FindAsync(id);
+        }
+
+        // SP của bạn không cần idTag, giả sử idTag là tự động tăng (IDENTITY)
         public async Task AddTag(Tag tag)
         {
             await _context.Database.ExecuteSqlRawAsync(

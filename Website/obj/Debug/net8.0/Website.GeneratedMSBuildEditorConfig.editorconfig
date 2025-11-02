@@ -15,167 +15,229 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
 build_property.RootNamespace = Website
 build_property.RootNamespace = Website
-build_property.ProjectDir = C:\Users\pc\Desktop\Website2\Website\Website\
+build_property.ProjectDir = C:\Users\datkr\OneDrive\Documents\Học Phần\Lập trình Web Nâng cao\LapTrinhWebNangCao_QuanLyThuVien\Website\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pc\Desktop\Website2\Website\Website
+build_property.MSBuildProjectDirectory = C:\Users\datkr\OneDrive\Documents\Học Phần\Lập trình Web Nâng cao\LapTrinhWebNangCao_QuanLyThuVien\Website
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/Account.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudC5jc2h0bWw=
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Account/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/Author.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Account/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Author.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/AuthorDetail.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/AuthorDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aG9yRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/Book.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9vay5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/BookDetail.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/BookDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va0RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/Card.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZC5jc2h0bWw=
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Book/Book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va1xCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/Collection.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sbGVjdGlvbi5jc2h0bWw=
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/CollectionDetail.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Book/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Book/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Card/Card.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZFxDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Card/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Card/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Card/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/CollectionDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sbGVjdGlvbkRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/Dashboard.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Collection/Collection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sbGVjdGlvblxDb2xsZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Collection/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sbGVjdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Collection/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sbGVjdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Collection/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sbGVjdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/Tag.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnLmNzaHRtbA==
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Tag/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Tag/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Tag/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/Tag/Tag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFRhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/About.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/AuthorDetail.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/AuthorDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBdXRob3JEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/BookDetail.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/BookDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCb29rRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Bookshelf.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Bookshelf.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCb29rc2hlbGYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Browse.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Browse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCcm93c2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Cart.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/CollectionDetail.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/CollectionDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xDb2xsZWN0aW9uRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Components/BookCard/BookCard.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Components/BookCard/BookCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xDb21wb25lbnRzXEJvb2tDYXJkXEJvb2tDYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Components/CartItem/CartItem.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Components/CartItem/CartItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xDb21wb25lbnRzXENhcnRJdGVtXENhcnRJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Components/FilterTag/FilterTag.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Components/FilterTag/FilterTag.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xDb21wb25lbnRzXEZpbHRlclRhZ1xGaWx0ZXJUYWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Contact.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Home.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Login.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/Profile.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/RegisterAccount.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/RegisterAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xSZWdpc3RlckFjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/RegisterCard.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/RegisterCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xSZWdpc3RlckNhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Areas/User/Views/_ViewImports.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Areas/User/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/Components/DisplayNumber/DisplayNumber.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/Components/DisplayNumber/DisplayNumber.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGlzcGxheU51bWJlclxEaXNwbGF5TnVtYmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/Components/Footer/Footer.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/Components/Footer/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/Components/Navbar/Admin.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/Components/Navbar/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/Components/Navbar/NoLogin.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/Components/Navbar/NoLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXE5vTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/Components/Navbar/User.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/Components/Navbar/User.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/Master.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/Master.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1hc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/_ViewImports.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/Website2/Website/Website/Views/_ViewStart.cshtml]
+[C:/Users/datkr/OneDrive/Documents/Học Phần/Lập trình Web Nâng cao/LapTrinhWebNangCao_QuanLyThuVien/Website/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,53 @@
+﻿@model Website.Models.Collection
+
+@{
+    ViewData["Title"] = "Chỉnh sửa Bộ sưu tập";
+    
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="idCollection" class="control-label">ID Bộ sưu tập</label>
+                <input asp-for="idCollection" class="form-control" readonly />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="nameCollection" class="control-label">Tên Bộ sưu tập</label>
+                <input asp-for="nameCollection" class="form-control" />
+                <span asp-validation-for="nameCollection" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="descriptionCollection" class="control-label">Mô tả</label>
+                <textarea asp-for="descriptionCollection" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="descriptionCollection" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="imageCollection" class="control-label">Đường dẫn ảnh (Image URL)</label>
+                <input asp-for="imageCollection" class="form-control" />
+                <span asp-validation-for="imageCollection" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-2">
+    <a asp-action="Index">Quay lại danh sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

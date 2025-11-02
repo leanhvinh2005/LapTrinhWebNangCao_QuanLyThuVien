@@ -1,0 +1,30 @@
+﻿@model Website.Models.User
+
+@{
+    ViewData["Title"] = "Xác nhận xóa";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Bạn có chắc chắn muốn xóa tài khoản này?</h3>
+<div>
+    <h4>Tài khoản</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.idUser</dd>
+
+        <dt class="col-sm-2">Tên</dt>
+        <dd class="col-sm-10">@Model.nameUser</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.emailUser</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idUser" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Hủy</a>
+    </form>
+</div>

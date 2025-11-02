@@ -1,18 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Website.Data;
 using Website.Models;
 
 namespace Website.Services
 {
-    public class UserService : Controller
+    // 1. ĐÃ XÓA ": Controller"
+    public class UserService
     {
         private readonly ApplicationDbContext _context;
 
         public UserService(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+        // 2. THÊM HÀM NÀY (Bắt buộc cho Edit/Delete)
+        public async Task<User?> GetUserById(int id)
+        {
+            // (Giả sử bạn có SP tên là GetUserById)
+            var user = await _context.ACCOUNT_USER
+                .FromSqlRaw("EXEC GetUserById @id", new SqlParameter("@id", id))
+                .ToListAsync();
+            return user.FirstOrDefault(); // Lấy người dùng đầu tiên hoặc null
         }
 
         public async Task<int> AddUser(User user)

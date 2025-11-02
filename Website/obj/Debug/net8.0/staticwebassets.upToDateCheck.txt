@@ -12,6 +12,7 @@ wwwroot\CSS\Shared\Navbar\NoLogin.css
 wwwroot\CSS\Shared\Navbar\User.css
 wwwroot\CSS\User\Components\BookCard.css
 wwwroot\CSS\User\Components\CartItem.css
+wwwroot\CSS\User\Components\FilterTag.css
 wwwroot\CSS\User\Views\About.css
 wwwroot\CSS\User\Views\AuthorDetail.css
 wwwroot\CSS\User\Views\BookDetail.css
@@ -37,6 +38,7 @@ wwwroot\Images\Logos\ArcadiaLogoCircle.png
 wwwroot\Images\Logos\ArcadiaLogoSmall.png
 wwwroot\Images\Placeholders\placeholder.png
 wwwroot\JS\site.js
+wwwroot\JS\ToggleFilterDropdown.js
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -94,5 +96,3 @@ wwwroot\Lib\jquery\dist\jquery.js
 wwwroot\Lib\jquery\dist\jquery.min.js
 wwwroot\Lib\jquery\dist\jquery.min.map
 wwwroot\Lib\jquery\LICENSE.txt
-wwwroot\CSS\User\Components\FilterTag.css
-wwwroot\JS\ToggleFilterDropdown.js
