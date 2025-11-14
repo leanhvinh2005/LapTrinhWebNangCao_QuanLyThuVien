@@ -91,7 +91,10 @@ app.MapControllerRoute(
     name: "User",
     pattern: "{area:exists}/{controller=Home}/{action=Home}/{id?}");
 app.MapControllerRoute(
-    name: "default",
+    name: "defaultAdmin",
+    pattern: "{area=Admin}/{controller=Dashboard}/{action=Dashboard}/{id?}");
+app.MapControllerRoute(
+    name: "defaultUser",
     pattern: "{area=User}/{controller=Home}/{action=Home}/{id?}");
 app.MapRazorPages();
 

@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using System.Security.Claims;
 using Website.Data;
 using Website.Models;
 using Website.Services;
@@ -64,6 +67,25 @@ namespace Website.Areas.User.Controllers
                 idUser = iduser
             };
             await _memberService.AddMember(member);
+
+            var claims = new List<Claim>
+            {
+                new Claim("UserId", user.idUser.ToString()),
+                new Claim(ClaimTypes.Name, user.nameUser),
+                new Claim(ClaimTypes.Email, user.emailUser),
+                new Claim(ClaimTypes.Role, "User")
+            };
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = true,
+            };
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity),
+                authProperties);
 
             return RedirectToAction("Home", "Home");
         }

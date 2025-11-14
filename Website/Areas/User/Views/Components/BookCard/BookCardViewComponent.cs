@@ -9,9 +9,9 @@ namespace Website.Areas.User.Views.Components.BookCard
 {
     public class BookCardViewComponent : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync(Book book, string count)
+        public async Task<IViewComponentResult> InvokeAsync(Book book)
         {
-            ViewData["Count"] = count;
+            //ViewData["Count"] = count;
             return View("BookCard", book);
         }
     }

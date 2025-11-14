@@ -5,6 +5,7 @@ wwwroot\CSS\Admin\Views\Borrow.css
 wwwroot\CSS\Admin\Views\Card.css
 wwwroot\CSS\Admin\Views\Collection.css
 wwwroot\CSS\Admin\Views\Dashboard.css
+wwwroot\CSS\Shared\DisplayNumber.css
 wwwroot\CSS\Shared\Footer.css
 wwwroot\CSS\Shared\Master.css
 wwwroot\CSS\Shared\Navbar\Admin.css
@@ -12,6 +13,7 @@ wwwroot\CSS\Shared\Navbar\NoLogin.css
 wwwroot\CSS\Shared\Navbar\User.css
 wwwroot\CSS\User\Components\BookCard.css
 wwwroot\CSS\User\Components\CartItem.css
+wwwroot\CSS\User\Components\FilterTag.css
 wwwroot\CSS\User\Views\About.css
 wwwroot\CSS\User\Views\AuthorDetail.css
 wwwroot\CSS\User\Views\BookDetail.css
@@ -25,6 +27,9 @@ wwwroot\CSS\User\Views\Profile.css
 wwwroot\CSS\User\Views\RegisterAccount.css
 wwwroot\CSS\User\Views\RegisterCard.css
 wwwroot\favicon.ico
+wwwroot\Images\Browse\Banner1.jpg
+wwwroot\Images\Browse\Banner2.jpg
+wwwroot\Images\Browse\Banner3.jpg
 wwwroot\Images\Decorations\Flower.png
 wwwroot\Images\Home\Book.png
 wwwroot\Images\Home\BookFlipping.png
@@ -35,8 +40,13 @@ wwwroot\Images\Home\ManHoldingBook.png
 wwwroot\Images\Logos\ArcadiaLogo.png
 wwwroot\Images\Logos\ArcadiaLogoCircle.png
 wwwroot\Images\Logos\ArcadiaLogoSmall.png
+wwwroot\Images\Navbar\BookStack.png
+wwwroot\Images\Navbar\Cart.png
+wwwroot\Images\Navbar\Search.png
+wwwroot\Images\Navbar\User.png
 wwwroot\Images\Placeholders\placeholder.png
-wwwroot\JS\site.js
+wwwroot\JS\BannerSlideshow.js
+wwwroot\JS\Validation.js
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\Lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -94,5 +104,3 @@ wwwroot\Lib\jquery\dist\jquery.js
 wwwroot\Lib\jquery\dist\jquery.min.js
 wwwroot\Lib\jquery\dist\jquery.min.map
 wwwroot\Lib\jquery\LICENSE.txt
-wwwroot\CSS\User\Components\FilterTag.css
-wwwroot\JS\ToggleFilterDropdown.js

@@ -7,15 +7,50 @@
 
 <main>
     <div class="uppercontainer">
-        <p>Explore books</p>
-        <form action="/Browse/Search" method="post">
-            <input type="text" name="search" placeholder="Search..." />
-            <button>Search</button>
-        </form>
+        <div class="bannercontainer">
+            <!--<div class="bannerslide">
+            </div>
+            
+                <div class="bannerslide">
+            </div>
+            <div class="bannerslide">
+            </div>
+            -->
+        </div>
+        <div class="bannerdot">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
     <div class="lowercontainer">
+        <div class="title_browse">
+            <div>
+                <h1>Danh mục sách</h1>
+                <h2>Vô số trải nghiệm nằm ngay trong tay</h2>
+            </div>
+        </div>
         <div class="filtercontainer">
-            @await Component.InvokeAsync("FilterTag")
+            <div class="leftbuttons">
+                @await Component.InvokeAsync("FilterTag")
+            </div>
+            <div class="rightbuttons">
+                <div class="dropdown_right">
+                    <button type="button" class="dropmenu_right">View</button>
+                    <div class="dropcontent_right">
+                        <button asp-area="User" asp-controller="Browse" asp-action="Browse">Đơn giản</button>
+                        <button asp-area="User" asp-controller="Browse" asp-action="Browse">Chi tiết</button>
+                    </div>
+                </div>
+                <div class="dropdown_right">
+                    <button type="button" class="dropmenu_right">Sort</button>
+                    <div class="dropcontent_right">
+                        <button asp-area="User" asp-controller="Browse" asp-action="Browse">Top</button>
+                        <button asp-area="User" asp-controller="Browse" asp-action="Browse">Hot</button>
+                        <button asp-area="User" asp-controller="Browse" asp-action="Browse">Thứ tự chữ cái</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="catalogcontainer">
             @if (Model.Books == null || Model.Books.Count == 0)

@@ -14,6 +14,7 @@ namespace Website.Data
         public DbSet<User> ACCOUNT_USER { get; set; }
         public DbSet<Member> DOCGIA { get; set; }
         public DbSet<Borrow> MUONTRA { get; set; }
+        public DbSet<BookBorrow> JOIN_BOOKBORROW { get; set; }
         public DbSet<Book> SACH { get; set; }
         public DbSet<Collection> SUUTAP { get; set; }
         public DbSet<Tag> TAG { get; set; }

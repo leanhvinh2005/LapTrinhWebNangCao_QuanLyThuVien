@@ -4,24 +4,39 @@
 
 .formfilter {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 8px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    gap: 18px;
 }
 
     .dropdown_browse {
         
     }
 
+        .dropdown_browse:hover .dropcontent_browse {
+            display: block;
+            transition: 0.2s;
+        }
+
+        .dropdown_browse:hover .dropmenu_browse {
+            border: 2px solid #1AC09B;
+            background-color: #1AC09B;
+            color: white;
+            transition: 0.2s;
+        }
+
         .dropmenu_browse {
-            border: 2px solid grey;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid #1C1C1C;
             border-radius: 20px;
             height: 38px;
-            width: 350px;
-            background-color: lightgrey;
-            cursor: pointer;
+            padding: 0 12px;
+            background-color: white;
             text-decoration: none;
-            color: black;
+            color: #1C1C1C;
             font-size: 18px;
             font-family: Raleway;
             font-weight: 600;
@@ -29,11 +44,8 @@
 
         .dropcontent_browse {
             display: none;
-            position: relative;
+            position: absolute;
             background-color: ghostwhite;
-            min-width: 130px;
-            padding: 8px;
-            margin-top: 8px;
         }
 
             label {
@@ -99,11 +111,11 @@
             }
 
     .filtersubmit {
-        border: 2px solid black;
+        border: 2px solid #1C1C1C;
         border-radius: 20px;
         height: 38px;
-        width: 350px;
-        background-color: black;
+        padding: 0 12px;
+        background-color: #1C1C1C;
         text-decoration: none;
         color: white;
         font-size: 18px;

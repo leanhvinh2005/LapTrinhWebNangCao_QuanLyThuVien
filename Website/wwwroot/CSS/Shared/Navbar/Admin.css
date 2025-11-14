@@ -1,72 +1,49 @@
-﻿body {
-    margin: 0;
-}
-
-.navbar {
+﻿.navbar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     position: fixed;
     top: 0;
+    height: 70px;
     width: 100%;
     min-width: 0;
+    background-color: white;
+    z-index: 1000;
 }
 
-.upper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
-    padding: 10px 0 10px 0;
-    flex-grow: 1;
-    height: 60px;
-    background-color: ghostwhite;
-}
-
-.flower1, .flower2 {
-    width: 200px;
-    height: auto;
-}
-
-.flower1 {
-    position: relative;
-    right: 60px;
-}
-
-.flower2 {
-    position: relative;
-    left: 60px;
-}
-
-.navbar .arcadialogosmall {
-    width: 180px;
-    height: auto;
-}
-
-.lower {
-    display: flex;
-    align-items: center;
-    padding: 5px 5px;
-    flex-grow: 1;
-    height: 30px;
-    background-color: red;
-}
-
-.navlink {
-    display: inline-block;
-}
-
-    .navlink a:link, .navlink a:visited {
-        padding: 8px;
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        font-family: Raleway;
-        font-weight: 550;
+    .left_navbar {
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
     }
 
-    .navlink:hover a:link, .navlink:hover a:visited {
-        background-color: white;
-        border-radius: 25px;
-        color: black;
-        transition: 0.2s;
+        .arcadialogo_navbar {
+            width: 160px;
+            height: auto;
+            margin-right: 12px;
+        }
+
+    .right_navbar {
+        display: flex;
+        align-items: center;
+        padding-right: 80px;
     }
+
+    .navlink {
+        margin: 3px;
+    }
+
+        .navlink a {
+            padding: 8px;
+            text-decoration: none;
+            color: #1C1C1C;
+            font-size: 18px;
+            font-family: Raleway;
+            font-weight: 600;
+        }
+
+        .navlink:hover a {
+            background-color: #1C1C1C;
+            border-radius: 25px;
+            color: white;
+            transition: 0.2s;
+        }

@@ -1,8 +1,4 @@
-﻿body {
-    margin: 0;
-}
-
-.navbar {
+﻿.navbar {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -10,20 +6,75 @@
     height: 70px;
     width: 100%;
     min-width: 0;
-    background-color: black;
+    background-color: white;
     z-index: 1000;
 }
 
     .left_navbar {
         display: flex;
         align-items: center;
-        padding-left: 140px;
+        padding-left: 100px;
     }
 
         .arcadialogo_navbar {
             width: 160px;
             height: auto;
+            margin-right: 12px;
         }
+
+        .left_navbar form {
+            display: flex;
+            align-items: center;
+        }
+
+        .left_navbar input {
+            border: 3px solid #1C1C1C;
+            border-radius: 12px;
+            height: 24px;
+            width: 240px;
+            background-color: #1C1C1C;
+            color: white;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 8px;
+            outline: none;
+        }
+
+        .left_navbar input:focus {
+            border: 3px solid #B13DD6;
+            background-color: #B13DD6;
+            transition: 0.2s;
+        }
+
+        .left_navbar input:focus::placeholder{
+            color: #B13DD6;
+            transition: 0.2s;
+        }
+
+        .left_navbar button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #1C1C1C;
+            border-radius: 12px;
+            height: 32px;
+            width: 32px;
+            margin-left: 4px;
+            background-color: #1C1C1C;
+            cursor: pointer;
+        }
+
+        .left_navbar button:hover {
+            border: 3px solid #1AC09B;
+            background-color: #1AC09B;
+            transition: 0.2s;
+        }
+
+            .search_navbar {
+                width: 19px;
+                height: 19px;
+            }
 
     .right_navbar {
         display: flex;
@@ -35,19 +86,19 @@
             margin: 3px;
         }
 
-            .navlink a:link, .navlink a:visited {
+            .navlink a {
                 padding: 8px;
                 text-decoration: none;
-                color: white;
+                color: #1C1C1C;
                 font-size: 18px;
                 font-family: Raleway;
                 font-weight: 600;
             }
 
-            .navlink:hover a:link, .navlink:hover a:visited {
-                background-color: white;
+            .navlink:hover a {
+                background-color: #1C1C1C;
                 border-radius: 25px;
-                color: black;
+                color: white;
                 transition: 0.2s;
             }
 
@@ -58,22 +109,24 @@
 
             .dropdown_navbar:hover .dropcontent_navbar {
                 display: block;
+                transition: 0.2s;
             }
 
             .dropdown_navbar:hover .dropmenu_navbar {
                 border: 2px solid #1AC09B;
                 background-color: #1AC09B;
+                color: white;
                 transition: 0.2s;
             }
 
             .dropmenu_navbar {
-                border: 2px solid white;
+                border: 2px solid #1C1C1C;
                 border-radius: 20px;
                 height: 38px;
                 width: 110px;
-                background-color: black;
+                background-color: white;
                 text-decoration: none;
-                color: white;
+                color: #1C1C1C;
                 font-size: 18px;
                 font-family: Raleway;
                 font-weight: 600;
@@ -85,7 +138,6 @@
                     position: absolute;
                     background-color: ghostwhite;
                     min-width: 130px;
-                    margin-top: 8px;
                 }
 
                     .dropcontent_navbar a {
@@ -94,10 +146,10 @@
                     }
 
 
-                    .dropcontent_navbar a:link, .dropcontent_navbar a:visited {
+                    .dropcontent_navbar a {
                         padding: 8px;
                         text-decoration: none;
-                        color: black;
+                        color: #1C1C1C;
                         font-size: 18px;
                         font-family: Raleway;
                         font-weight: 600;
@@ -114,24 +166,24 @@
         }
 
             .navlink_login a {
-                border: 2px solid white;
+                border: 2px solid #1C1C1C;
                 border-radius: 20px;
                 height: 38px;
                 width: 110px;
                 padding: 8px 10px;
-                background-color: white;
+                background-color: #1C1C1C;
                 cursor: pointer;
             }
 
-            .navlink_login a:link, .navlink_login a:visited {
+            .navlink_login a {
                 text-decoration: none;
-                color: black;
+                color: white;
                 font-size: 18px;
                 font-family: Raleway;
                 font-weight: 600;
             }
 
-            .navlink_login:hover a:link, .navlink_login:hover a:visited {
+            .navlink_login:hover a {
                 border: 2px solid #1AC09B;
                 background-color: #1AC09B;
                 color: white;

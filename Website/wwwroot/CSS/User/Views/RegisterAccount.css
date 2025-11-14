@@ -1,2 +1,75 @@
-﻿body {
+﻿.main_registeraccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
 }
+
+.registeraccountcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 12px;
+    height: 500px;
+    width: 400px;
+    margin: 50px 0;
+    background-color: white;
+}
+
+    .registeraccountcontainer p {
+        display: block;
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .registeraccountcontainer input {
+        border: 2px solid #1C1C1C;
+        height: 24px;
+        width: 340px;
+        color: #1C1C1C;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 8px;
+        outline: none;
+    }
+
+    .registeraccountcontainer button {
+        border: 2px solid lightgrey;
+        border-radius: 12px;
+        height: 30px;
+        width: 353px;
+        color: #1C1C1C;
+        background-color: lightgrey;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+        .extra_registeraccount {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4px;
+        }
+
+            .extra_registeraccount h1 {
+                font-family: Raleway;
+                font-size: 12px;
+                font-weight: 600;
+            }
+
+        .inputfield {
+            margin: 14px 0;
+        }
+
+            .inputfield label, .inputfield input {
+                display: block;
+                font-family: Raleway;
+                margin: 8px 0;
+            }
+
+            .inputfield label {
+                font-weight: 600;
+            }

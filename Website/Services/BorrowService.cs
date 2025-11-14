@@ -15,7 +15,7 @@ namespace Website.Services
             _context = context;
         }
 
-        public async Task<int> AddBorrow(Borrow borrow, List<Book> books)
+        public async Task<int> AddBorrow(Borrow borrow)
         {
             var idParam = new SqlParameter
             {
@@ -26,9 +26,9 @@ namespace Website.Services
 
             await _context.Database.ExecuteSqlRawAsync(
                 "EXEC AddBorrow @idborrow OUTPUT, @idcard, @idlibrarian",
-                new SqlParameter("@idborrow", borrow.idBorrow),
+                new SqlParameter("@idborrow", 0),
                 new SqlParameter("@idcard", borrow.idCard),
-                new SqlParameter("@idlibrarian", borrow.idLibrarian)
+                new SqlParameter("@idlibrarian", null)
             );
 
             int id = (int)idParam.Value;
@@ -55,12 +55,12 @@ namespace Website.Services
             );
         }
 
-        public async Task AddBookToBorrow(BookBorrow bookBorrow)
+        public async Task AddBookToBorrow(int idborrow, string idbook)
         {
             await _context.Database.ExecuteSqlRawAsync(
                 "EXEC AddBookToBorrow @idborrow, @idbook",
-                new SqlParameter("@idborrow", bookBorrow.idBorrow),
-                new SqlParameter("@idbook", bookBorrow.idBook)
+                new SqlParameter("@idborrow", idborrow),
+                new SqlParameter("@idbook", idbook)
             );
         }
 

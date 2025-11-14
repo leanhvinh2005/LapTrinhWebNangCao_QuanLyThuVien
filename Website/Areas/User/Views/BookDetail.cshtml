@@ -1,8 +1,16 @@
-﻿
+﻿@model Website.Models.Book
 @{
     ViewBag.Title = "BookDetail";
     Layout = "~/Views/Shared/Master.cshtml";
 }
 
-<h2>BookDetail</h2>
+<main>
+    <div class="container_bookdetail">
+        <div class="leftcontainer_bookdetail">
+            <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
+        </div>
+        <div class="rightcontainer_bookdetail">
 
+        </div>
+    </div>
+</main>

@@ -5,30 +5,41 @@
 }
 <link rel="stylesheet" href="~/CSS/User/Views/RegisterAccount.css" />
 
-<main>
-    <p>Register account</p>
-    <form asp-action="RegisterAccount" method="post">
-        <div class="inputfield">
-            <label asp-for="nameUser">Username</label>
-            <span asp-validation-for="nameUser"></span>
-            <input asp-for="nameUser" placeholder="Enter username" />
-        </div>
-        <div class="inputfield">
-            <label asp-for="emailUser">Email</label>
-            <span asp-validation-for="emailUser"></span>
-            <input asp-for="emailUser" placeholder="Enter email" />
-        </div>
-        <div class="inputfield">
-            <label asp-for="passwordUser">Password</label>
-            <span asp-validation-for="passwordUser"></span>
-            <input asp-for="passwordUser" placeholder="Enter password" />
-        </div>
-        <div class="inputfield">
-            <label for="cardid">Card ID</label>
-            <input type="text" placeholder="Enter card" name="cardid" required />
-        </div>
-        <div asp-validation-summary="ModelOnly"></div>
-        <button type="submit">Register</button>
-    </form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/JS/Validation.js"></script>
+}
+
+<main class="main_registeraccount">
+    <div class="registeraccountcontainer">
+        <p>Đăng ký tài khoản</p>
+        <form asp-action="RegisterAccount" method="post" class="registeraccountform">
+            <div class="inputfield">
+                <label asp-for="nameUser">Username<span style="color: red">*</span></label>
+                <span asp-validation-for="nameUser"></span>
+                <input asp-for="nameUser" placeholder="Enter username" />
+            </div>
+            <div class="inputfield">
+                <label asp-for="emailUser">Email<span style="color: red">*</span></label>
+                <span asp-validation-for="emailUser"></span>
+                <input asp-for="emailUser" placeholder="Enter email" />
+            </div>
+            <div class="inputfield">
+                <label asp-for="passwordUser">Mật khẩu<span style="color: red">*</span></label>
+                <span asp-validation-for="passwordUser"></span>
+                <input asp-for="passwordUser" placeholder="Enter password" />
+            </div>
+            <div class="inputfield">
+                <label for="cardid">Thẻ ID<span style="color: red">*</span></label>
+                <input type="text" placeholder="Enter card" name="cardid" required />
+            </div>
+            <div asp-validation-summary="ModelOnly"></div>
+            <button type="submit">Đăng ký</button>
+            <div class="extra_registeraccount">
+                <h1>Có tài khoản? <a href="#">Đăng nhập</a></h1>
+                <h1>Chưa có thẻ? <a href="#">Đăng ký ngay</a></h1>
+            </div>
+        </form>
+    </div>
 </main>
 

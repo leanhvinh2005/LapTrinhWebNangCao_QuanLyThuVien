@@ -9,7 +9,7 @@ namespace Website.Views.Shared.Components.DisplayNumber
 {
     public class DisplayNumberViewComponent : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync(string count)
+        public async Task<IViewComponentResult> InvokeAsync(int count)
         {
             ViewData["Count"] = count;
             return View("DisplayNumber");

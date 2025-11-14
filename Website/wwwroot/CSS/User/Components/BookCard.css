@@ -3,27 +3,75 @@
 }
 
 .cardcontainer {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 2px solid white;
     border-radius: 15px;
     min-width: 0;
-    width: 280px;
-    text-align: center;
+    width: 200px;
 }
 
-    .cardcontainer h1 {
-        font-size: 15px;
-        font-family: Raleway;
+    .cardcontainer:hover {
+        transform: scale(1.1);
+        box-shadow: 16px 16px #B13DD6;
+        transition: 0.2s ease;
     }
 
-    .cardcontainer h2 {
-        font-size: 12px;
-        font-family: Raleway;
-        color: lightgray;
-    }
-
-    .cardcontainer img {
-        width: 70%;
+    .booklink1 img {
+        width: 200px;
         height: auto;
         object-fit: contain;
+        cursor: pointer;
     }
+
+    .bottomcard {
+        border: 2px solid white;
+        border-radius: 0 0 12px 12px;
+        background-color: white;
+        width: 200px;
+        padding-bottom: 6px;
+        text-align: center;
+    }
+
+        .booklink2, .authorlink {
+            text-decoration: none;
+        }
+
+            .booklink2:hover h1, .authorlink:hover h1 {
+                color: #1AC09B;
+                transition: 0.2s;
+            }
+
+            .booklink2 h1 {
+                font-size: 18px;
+                font-family: Raleway;
+                color: #1C1C1C;
+                cursor: pointer;
+            }
+
+            .authorlink h1 {
+                font-size: 15px;
+                font-family: Raleway;
+                color: #D9D9D9;
+                cursor: pointer;
+            }
+
+        .addcartbutton {
+            border: 2px solid lightgrey;
+            border-radius: 12px;
+            height: 35px;
+            width: 120px;
+            color: #1C1C1C;
+            background-color: lightgrey;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .addcartbutton:hover {
+            border: 2px solid #1AC09B;
+            color: white;
+            background-color: #1AC09B;
+            transition: 0.2s;
+        }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Website.Models;
 
 namespace Website.Areas.Admin.Controllers
 {
@@ -8,9 +9,9 @@ namespace Website.Areas.Admin.Controllers
     public class BookDetailController : Controller
     {
         [Route("/Book/BookDetail")]
-        public IActionResult BookDetail()
+        public IActionResult BookDetail(Book book)
         {
-            return View();
+            return View(book);
         }
     }
 }

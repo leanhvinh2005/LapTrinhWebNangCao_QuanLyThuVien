@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Diagnostics;
@@ -21,10 +22,12 @@ namespace Website.Areas.User.Controllers
     {
         private const string Session = "Cart";
         private readonly ApplicationDbContext _context;
+        private readonly BorrowService _borrowService;
 
-        public CartController(ApplicationDbContext context)
+        public CartController(ApplicationDbContext context, BorrowService borrowService)
         {
             _context = context;
+            _borrowService = borrowService;
         }
 
         [Route("/Cart")]
@@ -54,6 +57,49 @@ namespace Website.Areas.User.Controllers
             SaveCart(cart);
 
             return View("Cart", cart);
+        }
+
+        [HttpPost("/Cart/Borrow")]
+        public async Task<IActionResult> Borrow(List<string> idbooks)
+        {
+            foreach (var item in idbooks)
+            {
+                RemoveFromCart(item);
+            }
+
+            var cardid = User.FindFirst("CardId").Value;
+            Borrow? borrow = await _context.MUONTRA
+                .FromSqlRaw(
+                    "SELECT * FROM MUONTRA WHERE idCard = @idcard AND statusBorrow == 'ACTIVE'",
+                    new SqlParameter("@idCard", cardid)
+                )
+                .FirstOrDefaultAsync();
+
+            if (borrow != null)
+            {
+                foreach (var item in idbooks)
+                {
+                    await _borrowService.AddBookToBorrow(borrow.idBorrow, item);
+                }
+            }
+            else
+            {
+                Borrow newborrow = new Borrow
+                {
+                    idBorrow = 0,
+                    dateBorrow = new(),
+                    statusBorrow = "PLACEHOLDER",
+                    idCard = cardid
+                };
+                await _borrowService.AddBorrow(newborrow);
+
+                foreach (var item in idbooks)
+                {
+                    await _borrowService.AddBookToBorrow(newborrow.idBorrow, item);
+                }
+            }
+
+            return RedirectToAction("Home", "Home");
         }
 
         private CartListViewModel GetCart()

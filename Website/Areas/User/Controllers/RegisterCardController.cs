@@ -13,13 +13,13 @@ namespace Website.Areas.User.Controllers
     public class RegisterCardController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly CardService _cardController;
+        private readonly CardService _cardService;
         private readonly EmailService _emailService;
 
-        public RegisterCardController(ApplicationDbContext context, CardService cardController, EmailService emailService)
+        public RegisterCardController(ApplicationDbContext context, CardService cardService, EmailService emailService)
         {
             _context = context;
-            _cardController = cardController;
+            _cardService = cardService;
             _emailService = emailService;
         }
 
@@ -33,7 +33,7 @@ namespace Website.Areas.User.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> RegisterCard(Card card)
         {
-            card.idCard = _cardController.GenerateCardID();
+            card.idCard = _cardService.GenerateCardID();
             card.statusCard = "CREATED";
 
             ModelState.Remove(nameof(card.idCard));
@@ -47,7 +47,7 @@ namespace Website.Areas.User.Controllers
                 return View(card);
             }
 
-            await _cardController.AddCard(card);
+            await _cardService.AddCard(card);
             await _emailService.SendEmail(
                 card.emailCard,
                 "Card ID",

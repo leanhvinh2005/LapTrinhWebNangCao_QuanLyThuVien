@@ -1,15 +1,11 @@
-﻿body {
-    margin: 0;
-}
-
-.footer {
+﻿.footer {
     display: flex;
     justify-content: space-between;
     position: relative;
     bottom: 0;
     width: 100%;
     min-width: 0;
-    background-color: black;
+    background-color: #1C1C1C;
 }
 
     .flower1_footer, .flower2_footer {
@@ -77,6 +73,16 @@
                 }
 
                 .list_footer h2 {
+                    border-radius: 12px;
+                    padding: 4px;
                     font-size: 16px;
+                    background: linear-gradient(to left, #1C1C1C 50%, #1AC09B 50%);
+                    background-size: 200% 100%;
+                    background-position: right bottom;
+                    transition: background-position 0.2s ease-out;
                     margin: 6px 0;
+                }
+
+                .list_footer h2:hover {
+                    background-position: left bottom;
                 }

@@ -1,8 +1,58 @@
-﻿
+﻿@model Website.Models.ViewModels.ProfileInfo
+@using System.Security.Claims
 @{
     ViewBag.Title = "Profile";
     Layout = "~/Views/Shared/Master.cshtml";
 }
+<link rel="stylesheet" href="~/CSS/User/Views/Profile.css" />
 
-<h2>Profile</h2>
+<main class="main_profile">
+    <div class="profilecontainer">
+        <div class="profilepart1">
+            <img src="~/Images/Navbar/User.png" alt="User" />
+            <button>Thay đổi hình ảnh</button>
+            <form asp-action="Logout" asp-controller="Login" method="post">
+                @Html.AntiForgeryToken()
+                <button type="submit">Logout</button>
+            </form>
+        </div>
+        <div class="profilepart2">
+            <h1>Thẻ thư viện</h1>
+            <div class="infofield">
+                <h2>Họ tên:</h2>
+                <h3>@Model.Card.nameCard</h3>
+            </div>
+            <div class="infofield">
+                <h2>Email:</h2>
+                <h3>@Model.Card.emailCard</h3>
+            </div>
+            <div class="infofield">
+                <h2>Địa chỉ:</h2>
+                <h3>@Model.Card.addressCard</h3>
+            </div>
+            <div class="infofield">
+                <h2>Ngày sinh:</h2>
+                <h3>@Model.Card.dateCard</h3>
+            </div>
+            <div class="infofield">
+                <h2>Số điện thoại:</h2>
+                <h3>@Model.Card.phoneCard</h3>
+            </div>
+            <div class="infofield">
+                <h2>Trạng thái:</h2>
+                <h3>@Model.Card.statusCard</h3>
+            </div>
+            <div class="doublefield">
+                <div class="infofield">
+                    <h2>Ngày tạo:</h2>
+                    <h3>@Model.Card.startCard</h3>
+                </div>
+                <div class="infofield">
+                    <h2>Ngày hết hạn:</h2>
+                    <h3>@Model.Card.expireCard</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 

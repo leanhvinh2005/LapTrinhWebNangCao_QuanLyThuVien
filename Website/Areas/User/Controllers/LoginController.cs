@@ -14,14 +14,10 @@ namespace Website.Areas.User.Controllers
     public class LoginController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserService _userService;
-        private readonly LibrarianService _librarianService;
 
-        public LoginController(ApplicationDbContext context, UserService userService, LibrarianService librarianService)
+        public LoginController(ApplicationDbContext context)
         {
             _context = context;
-            _userService = userService;
-            _librarianService = librarianService;
         }
 
         [Route("/Login")]
@@ -46,27 +42,36 @@ namespace Website.Areas.User.Controllers
                 return View(user);
             }
 
-            var users = await _context.ACCOUNT_USER
+            var realUser = await _context.ACCOUNT_USER
                 .FirstOrDefaultAsync(u => u.emailUser == user.emailUser);
 
-            if (users == null || users.passwordUser != user.passwordUser)
+            if (realUser == null || realUser.passwordUser != user.passwordUser)
             {
                 ModelState.AddModelError(string.Empty, "Please double check your email and password");
                 return View(user);
             }
 
-            var librarians = await _librarianService.SearchLibrarian(user.idUser.ToString());
+            var librarians = await _context.THUTHU
+                .Where(u => u.idUser == realUser.idUser)
+                .ToListAsync();
             string role = "User";
             if (librarians.Count > 0)
                 role = "Admin";
 
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.nameUser),
-                new Claim(ClaimTypes.Email, user.emailUser),
-                new Claim("UserId", user.idUser.ToString()),
+                new Claim("UserId", realUser.idUser.ToString()),
+                new Claim(ClaimTypes.Name, realUser.nameUser),
+                new Claim(ClaimTypes.Email, realUser.emailUser),
                 new Claim(ClaimTypes.Role, role)
             };
+
+            if (role == "User")
+            {
+                var member = await _context.DOCGIA
+                    .FirstOrDefaultAsync(u => u.idUser == realUser.idUser);
+                claims.Add(new Claim("CardId", member.idCard));
+            }  
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var authProperties = new AuthenticationProperties
@@ -80,7 +85,7 @@ namespace Website.Areas.User.Controllers
                 authProperties);
             
             if (role == "Admin")
-                return RedirectToAction("Dashboard", "Dashboard");
+                return Redirect("/Dashboard");
             return RedirectToAction("Home", "Home");
         }
 
