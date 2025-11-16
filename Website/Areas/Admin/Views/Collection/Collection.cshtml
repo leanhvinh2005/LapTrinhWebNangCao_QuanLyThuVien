@@ -3,12 +3,15 @@
 @{
     ViewData["Title"] = "Quản lý Bộ sưu tập";
     Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
 }
 
 <h2>@ViewData["Title"]</h2>
 
 <p>
-    <a asp-action="Create">Tạo Bộ sưu tập mới</a>
+    <a asp-action="Create" class="btn-create" >Tạo Bộ sưu tập mới</a>
 </p>
 
 <form asp-action="Index" method="get">
@@ -38,8 +41,8 @@
                 <td>@item.nameCollection</td>
                 <td>@item.descriptionCollection</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.idCollection">Sửa</a> |
-                    <a asp-action="Delete" asp-route-id="@item.idCollection">Xóa</a>
+                    <a asp-action="Edit" asp-route-id="@item.idCollection"><i class="fa-solid fa-pen-to-square"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.idCollection"><i class="fa-solid fa-trash"></i></a>
                 </td>
             </tr>
         }

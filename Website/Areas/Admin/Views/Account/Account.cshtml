@@ -3,18 +3,20 @@
 @{
     ViewBag.Title = "Quản lý Tài khoản";
     Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
 }
 <h2>@ViewData["Title"]</h2>
-
 <p>
-    <a asp-action="Create">Tạo tài khoản mới</a>
+    <a asp-action="Create" class="btn-create">Tạo tài khoản mới</a>
 </p>
 
 <form asp-action="Index" method="get">
     <div class="form-actions no-color">
         <p>
             Tìm kiếm: <input type="text" name="search" value="@ViewData["CurrentSearch"]" />
-            <input type="submit" value="Tìm" class="btn btn-primary" /> |
+            <input type="submit" value="Tìm" class="btn btn-primary" />
             <a asp-action="Index">Xem tất cả</a>
         </p>
     </div>
@@ -26,7 +28,7 @@
             <th>ID</th>
             <th>Tên User</th>
             <th>Email</th>
-            <th></th>
+            <th>Thao Tác</th>
         </tr>
     </thead>
     <tbody>
@@ -37,8 +39,13 @@
                 <td>@item.nameUser</td>
                 <td>@item.emailUser</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.idUser">Sửa</a> |
-                    <a asp-action="Delete" asp-route-id="@item.idUser">Xóa</a>
+                    <a asp-action="Edit" asp-route-id="@item.idUser" title="Sửa">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+
+                    <a asp-action="Delete" asp-route-id="@item.idUser" title="Xóa">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
                 </td>
             </tr>
         }

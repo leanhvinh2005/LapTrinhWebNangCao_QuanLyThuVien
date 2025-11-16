@@ -1,10 +1,10 @@
-wwwroot\CSS\Admin\Views\Account.css
 wwwroot\CSS\Admin\Views\Author.css
 wwwroot\CSS\Admin\Views\Book.css
 wwwroot\CSS\Admin\Views\Borrow.css
 wwwroot\CSS\Admin\Views\Card.css
 wwwroot\CSS\Admin\Views\Collection.css
 wwwroot\CSS\Admin\Views\Dashboard.css
+wwwroot\CSS\Admin\Views\Style.css
 wwwroot\CSS\Shared\DisplayNumber.css
 wwwroot\CSS\Shared\Footer.css
 wwwroot\CSS\Shared\Master.css
