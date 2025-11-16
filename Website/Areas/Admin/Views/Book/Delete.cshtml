@@ -1,0 +1,30 @@
+﻿@model Website.Models.Book
+
+@{
+    ViewData["Title"] = "Xác nhận xóa";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Bạn có chắc chắn muốn xóa quyển sách này không?</h3>
+<div>
+    <h4>Sách</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ID Sách</dt>
+        <dd class="col-sm-10">@Model.idBook</dd>
+
+        <dt class="col-sm-2">Tên sách</dt>
+        <dd class="col-sm-10">@Model.nameBook</dd>
+
+        <dt class="col-sm-2">Tác giả</dt>
+        <dd class="col-sm-10">@Model.authorBook</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idBook" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Hủy</a>
+    </form>
+</div>

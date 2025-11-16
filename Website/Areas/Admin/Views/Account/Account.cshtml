@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Website.Models.User>
+
+@{
+    ViewBag.Title = "Quản lý Tài khoản";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create">Tạo tài khoản mới</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Tìm kiếm: <input type="text" name="search" value="@ViewData["CurrentSearch"]" />
+            <input type="submit" value="Tìm" class="btn btn-primary" /> |
+            <a asp-action="Index">Xem tất cả</a>
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên User</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.idUser</td>
+                <td>@item.nameUser</td>
+                <td>@item.emailUser</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.idUser">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.idUser">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

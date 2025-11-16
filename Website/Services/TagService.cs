@@ -42,5 +42,16 @@ namespace Website.Services
                 new SqlParameter("@type", tag.typeTag)
             );
         }
+        // code mới 
+        public async Task<Tag?> GetTagByIdAsync(int id)
+        {
+            return await _context.TAG.FindAsync(id);
+        }
+        public async Task<List<Tag>> GetTagsAsync()
+        {
+            return await _context.TAG
+                .OrderBy(t => t.nameTag)
+                .ToListAsync();
+        }
     }
 }

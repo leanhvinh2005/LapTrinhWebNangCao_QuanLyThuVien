@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Website.Models.Tag>
+
+@{
+    ViewData["Title"] = "Quản lý Thẻ (Tag)";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create">Tạo Tag mới</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên Tag</th>
+            <th>Loại (Type)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.idTag</td>
+                <td>@item.nameTag</td>
+                <td>@item.typeTag</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.idTag">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.idTag">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

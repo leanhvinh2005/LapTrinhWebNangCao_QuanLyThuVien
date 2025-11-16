@@ -1,0 +1,30 @@
+﻿@model Website.Models.Card
+
+@{
+    ViewData["Title"] = "Xác nhận xóa thẻ";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Bạn có chắc chắn muốn xóa Thẻ thư viện này không?</h3>
+<div>
+    <h4>Thẻ thư viện</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Mã thẻ</dt>
+        <dd class="col-sm-10">@Model.idCard</dd>
+
+        <dt class="col-sm-2">Tên chủ thẻ</dt>
+        <dd class="col-sm-10">@Model.nameCard</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.emailCard</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idCard" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Hủy</a>
+    </form>
+</div>

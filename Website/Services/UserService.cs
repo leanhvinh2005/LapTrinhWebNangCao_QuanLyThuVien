@@ -62,5 +62,13 @@ namespace Website.Services
                 .FromSqlRaw("EXEC SearchUser @search", new SqlParameter("@search", search))
                 .ToListAsync();
         }
+        // code mới 
+        public async Task<User?> GetUserById(int id)
+        {
+            var user = await _context.ACCOUNT_USER
+                .FromSqlRaw("EXEC GetUserById @id", new SqlParameter("@id", id))
+                .ToListAsync();
+            return user.FirstOrDefault(); 
+        }
     }
 }

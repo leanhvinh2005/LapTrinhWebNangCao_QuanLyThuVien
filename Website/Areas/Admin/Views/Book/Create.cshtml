@@ -1,0 +1,82 @@
+﻿@model Website.Models.Book
+
+@{
+    ViewData["Title"] = "Tạo sách mới";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="idBook" class="control-label">ID Sách (ví dụ: B001)</label>
+                <input asp-for="idBook" class="form-control" />
+                <span asp-validation-for="idBook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="nameBook" class="control-label">Tên sách</label>
+                <input asp-for="nameBook" class="form-control" />
+                <span asp-validation-for="nameBook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="descriptionBook" class="control-label">Mô tả</label>
+                <textarea asp-for="descriptionBook" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="descriptionBook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="authorBook" class="control-label">Tác giả</label>
+                <input asp-for="authorBook" class="form-control" />
+                <span asp-validation-for="authorBook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="publisherBook" class="control-label">Nhà xuất bản</label>
+                <input asp-for="publisherBook" class="form-control" />
+                <span asp-validation-for="publisherBook" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="dateBook" class="control-label">Ngày xuất bản</label>
+                <input asp-for="dateBook" class="form-control" type="date" />
+                <span asp-validation-for="dateBook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="formatBook" class="control-label">Định dạng</label>
+                <input asp-for="formatBook" class="form-control" />
+                <span asp-validation-for="formatBook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="noteBook" class="control-label">Ghi chú</label>
+                <textarea asp-for="noteBook" class="form-control" rows="2"></textarea>
+                <span asp-validation-for="noteBook" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="imageBook" class="control-label">Đường dẫn ảnh (Image URL)</label>
+                <input asp-for="imageBook" class="form-control" />
+                <span asp-validation-for="imageBook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-2">
+    <a asp-action="Index">Quay lại danh sách</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

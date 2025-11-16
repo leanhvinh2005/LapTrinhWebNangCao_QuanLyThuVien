@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Website.Models.Collection>
+
+@{
+    ViewData["Title"] = "Quản lý Bộ sưu tập";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create">Tạo Bộ sưu tập mới</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Tìm kiếm: <input type="text" name="search" value="@ViewData["CurrentSearch"]" />
+            <input type="submit" value="Tìm" class="btn btn-primary" /> |
+            <a asp-action="Index">Xem tất cả</a>
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên Bộ sưu tập</th>
+            <th>Mô tả</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.idCollection</td>
+                <td>@item.nameCollection</td>
+                <td>@item.descriptionCollection</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.idCollection">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.idCollection">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

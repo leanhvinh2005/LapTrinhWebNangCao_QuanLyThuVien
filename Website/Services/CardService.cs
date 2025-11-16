@@ -73,5 +73,13 @@ namespace Website.Services
 
             return firstChar + new string(rest);
         }
+        // code mới 
+        public async Task<Card?> GetCardByIdAsync(string id)
+        {
+            var card = await _context.THETHUVIEN
+                .FromSqlRaw("EXEC GetCardById @id", new SqlParameter("@id", id))
+                .ToListAsync();
+            return card.FirstOrDefault();
+        }
     }
 }

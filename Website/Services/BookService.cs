@@ -90,5 +90,13 @@ namespace Website.Services
                 .FromSqlRaw("SELECT * FROM SACH ORDER BY idBook")
                 .ToListAsync();
         }
+        //code mới 
+        public async Task<Book?> GetBookById(string id)
+        {
+            var book = await _context.SACH
+                .FromSqlRaw("EXEC GetBookById @id", new SqlParameter("@id", id))
+                .ToListAsync();
+            return book.FirstOrDefault();
+        }
     }
 }
