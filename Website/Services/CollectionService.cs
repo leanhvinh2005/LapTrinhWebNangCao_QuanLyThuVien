@@ -71,11 +71,8 @@ namespace Website.Services
         //  code mới
         public async Task<Collection?> GetCollectionByIdAsync(string id)
         {
-            var param = new SqlParameter("@id", id);
-        var collection = await _context.SUUTAP
-            .FromSqlRaw("EXEC GetCollectionById @id", param)
-            .ToListAsync();
-            return collection.FirstOrDefault();
+            return await _context.SUUTAP
+        .FirstOrDefaultAsync(c => c.idCollection == id);
         }
     }
 }

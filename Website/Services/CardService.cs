@@ -76,11 +76,8 @@ namespace Website.Services
         // code mới 
         public async Task<Card?> GetCardByIdAsync(string id)
         {
-            var card = await _context.THETHUVIEN
-                .FromSqlRaw("EXEC GetCardById @id", new SqlParameter("@id", id))
-                .ToListAsync();
-            return card.FirstOrDefault();
+            return await _context.THETHUVIEN
+                .FirstOrDefaultAsync(c => c.idCard == id);
         }
-
     }
 }
