@@ -34,11 +34,10 @@ namespace Website.Areas.Admin.Controllers
         [Route("Create")]
         public IActionResult Create()
         {
-            // CHỈ GIỮ LẠI DROPDOWN CHO MÃ THẺ
+           
             ViewBag.CardList = new SelectList(_context.THETHUVIEN, "idCard", "idCard");
 
-            // Đã xóa phần ViewBag.LibrarianList
-            // Người dùng sẽ nhập tay mã thủ thư trong View
+            
 
             var model = new Borrow
             {
@@ -68,10 +67,10 @@ namespace Website.Areas.Admin.Controllers
                 }
             }
 
-            // Nếu lỗi, nạp lại Dropdown Mã thẻ
+            
             ViewBag.CardList = new SelectList(_context.THETHUVIEN, "idCard", "idCard", borrow.idCard);
 
-            // Không cần nạp lại LibrarianList nữa vì là ô nhập tay
+            
             return View(borrow);
         }
 

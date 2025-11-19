@@ -51,7 +51,7 @@ namespace Website.Areas.Admin.Controllers
                     IdUser = user.idUser,
                     NameUser = user.nameUser,
                     EmailUser = user.emailUser,
-                    RoleName = "Chưa phân quyền", // Mặc định
+                    RoleName = "Chưa phân quyền", 
                     RoleSpecificId = "---"
                 };
 
@@ -60,7 +60,7 @@ namespace Website.Areas.Admin.Controllers
                 if (member != null)
                 {
                     vm.RoleName = "Độc giả (Member)";
-                    vm.RoleSpecificId = "Mã thẻ: " + member.idCard; // Hiển thị Mã thẻ
+                    vm.RoleSpecificId = "Mã thẻ: " + member.idCard; 
                 }
                 // Kiểm tra xem User này có phải là Librarian không?
                 else
@@ -69,7 +69,7 @@ namespace Website.Areas.Admin.Controllers
                     if (lib != null)
                     {
                         vm.RoleName = "Thủ thư (Librarian)";
-                        vm.RoleSpecificId = "ID Thủ thư: " + lib.idLibrarian; // Hiển thị ID Thủ thư
+                        vm.RoleSpecificId = "ID Thủ thư: " + lib.idLibrarian; 
                     }
                     // Nếu là Admin (thường check qua email hoặc bảng riêng, ở đây ví dụ check cứng)
                     else if (user.emailUser.ToLower().Contains("admin"))

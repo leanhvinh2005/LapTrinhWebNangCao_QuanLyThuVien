@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\views\\shared\\components\\navbar\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\components\\navbar\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\wwwroot\\css\\admin\\views\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\admin\\views\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\userlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\userlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,8 +11,32 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\usercreationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\taggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\taggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\profileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\profileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\cartlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\cartlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\bookshelfitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\bookshelfitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\bookshelfinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\bookshelfinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\booklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\booklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\tag\\tag.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -79,6 +87,22 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\card\\card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -99,10 +123,6 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -111,20 +131,60 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\borrow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\borrow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\collectiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\collectiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\authordetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\views\\shared\\components\\navbar\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\components\\navbar\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\wwwroot\\css\\admin\\views\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\admin\\views\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,10 +199,6 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -153,10 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\views\\bookdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\bookdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -191,20 +243,12 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\registercardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\profileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\profileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\user\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -251,20 +295,8 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\admin\\views\\card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -455,28 +487,12 @@
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\bookborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\bookshelfitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\bookshelfitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\user\\views\\bookshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\bookshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\bookshelfinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\bookshelfinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\cartlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\cartlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\models\\viewmodels\\taggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\models\\viewmodels\\taggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\datkr\\onedrive\\documents\\h\u1ECDc ph\u1EA7n\\d\u1EF1 \u00E1n web\\laptrinhwebnangcao_quanlythuvien\\website\\areas\\user\\views\\components\\filtertag\\filtertagviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -557,123 +573,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserListViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\UserListViewModel.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\UserListViewModel.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\UserListViewModel.cs",
-              "RelativeToolTip": "Website\\Models\\ViewModels\\UserListViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "PagingInfo.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\PagingInfo.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\PagingInfo.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\PagingInfo.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\PagingInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T15:38:49.429Z",
+              "WhenOpened": "2025-11-19T16:05:53.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Tag.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAgwEEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:51:37.861Z",
+              "Title": "BookshelfInfo.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfInfo.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\BookshelfInfo.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfInfo.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\BookshelfInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BorrowService.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\BorrowService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\BorrowService.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\BorrowService.cs",
-              "RelativeToolTip": "Website\\Services\\BorrowService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwBgAAAAZAAAAAAAAAA==",
+              "Title": "BookshelfItem.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfItem.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\BookshelfItem.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfItem.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\BookshelfItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Account.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T13:31:46.24Z",
+              "WhenOpened": "2025-11-16T13:17:50.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFQAAAAiAAAAAAAAAA==",
+              "Title": "ProfileInfo.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\ProfileInfo.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\ProfileInfo.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\ProfileInfo.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\ProfileInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.684Z",
+              "WhenOpened": "2025-11-16T13:17:50.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TagGroup.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\TagGroup.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\TagGroup.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\TagGroup.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\TagGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Style.css",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "RelativeToolTip": "Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-16T13:57:11.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
-              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
-              "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T13:17:50.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:51:35.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:51:32.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "UserCreationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\UserCreationViewModel.cs",
               "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\UserCreationViewModel.cs",
@@ -686,7 +650,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\UserListViewModel.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\UserListViewModel.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\UserListViewModel.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\UserListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:38:49.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookListViewModel.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\BookListViewModel.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookListViewModel.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\BookListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:05:50.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:51:35.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Tag\\Delete.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:51:32.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
@@ -699,7 +715,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "CartListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\CartListViewModel.cs",
+              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\CartListViewModel.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\CartListViewModel.cs",
+              "RelativeToolTip": "Website\\Models\\ViewModels\\CartListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Collection\\Edit.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Collection\\Edit.cshtml",
@@ -712,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Collection\\Delete.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Collection\\Delete.cshtml",
@@ -725,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Collection\\Create.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Collection\\Create.cshtml",
@@ -738,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Collection.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Collection\\Collection.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Collection\\Collection.cshtml",
@@ -751,7 +780,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
+              "Title": "Tag.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Tag\\Tag.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:51:37.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Card\\Edit.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Card\\Edit.cshtml",
@@ -764,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Card\\Delete.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Card\\Delete.cshtml",
@@ -777,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Card\\Create.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Card\\Create.cshtml",
@@ -790,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Card.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Card\\Card.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Card\\Card.cshtml",
@@ -803,137 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:50:49.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwD8AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:50:45.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAgwFYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:50:35.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Book.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:49:56.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAiwDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:29:56.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T13:21:56.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:28:15.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:13:31.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T13:21:36.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T13:21:46.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Index.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow\\Index.cshtml",
@@ -946,124 +858,163 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Borrow\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T13:21:56.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Borrow\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T13:21:46.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Borrow\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T13:21:36.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:50:49.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:50:45.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:50:35.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:49:56.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:29:56.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "BorrowController.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAkwKIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:14:14.983Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Delete.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:28:15.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "CardService.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\CardService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\CardService.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\CardService.cs",
-              "RelativeToolTip": "Website\\Services\\CardService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwFAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.692Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T14:13:31.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "LibrarianService.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\LibrarianService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\LibrarianService.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\LibrarianService.cs",
-              "RelativeToolTip": "Website\\Services\\LibrarianService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwDQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.699Z",
+              "Title": "Account.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Account\\Account.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:31:46.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "MemberService.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\MemberService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\MemberService.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\MemberService.cs",
-              "RelativeToolTip": "Website\\Services\\MemberService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAAA3AAAAAAAAAA==",
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.705Z",
+              "WhenOpened": "2025-11-16T13:17:50.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "CardController.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CardController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CardController.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CardController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CardController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Program.cs",
-              "RelativeDocumentMoniker": "Website\\Program.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Program.cs",
-              "RelativeToolTip": "Website\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "Website\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "Website\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-19T13:14:26.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "BookDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T13:17:50.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\appsettings.json",
-              "RelativeDocumentMoniker": "Website\\appsettings.json",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\appsettings.json",
-              "RelativeToolTip": "Website\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-16T13:17:50.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -1076,7 +1027,231 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CollectionDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CollectionDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:04:35.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CardController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BorrowController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:14:14.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthorDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\AuthorDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:02:52.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 42,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAAwEcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CollectionController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "RelativeToolTip": "Website\\Views\\Shared\\Components\\Navbar\\Admin.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:17:50.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Style.css",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
+              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
+              "RelativeToolTip": "Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-16T13:57:11.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BorrowService.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\BorrowService.cs",
+              "RelativeDocumentMoniker": "Website\\Services\\BorrowService.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\BorrowService.cs",
+              "RelativeToolTip": "Website\\Services\\BorrowService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:24:22.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CardService.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\CardService.cs",
+              "RelativeDocumentMoniker": "Website\\Services\\CardService.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\CardService.cs",
+              "RelativeToolTip": "Website\\Services\\CardService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LibrarianService.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\LibrarianService.cs",
+              "RelativeDocumentMoniker": "Website\\Services\\LibrarianService.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\LibrarianService.cs",
+              "RelativeToolTip": "Website\\Services\\LibrarianService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\MemberService.cs",
+              "RelativeDocumentMoniker": "Website\\Services\\MemberService.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\MemberService.cs",
+              "RelativeToolTip": "Website\\Services\\MemberService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Program.cs",
+              "RelativeDocumentMoniker": "Website\\Program.cs",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Program.cs",
+              "RelativeToolTip": "Website\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:17:50.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Website\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Website\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-19T13:14:26.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BookDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\BookDetail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:17:50.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\appsettings.json",
+              "RelativeDocumentMoniker": "Website\\appsettings.json",
+              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\appsettings.json",
+              "RelativeToolTip": "Website\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-16T13:17:50.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "RegisterAccount.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\RegisterAccount.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\RegisterAccount.cshtml",
@@ -1088,7 +1263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 53,
               "Title": "BrowseController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\BrowseController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BrowseController.cs",
@@ -1096,12 +1271,11 @@
               "RelativeToolTip": "Website\\Areas\\User\\Controllers\\BrowseController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T13:17:50.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "RegisterCard.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\RegisterCard.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\RegisterCard.cshtml",
@@ -1113,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 56,
               "Title": "RegisterAccountController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\RegisterAccountController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\RegisterAccountController.cs",
@@ -1125,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 57,
               "Title": "Cart.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Cart.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Cart.cshtml",
@@ -1137,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 58,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\About.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\About.cshtml",
@@ -1149,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 59,
               "Title": "RegisterCardController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\RegisterCardController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\RegisterCardController.cs",
@@ -1161,19 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwFgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 61,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\UserService.cs",
@@ -1185,7 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "CollectionService.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\CollectionService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\CollectionService.cs",
@@ -1197,19 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ProfileInfo.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\ProfileInfo.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\ProfileInfo.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\ProfileInfo.cs",
-              "RelativeToolTip": "Website\\Models\\ViewModels\\ProfileInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 62,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\LoginController.cs",
@@ -1221,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 63,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\CartController.cs",
@@ -1233,7 +1383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 64,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -1245,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 65,
               "Title": "Book.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Book.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Book.css",
@@ -1257,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 66,
               "Title": "Author.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Author.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Author.css",
@@ -1269,7 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 71,
               "Title": "Master.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Master.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Master.cshtml",
@@ -1281,7 +1431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 70,
               "Title": "Master.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Shared\\Master.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Master.css",
@@ -1293,7 +1443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 69,
               "Title": "Footer.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Shared\\Footer.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Footer.css",
@@ -1305,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 68,
               "Title": "DisplayNumber.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Shared\\DisplayNumber.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\DisplayNumber.css",
@@ -1317,7 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 67,
               "Title": "Admin.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Shared\\Navbar\\Admin.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Navbar\\Admin.css",
@@ -1329,7 +1479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 72,
               "Title": "Card.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Card.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Card.css",
@@ -1341,7 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 73,
               "Title": "TagService.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\TagService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\TagService.cs",
@@ -1353,43 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "TagController.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\TagController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwCQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "CollectionController.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\CollectionController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAUwFgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:24:22.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 74,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\BookService.cs",
@@ -1401,7 +1515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 77,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Home.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Home.cshtml",
@@ -1413,7 +1527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 76,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\HomeController.cs",
@@ -1425,7 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 75,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Dashboard.cshtml",
@@ -1437,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 78,
               "Title": "User.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Shared\\Navbar\\User.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Navbar\\User.css",
@@ -1449,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 79,
               "Title": "CollectionDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\CollectionDetail.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\CollectionDetail.cshtml",
@@ -1461,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 80,
               "Title": "User.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\User.cshtml",
@@ -1473,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 81,
               "Title": "BookCard.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCard.cshtml",
@@ -1485,7 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 82,
               "Title": "Browse.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Views\\Browse.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Views\\Browse.css",
@@ -1497,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 83,
               "Title": "Browse.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Browse.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Browse.cshtml",
@@ -1509,7 +1623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 84,
               "Title": "BookCard.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Components\\BookCard.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Components\\BookCard.css",
@@ -1521,7 +1635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 85,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Views\\Login.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Views\\Login.css",
@@ -1533,7 +1647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 86,
               "Title": "NavbarViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Navbar\\NavbarViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\NavbarViewComponent.cs",
@@ -1545,7 +1659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 87,
               "Title": "BookCardViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Components\\BookCard\\BookCardViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\BookCard\\BookCardViewComponent.cs",
@@ -1557,7 +1671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 88,
               "Title": "DisplayNumberViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumberViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumberViewComponent.cs",
@@ -1569,7 +1683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 89,
               "Title": "Profile.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Views\\Profile.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Views\\Profile.css",
@@ -1581,7 +1695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 90,
               "Title": "DisplayNumber.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumber.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\DisplayNumber\\DisplayNumber.cshtml",
@@ -1593,7 +1707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 91,
               "Title": "FilterTag.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Components\\FilterTag\\FilterTag.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\FilterTag\\FilterTag.cshtml",
@@ -1605,7 +1719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 92,
               "Title": "RegisterCard.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Views\\RegisterCard.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Views\\RegisterCard.css",
@@ -1617,7 +1731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 93,
               "Title": "RegisterAccount.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Views\\RegisterAccount.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Views\\RegisterAccount.css",
@@ -1629,7 +1743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 94,
               "Title": "Home.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Views\\Home.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Views\\Home.css",
@@ -1641,7 +1755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 95,
               "Title": "NoLogin.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Shared\\Navbar\\NoLogin.css",
@@ -1653,7 +1767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 96,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Profile.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Profile.cshtml",
@@ -1665,7 +1779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 97,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Card.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Card.cs",
@@ -1677,7 +1791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 98,
               "Title": "BookDetailController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Controllers\\BookDetailController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BookDetailController.cs",
@@ -1689,7 +1803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 99,
               "Title": "CollectionDetailController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\CollectionDetailController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\CollectionDetailController.cs",
@@ -1701,7 +1815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 100,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\ContactController.cs",
@@ -1713,7 +1827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 101,
               "Title": "BookDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\BookDetail.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\BookDetail.cshtml",
@@ -1725,7 +1839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 102,
               "Title": "Validation.js",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\JS\\Validation.js",
               "RelativeDocumentMoniker": "Website\\wwwroot\\JS\\Validation.js",
@@ -1737,7 +1851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 103,
               "Title": "BannerSlideshow.js",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\JS\\BannerSlideshow.js",
               "RelativeDocumentMoniker": "Website\\wwwroot\\JS\\BannerSlideshow.js",
@@ -1749,7 +1863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 104,
               "Title": "ChapterService.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\ChapterService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\ChapterService.cs",
@@ -1761,7 +1875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 105,
               "Title": "NoLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Navbar\\NoLogin.cshtml",
@@ -1773,7 +1887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 107,
               "Title": "BookshelfController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\BookshelfController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BookshelfController.cs",
@@ -1785,7 +1899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 108,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\AboutController.cs",
@@ -1797,7 +1911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 109,
               "Title": "AuthorDetailController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\AuthorDetailController.cs",
@@ -1809,7 +1923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 106,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\ProfileController.cs",
@@ -1821,7 +1935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 110,
               "Title": "BookDetailController.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Controllers\\BookDetailController.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BookDetailController.cs",
@@ -1833,7 +1947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 111,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Login.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Login.cshtml",
@@ -1845,7 +1959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 112,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1857,7 +1971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 113,
               "Title": "BirthDateAttribute.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Other\\BirthDateAttribute.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Other\\BirthDateAttribute.cs",
@@ -1869,7 +1983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 114,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\User.cs",
               "RelativeDocumentMoniker": "Website\\Models\\User.cs",
@@ -1881,7 +1995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 132,
               "Title": "Librarian.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Librarian.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Librarian.cs",
@@ -1893,7 +2007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 133,
               "Title": "Chapter.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Chapter.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Chapter.cs",
@@ -1905,7 +2019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 115,
               "Title": "FilterTag.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Components\\FilterTag.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Components\\FilterTag.css",
@@ -1917,7 +2031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 134,
               "Title": "Collection.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Collection.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Collection.cs",
@@ -1929,7 +2043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 116,
               "Title": "Footer.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Footer\\Footer.cshtml",
@@ -1941,7 +2055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 117,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Website\\Data\\ApplicationDbContext.cs",
@@ -1953,7 +2067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 118,
               "Title": "CartItem.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\User\\Components\\CartItem.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Components\\CartItem.css",
@@ -1965,7 +2079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 135,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Services\\Other\\EmailService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\Other\\EmailService.cs",
@@ -1977,7 +2091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 119,
               "Title": "Borrow.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Borrow.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Borrow.cs",
@@ -1989,7 +2103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 121,
               "Title": "Bookshelf.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Bookshelf.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Bookshelf.cshtml",
@@ -2001,7 +2115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 120,
               "Title": "BookBorrow.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\BookBorrow.cs",
               "RelativeDocumentMoniker": "Website\\Models\\BookBorrow.cs",
@@ -2013,19 +2127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
-              "Title": "BookshelfItem.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfItem.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\BookshelfItem.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfItem.cs",
-              "RelativeToolTip": "Website\\Models\\ViewModels\\BookshelfItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 122,
               "Title": "Member.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Member.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Member.cs",
@@ -2037,43 +2139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
-              "Title": "BookshelfInfo.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfInfo.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\BookshelfInfo.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\BookshelfInfo.cs",
-              "RelativeToolTip": "Website\\Models\\ViewModels\\BookshelfInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 117,
-              "Title": "CartListViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\CartListViewModel.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\CartListViewModel.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\CartListViewModel.cs",
-              "RelativeToolTip": "Website\\Models\\ViewModels\\CartListViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 118,
-              "Title": "TagGroup.cs",
-              "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\TagGroup.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\ViewModels\\TagGroup.cs",
-              "ToolTip": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\ViewModels\\TagGroup.cs",
-              "RelativeToolTip": "Website\\Models\\ViewModels\\TagGroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T13:17:50.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 123,
               "Title": "FilterTagViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Components\\FilterTag\\FilterTagViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\FilterTag\\FilterTagViewComponent.cs",
@@ -2085,7 +2151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 124,
               "Title": "CartItemViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Components\\CartItem\\CartItemViewComponent.cs",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItemViewComponent.cs",
@@ -2097,7 +2163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 125,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Tag.cs",
@@ -2109,7 +2175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 126,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Book.cs",
@@ -2121,7 +2187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 127,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Website\\Views\\_ViewStart.cshtml",
@@ -2133,7 +2199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 136,
               "Title": "DateFutureAttribute.cs",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Models\\Other\\DateFutureAttribute.cs",
               "RelativeDocumentMoniker": "Website\\Models\\Other\\DateFutureAttribute.cs",
@@ -2145,7 +2211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 137,
               "Title": "Website.csproj",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Website.csproj",
               "RelativeDocumentMoniker": "Website\\Website.csproj",
@@ -2157,7 +2223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 128,
               "Title": "AuthorDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\AuthorDetail.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\AuthorDetail.cshtml",
@@ -2169,7 +2235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 129,
               "Title": "CartItem.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\CartItem\\CartItem.cshtml",
@@ -2181,7 +2247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 138,
               "Title": "BorrowController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
@@ -2193,7 +2259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 130,
               "Title": "Dashboard.css",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\wwwroot\\CSS\\Admin\\Views\\Dashboard.css",
               "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Dashboard.css",
@@ -2205,7 +2271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 131,
               "Title": "Author.cshtml",
               "DocumentMoniker": "C:\\Users\\datkr\\OneDrive\\Documents\\H\u1ECDc Ph\u1EA7n\\D\u1EF1 \u00E1n Web\\LapTrinhWebNangCao_QuanLyThuVien\\Website\\Areas\\Admin\\Views\\Author.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Author.cshtml",
@@ -2217,7 +2283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 139,
               "Title": "Borrow.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Borrow.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Borrow.cshtml",
