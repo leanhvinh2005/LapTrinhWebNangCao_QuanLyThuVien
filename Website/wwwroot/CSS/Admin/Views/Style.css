@@ -137,15 +137,4 @@ h2 {
     background-color: #f1f1f1; /* Màu xám siêu nhạt */
 }
 
-/* --- NÚT SỬA / XÓA TRONG BẢNG --- */
-.table td a {
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 4px;
-    text-decoration: none;
-    color: black;
-    font-size: 0.9em;
-    margin-right: 5px;
-    transition: background-color 0.2s;
-}
 

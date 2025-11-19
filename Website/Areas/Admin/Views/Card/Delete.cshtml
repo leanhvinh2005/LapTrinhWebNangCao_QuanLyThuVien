@@ -1,33 +1,64 @@
 ﻿@model Website.Models.Card
 
 @{
-    ViewData["Title"] = "Xác nhận xóa thẻ";
+    ViewData["Title"] = "Xóa thẻ thư viện";
     Layout = "~/Views/Shared/Master.cshtml";
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h2>@ViewData["Title"]</h2>
+<h1>Xóa thẻ thư viện</h1>
 
-<h3>Bạn có chắc chắn muốn xóa Thẻ thư viện này không?</h3>
+<h3 class="text-danger">Bạn có chắc chắn muốn xóa thẻ này không?</h3>
+
+<div class="alert alert-warning">
+    Lưu ý: Hành động này không thể hoàn tác. Nếu thẻ này đang có sách chưa trả hoặc dữ liệu mượn, việc xóa có thể gây lỗi hệ thống.
+</div>
+
 <div>
-    <h4>Thẻ thư viện</h4>
+    <h4>Thông tin chi tiết:</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">Mã thẻ</dt>
-        <dd class="col-sm-10">@Model.idCard</dd>
+        <dt class="col-sm-3">
+            Mã thẻ
+        </dt>
+        <dd class="col-sm-9">
+            @Model.idCard
+        </dd>
 
-        <dt class="col-sm-2">Tên chủ thẻ</dt>
-        <dd class="col-sm-10">@Model.nameCard</dd>
+        <dt class="col-sm-3">
+            Tên chủ thẻ
+        </dt>
+        <dd class="col-sm-9">
+            @Model.nameCard
+        </dd>
 
-        <dt class="col-sm-2">Email</dt>
-        <dd class="col-sm-10">@Model.emailCard</dd>
+        <dt class="col-sm-3">
+            Email
+        </dt>
+        <dd class="col-sm-9">
+            @Model.emailCard
+        </dd>
+
+        <dt class="col-sm-3">
+            Điện thoại
+        </dt>
+        <dd class="col-sm-9">
+            @Model.phoneCard
+        </dd>
+
+        <dt class="col-sm-3">
+            Trạng thái
+        </dt>
+        <dd class="col-sm-9">
+            @Model.statusCard
+        </dd>
     </dl>
 
     <form asp-action="Delete">
         <input type="hidden" asp-for="idCard" />
-        <input type="submit" value="Xóa" class="btn btn-danger" /> |
-        <a asp-action="Index" class="btn btn-primary">Hủy</a>
+        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
     </form>
 </div>

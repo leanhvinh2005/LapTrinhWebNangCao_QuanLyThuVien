@@ -8,87 +8,70 @@
     <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h2>@ViewData["Title"]</h2>
+<div class="container-fluid">
+    <h1>Tạo tài khoản mới</h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-<div class="row">
-    <div class="col-md-6">
-        <form asp-action="Create" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-            <div class="card mb-3">
-                <div class="card-header bg-primary text-white">Thông tin đăng nhập</div>
-                <div class="card-body">
-                    <div class="form-group mb-3">
-                        <label asp-for="FullName" class="control-label">Họ và Tên</label>
-                        <input asp-for="FullName" class="form-control" placeholder="Nhập họ tên người dùng" />
-                        <span asp-validation-for="FullName" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label asp-for="Email" class="control-label">Email</label>
-                        <input asp-for="Email" class="form-control" placeholder="example@email.com" />
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label asp-for="Password" class="control-label">Mật khẩu</label>
-                        <input asp-for="Password" class="form-control" type="password" />
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="FullName" class="control-label fw-bold">Họ và Tên</label>
+                    <input asp-for="FullName" class="form-control" placeholder="Nhập họ tên người dùng" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
                 </div>
-            </div>
 
-            <div class="card mb-3">
-                <div class="card-header bg-info text-white">Phân quyền</div>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label asp-for="Role" class="control-label fw-bold">Vai trò hệ thống</label>
-                        <select asp-for="Role" class="form-control" id="roleSelect" onchange="toggleRoleInputs()">
-                            <option value="Member">Độc giả (Member)</option>
-                            <option value="Librarian">Thủ thư (Librarian)</option>
-                        </select>
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="control-label fw-bold">Email</label>
+                    <input asp-for="Email" class="form-control" placeholder="example@email.com" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
-            </div>
 
-            <div id="memberSection" class="card mb-3 border-primary">
-                <div class="card-header text-primary">Thông tin Độc giả</div>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label asp-for="LibraryCardId" class="control-label">Mã thẻ thư viện (Bắt buộc)</label>
-                        <input asp-for="LibraryCardId" class="form-control" placeholder="Nhập mã thẻ đã có (VD: CARD001)" />
+                <div class="form-group mb-3">
+                    <label asp-for="Password" class="control-label fw-bold">Mật khẩu</label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Role" class="control-label fw-bold">Vai trò hệ thống</label>
+                    <select asp-for="Role" class="form-control" id="roleSelect" onchange="toggleRoleInputs()">
+                        <option value="Member">Độc giả (Member)</option>
+                        <option value="Librarian">Thủ thư (Librarian)</option>
+                    </select>
+                </div>
+
+                <div id="memberSection" style="display:block;">
+                    <div class="form-group mb-3">
+                        <label asp-for="LibraryCardId" class="control-label fw-bold">Mã thẻ thư viện (Bắt buộc)</label>
+                        <input asp-for="LibraryCardId" class="form-control" placeholder="Nhập mã thẻ đã có" />
                         <span asp-validation-for="LibraryCardId" class="text-danger"></span>
-                        <small class="text-muted fst-italic">* Mã thẻ phải tồn tại trong hệ thống thẻ và chưa liên kết với ai.</small>
+                        <small class="text-muted fst-italic">* Mã thẻ phải tồn tại và chưa liên kết tài khoản.</small>
                     </div>
                 </div>
-            </div>
 
-            <div id="librarianSection" class="card mb-3 border-success" style="display:none;">
-                <div class="card-header text-success">Thông tin Thủ thư</div>
-                <div class="card-body">
+                <div id="librarianSection" style="display:none;">
                     <div class="form-group mb-3">
-                        <label asp-for="JobTitle" class="control-label">Chức vụ / Vị trí</label>
-                        <input asp-for="JobTitle" class="form-control" placeholder="VD: Quản lý kho sách" />
+                        <label asp-for="JobTitle" class="control-label fw-bold">Chức vụ / Vị trí</label>
+                        <input asp-for="JobTitle" class="form-control" placeholder="VD: Quản lý kho" />
                         <span asp-validation-for="JobTitle" class="text-danger"></span>
                     </div>
 
-                    <div class="form-group">
-                        <label asp-for="HireDate" class="control-label">Ngày vào làm</label>
+                    <div class="form-group mb-3">
+                        <label asp-for="HireDate" class="control-label fw-bold">Ngày vào làm</label>
                         <input asp-for="HireDate" type="date" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
                         <span asp-validation-for="HireDate" class="text-danger"></span>
                     </div>
                 </div>
-            </div>
 
-            <div class="form-group mt-4">
-                <input type="submit" value="Tạo tài khoản" class="btn btn-success btn-lg w-100" />
-            </div>
-        </form>
+                <div class="form-group mt-3">
+                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
-
-<div class="mt-3">
-    <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
 </div>
 
 @section Scripts {
@@ -97,23 +80,22 @@
     }
 
     <script>
-        // Hàm ẩn hiện các vùng nhập liệu dựa trên Role
+        // Hàm xử lý ẩn hiện form dựa trên dropdown Role
         function toggleRoleInputs() {
             var role = document.getElementById("roleSelect").value;
             var memberDiv = document.getElementById("memberSection");
             var librarianDiv = document.getElementById("librarianSection");
 
             if (role === "Member") {
-                memberDiv.style.display = "block";     // Hiện độc giả
-                librarianDiv.style.display = "none";   // Ẩn thủ thư
+                memberDiv.style.display = "block";
+                librarianDiv.style.display = "none";
             } else {
-                memberDiv.style.display = "none";      // Ẩn độc giả
-                librarianDiv.style.display = "block";  // Hiện thủ thư
+                memberDiv.style.display = "none";
+                librarianDiv.style.display = "block";
             }
         }
 
-        // Gọi hàm 1 lần khi trang vừa load xong để đảm bảo hiển thị đúng
-        // (Phòng trường hợp validation fail và trang load lại, nó sẽ giữ nguyên role đã chọn)
+        // Chạy hàm này khi trang load xong để đảm bảo hiển thị đúng
         document.addEventListener("DOMContentLoaded", function() {
             toggleRoleInputs();
         });

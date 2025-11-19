@@ -5,77 +5,87 @@
     Layout = "~/Views/Shared/Master.cshtml";
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h2>@ViewData["Title"]</h2>
+<h1>Cập nhật sách #@Model.idBook</h1>
 <hr />
+
 <div class="row">
     <div class="col-md-6">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <div class="form-group">
-                <label asp-for="idBook" class="control-label">ID Sách</label>
+            <div class="form-group mb-3">
+                <label asp-for="idBook" class="control-label fw-bold">ID Sách</label>
                 <input asp-for="idBook" class="form-control" readonly />
             </div>
 
-            <div class="form-group">
-                <label asp-for="nameBook" class="control-label">Tên sách</label>
+            <div class="form-group mb-3">
+                <label asp-for="nameBook" class="control-label fw-bold">Tên sách</label>
                 <input asp-for="nameBook" class="form-control" />
                 <span asp-validation-for="nameBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="descriptionBook" class="control-label">Mô tả</label>
+            <div class="form-group mb-3">
+                <label asp-for="descriptionBook" class="control-label fw-bold">Mô tả</label>
                 <textarea asp-for="descriptionBook" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="descriptionBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="authorBook" class="control-label">Tác giả</label>
+            <div class="form-group mb-3">
+                <label asp-for="authorBook" class="control-label fw-bold">Tác giả</label>
                 <input asp-for="authorBook" class="form-control" />
+                <span asp-validation-for="authorBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="publisherBook" class="control-label">Nhà xuất bản</label>
+            <div class="form-group mb-3">
+                <label asp-for="publisherBook" class="control-label fw-bold">Nhà xuất bản</label>
                 <input asp-for="publisherBook" class="form-control" />
+                <span asp-validation-for="publisherBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="dateBook" class="control-label">Ngày xuất bản</label>
+            <div class="form-group mb-3">
+                <label asp-for="dateBook" class="control-label fw-bold">Ngày xuất bản</label>
                 <input asp-for="dateBook" class="form-control" type="date" />
+                <span asp-validation-for="dateBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="formatBook" class="control-label">Định dạng</label>
+            <div class="form-group mb-3">
+                <label asp-for="formatBook" class="control-label fw-bold">Định dạng</label>
                 <input asp-for="formatBook" class="form-control" />
+                <span asp-validation-for="formatBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="statusBook" class="control-label">Trạng thái</label>
-                <input asp-for="statusBook" class="form-control" />
+            <div class="form-group mb-3">
+                <label asp-for="statusBook" class="control-label fw-bold">Trạng thái</label>
+                <select asp-for="statusBook" class="form-control">
+                    <option value="Available">Có sẵn (Available)</option>
+                    <option value="Borrowed">Đang cho mượn</option>
+                    <option value="Lost">Đã mất</option>
+                </select>
                 <span asp-validation-for="statusBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="noteBook" class="control-label">Ghi chú</label>
+            <div class="form-group mb-3">
+                <label asp-for="noteBook" class="control-label fw-bold">Ghi chú</label>
                 <textarea asp-for="noteBook" class="form-control" rows="2"></textarea>
+                <span asp-validation-for="noteBook" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="imageBook" class="control-label">Đường dẫn ảnh (Image URL)</label>
+            <div class="form-group mb-3">
+                <label asp-for="imageBook" class="control-label fw-bold">Đường dẫn ảnh (Image URL)</label>
                 <input asp-for="imageBook" class="form-control" />
+                <span asp-validation-for="imageBook" class="text-danger"></span>
             </div>
 
             <div class="form-group mt-3">
                 <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
-                <a asp-action="Index" class="btn btn-primary">Quay lại danh sách</a>
+                <a asp-action="Index" class="btn btn-secondary">Hủy</a>
             </div>
         </form>
     </div>
 </div>
-
-
 
 @section Scripts {
     @{

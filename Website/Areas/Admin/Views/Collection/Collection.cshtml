@@ -5,46 +5,60 @@
     Layout = "~/Views/Shared/Master.cshtml";
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h2>@ViewData["Title"]</h2>
+<div class="container-fluid">
+    <h1 class="mt-4">Danh sách Bộ sưu tập</h1>
 
-<p>
-    <a asp-action="Create" class="btn-create" >Tạo Bộ sưu tập mới</a>
-</p>
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
 
-<form asp-action="Index" method="get">
-    <div class="form-actions no-color">
-        <p>
-            Tìm kiếm: <input type="text" name="search" value="@ViewData["CurrentSearch"]" />
-            <input type="submit" value="Tìm" class="btn btn-primary" /> |
-            <a asp-action="Index">Xem tất cả</a>
-        </p>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="fa fa-plus"></i> Tạo Bộ sưu tập mới
+            </a>
+        </div>
+        <div class="col-md-6">
+            <form asp-action="Index" method="get" class="d-flex justify-content-end">
+                <div class="input-group" style="max-width: 400px;">
+                    <input type="text" name="search" class="form-control" placeholder="Tìm tên bộ sưu tập..." value="@ViewData["CurrentSearch"]" />
+                    <button type="submit" class="btn btn-primary">Tìm</button>
+                    <a asp-action="Index" class="btn btn-secondary">Reset</a>
+                </div>
+            </form>
+        </div>
     </div>
-</form>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Tên Bộ sưu tập</th>
-            <th>Mô tả</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
             <tr>
-                <td>@item.idCollection</td>
-                <td>@item.nameCollection</td>
-                <td>@item.descriptionCollection</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.idCollection"><i class="fa-solid fa-pen-to-square"></i></a> |
-                    <a asp-action="Delete" asp-route-id="@item.idCollection"><i class="fa-solid fa-trash"></i></a>
-                </td>
+                <th>ID</th>
+                <th>Tên Bộ sưu tập</th>
+                <th>Mô tả</th>
+                <th>Thao tác</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.idCollection</td>
+                    <td>@item.nameCollection</td>
+                    <td>@item.descriptionCollection</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.idCollection" class="btn btn-sm btn-warning">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.idCollection" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

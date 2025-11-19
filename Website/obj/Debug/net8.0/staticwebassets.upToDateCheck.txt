@@ -1,4 +1,3 @@
-wwwroot\CSS\Admin\Views\Style.css
 wwwroot\CSS\Admin\Views\Author.css
 wwwroot\CSS\Admin\Views\Book.css
 wwwroot\CSS\Admin\Views\Borrow.css
@@ -104,3 +103,4 @@ wwwroot\Lib\jquery\dist\jquery.js
 wwwroot\Lib\jquery\dist\jquery.min.js
 wwwroot\Lib\jquery\dist\jquery.min.map
 wwwroot\Lib\jquery\LICENSE.txt
+wwwroot\CSS\Admin\Views\Style.css

@@ -21,18 +21,29 @@ namespace Website.Services
             {
                 ParameterName = "@idborrow",
                 SqlDbType = System.Data.SqlDbType.Int,
-                Direction = System.Data.ParameterDirection.Output
+                Direction = System.Data.ParameterDirection.Output,
+                Value = 0
             };
+            // code cũ
+            //await _context.Database.ExecuteSqlRawAsync(
+            //    "EXEC AddBorrow @idborrow OUTPUT, @idcard, @idlibrarian",
+            //    new SqlParameter("@idborrow", 0),
+            //    new SqlParameter("@idcard", borrow.idCard),
+            //    new SqlParameter("@idlibrarian", null)
+            //);
 
+            //int id = (int)idParam.Value;
+
+            // code mới 
+            object idLibrarianValue = borrow.idLibrarian ?? (object)DBNull.Value;
             await _context.Database.ExecuteSqlRawAsync(
-                "EXEC AddBorrow @idborrow OUTPUT, @idcard, @idlibrarian",
+                "EXEC AddBorrow @idborrow OUTPUT, @idcard, @idlibrarian", idParam,
                 new SqlParameter("@idborrow", 0),
                 new SqlParameter("@idcard", borrow.idCard),
-                new SqlParameter("@idlibrarian", null)
+                new SqlParameter("@idlibrarian", idLibrarianValue)
             );
-
-            int id = (int)idParam.Value;
-
+            int id = Convert.ToInt32(idParam.Value);
+            //
             return id;
         }
 
@@ -72,5 +83,21 @@ namespace Website.Services
                 new SqlParameter("@idbook", idbook)
             );
         }
+        // code mới
+        public async Task<List<Borrow>> GetAllBorrowsAsync()
+        {
+
+            return await _context.MUONTRA
+
+                .OrderByDescending(b => b.dateBorrow)
+                .ToListAsync();
+        }
+        public async Task<Borrow?> GetBorrowByIdAsync(int id)
+        {
+            return await _context.MUONTRA
+                .FirstOrDefaultAsync(b => b.idBorrow == id);
+        }
+
+
     }
 }

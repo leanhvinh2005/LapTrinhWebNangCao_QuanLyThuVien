@@ -8,59 +8,54 @@
     <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h2>@ViewData["Title"]</h2>
-<hr />
+<div class="container-fluid">
+    <h1 class="mt-4">Tạo thẻ mới</h1>
+    <hr />
 
-<div class="row justify-content-center">
-    <div class="col-md-8">
-        <div class="card shadow mb-4">
-            <div class="card-header py-3 bg-primary">
-                <h6 class="m-0 font-weight-bold text-white">Thông tin thẻ thư viện</h6>
-            </div>
-            <div class="card-body">
-                <form asp-action="Create">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="idCard" class="control-label fw-bold">Mã thẻ (Tự động)</label>
-                        <input asp-for="idCard" class="form-control bg-light" readonly />
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="idCard" class="control-label fw-bold">Mã thẻ (Tự động)</label>
+                    <input asp-for="idCard" class="form-control" readonly style="background-color: #e9ecef;" />
+                </div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="nameCard" class="control-label fw-bold">Tên chủ thẻ <span class="text-danger">*</span></label>
-                        <input asp-for="nameCard" class="form-control" placeholder="Nhập họ tên đầy đủ" />
-                        <span asp-validation-for="nameCard" class="text-danger"></span>
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="nameCard" class="control-label fw-bold">Tên chủ thẻ <span class="text-danger">*</span></label>
+                    <input asp-for="nameCard" class="form-control" placeholder="Nhập họ tên đầy đủ" />
+                    <span asp-validation-for="nameCard" class="text-danger"></span>
+                </div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="emailCard" class="control-label fw-bold">Email <span class="text-danger">*</span></label>
-                        <input asp-for="emailCard" class="form-control" type="email" placeholder="example@email.com" />
-                        <span asp-validation-for="emailCard" class="text-danger"></span>
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="emailCard" class="control-label fw-bold">Email <span class="text-danger">*</span></label>
+                    <input asp-for="emailCard" class="form-control" type="email" placeholder="example@email.com" />
+                    <span asp-validation-for="emailCard" class="text-danger"></span>
+                </div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="phoneCard" class="control-label fw-bold">Điện thoại <span class="text-danger">*</span></label>
-                        <input asp-for="phoneCard" class="form-control" placeholder="Nhập số điện thoại" />
-                        <span asp-validation-for="phoneCard" class="text-danger"></span>
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="phoneCard" class="control-label fw-bold">Điện thoại <span class="text-danger">*</span></label>
+                    <input asp-for="phoneCard" class="form-control" placeholder="Nhập số điện thoại" />
+                    <span asp-validation-for="phoneCard" class="text-danger"></span>
+                </div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="addressCard" class="control-label fw-bold">Địa chỉ</label>
-                        <input asp-for="addressCard" class="form-control" placeholder="Nhập địa chỉ liên hệ" />
-                        <span asp-validation-for="addressCard" class="text-danger"></span>
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="addressCard" class="control-label fw-bold">Địa chỉ</label>
+                    <input asp-for="addressCard" class="form-control" placeholder="Nhập địa chỉ liên hệ" />
+                    <span asp-validation-for="addressCard" class="text-danger"></span>
+                </div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="dateCard" class="control-label fw-bold">Ngày tạo thẻ</label>
-                        <input asp-for="dateCard" class="form-control bg-light" type="date" readonly />
-                    </div>
+                <div class="form-group mb-3">
+                    <label asp-for="dateCard" class="control-label fw-bold">Ngày tạo thẻ</label>
+                    <input asp-for="dateCard" class="form-control" type="date" readonly style="background-color: #e9ecef;" />
+                </div>
 
-                    <div class="form-group mt-4 d-flex gap-2">
-                        <input type="submit" value="Tạo mới" class="btn btn-success flex-grow-1" />
-                        <a asp-action="Index" class="btn btn-secondary">Hủy bỏ</a>
-                    </div>
-                </form>
-            </div>
+                <div class="form-group mt-4">
+                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
         </div>
     </div>
 </div>

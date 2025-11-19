@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Website.Models;
-using Website.Models.ViewModels; // Nhớ using namespace ViewModel
+using Website.Models.ViewModels; 
 using Website.Services;
 using System.Threading.Tasks;
 using UserModel = Website.Models.User;
+
 
 namespace Website.Areas.Admin.Controllers
 {
@@ -16,9 +17,9 @@ namespace Website.Areas.Admin.Controllers
         private readonly UserService _userService;
         private readonly MemberService _memberService;
         private readonly LibrarianService _librarianService;
-        private readonly CardService _cardService; // Cần service này để check thẻ tồn tại
+        private readonly CardService _cardService; 
 
-        // Inject đầy đủ 4 Service vào Constructor
+        
         public AccountController(
             UserService userService,
             MemberService memberService,
@@ -31,23 +32,64 @@ namespace Website.Areas.Admin.Controllers
             _cardService = cardService;
         }
 
-        // 1. Sửa tên hàm Account -> Index để khớp chuẩn MVC
+        
         [Route("")]
         [Route("Index")]
         public async Task<IActionResult> Account(string search)
         {
             search ??= "";
-            // Logic hiển thị danh sách (bạn có thể giữ nguyên hoặc sửa để hiện Role)
+            
             var users = await _userService.SearchUser(search);
+            var userListVM = new List<UserListViewModel>();
+            var allMembers = await _memberService.SearchMember("");
+            var allLibrarians = await _librarianService.SearchLibrarian("");
+
+            foreach (var user in users)
+            {
+                var vm = new UserListViewModel
+                {
+                    IdUser = user.idUser,
+                    NameUser = user.nameUser,
+                    EmailUser = user.emailUser,
+                    RoleName = "Chưa phân quyền", // Mặc định
+                    RoleSpecificId = "---"
+                };
+
+                // Kiểm tra xem User này có phải là Member không?
+                var member = allMembers.FirstOrDefault(m => m.idUser == user.idUser);
+                if (member != null)
+                {
+                    vm.RoleName = "Độc giả (Member)";
+                    vm.RoleSpecificId = "Mã thẻ: " + member.idCard; // Hiển thị Mã thẻ
+                }
+                // Kiểm tra xem User này có phải là Librarian không?
+                else
+                {
+                    var lib = allLibrarians.FirstOrDefault(l => l.idUser == user.idUser);
+                    if (lib != null)
+                    {
+                        vm.RoleName = "Thủ thư (Librarian)";
+                        vm.RoleSpecificId = "ID Thủ thư: " + lib.idLibrarian; // Hiển thị ID Thủ thư
+                    }
+                    // Nếu là Admin (thường check qua email hoặc bảng riêng, ở đây ví dụ check cứng)
+                    else if (user.emailUser.ToLower().Contains("admin"))
+                    {
+                        vm.RoleName = "Quản trị viên (Admin)";
+                        vm.RoleSpecificId = "Toàn quyền";
+                    }
+                }
+
+                userListVM.Add(vm);
+            }
             ViewData["CurrentSearch"] = search;
-            return View(users);
+            return View(userListVM);
         }
 
         // GET: /Admin/Account/Create
         [Route("Create")]
         public IActionResult Create()
         {
-            // Truyền một model rỗng sang View
+           
             return View(new UserCreationViewModel());
         }
 

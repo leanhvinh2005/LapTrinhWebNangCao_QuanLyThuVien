@@ -5,51 +5,53 @@
     Layout = "~/Views/Shared/Master.cshtml";
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h2>@ViewData["Title"]</h2>
-<hr />
-<div class="row">
-    <div class="col-md-6">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="container-fluid">
+    <h1 class="mt-4">Tạo Bộ sưu tập mới</h1>
+    <hr />
 
-            <div class="form-group">
-                <label asp-for="idCollection" class="control-label">ID Bộ sưu tập (ví dụ: BST-001)</label>
-                <input asp-for="idCollection" class="form-control" />
-                <span asp-validation-for="idCollection" class="text-danger"></span>
-            </div>
-            
-            <div class="form-group">
-                <label asp-for="nameCollection" class="control-label">Tên Bộ sưu tập</label>
-                <input asp-for="nameCollection" class="form-control" />
-                <span asp-validation-for="nameCollection" class="text-danger"></span>
-            </div>
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <div class="form-group">
-                <label asp-for="descriptionCollection" class="control-label">Mô tả</label>
-                <textarea asp-for="descriptionCollection" class="form-control" rows="3"></textarea>
-                <span asp-validation-for="descriptionCollection" class="text-danger"></span>
-            </div>
+                <div class="form-group mb-3">
+                    <label asp-for="idCollection" class="control-label fw-bold">ID Bộ sưu tập (ví dụ: BST-001)</label>
+                    <input asp-for="idCollection" class="form-control" placeholder="Nhập mã bộ sưu tập..." />
+                    <span asp-validation-for="idCollection" class="text-danger"></span>
+                </div>
 
-            <div class="form-group">
-                <label asp-for="imageCollection" class="control-label">Đường dẫn ảnh (Image URL)</label>
-                <input asp-for="imageCollection" class="form-control" />
-                <span asp-validation-for="imageCollection" class="text-danger"></span>
-            </div>
+                <div class="form-group mb-3">
+                    <label asp-for="nameCollection" class="control-label fw-bold">Tên Bộ sưu tập</label>
+                    <input asp-for="nameCollection" class="form-control" placeholder="Nhập tên bộ sưu tập..." />
+                    <span asp-validation-for="nameCollection" class="text-danger"></span>
+                </div>
 
-            <div class="form-group mt-3">
-                <input type="submit" value="Tạo mới" class="btn btn-primary" />
-            </div>
-        </form>
+                <div class="form-group mb-3">
+                    <label asp-for="descriptionCollection" class="control-label fw-bold">Mô tả</label>
+                    <textarea asp-for="descriptionCollection" class="form-control" rows="3" placeholder="Mô tả chi tiết về bộ sưu tập này..."></textarea>
+                    <span asp-validation-for="descriptionCollection" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="imageCollection" class="control-label fw-bold">Đường dẫn ảnh (Image URL)</label>
+                    <input asp-for="imageCollection" class="form-control" placeholder="https://..." />
+                    <span asp-validation-for="imageCollection" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4">
+                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div class="mt-2">
-    <a asp-action="Index" class="btn btn-primary">Quay lại danh sách</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
