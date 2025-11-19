@@ -6,23 +6,33 @@ using Website.Services;
 namespace Website.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin")] 
+    [Authorize(Roles = "Admin")]
     [Route("Admin/Card")]
     public class CardController : Controller
     {
+        // Khai báo thêm các Service cần thiết
         private readonly CardService _cardService;
+        private readonly UserService _userService;     // Cần để xóa tài khoản
+        private readonly MemberService _memberService; // Cần để tìm mối liên kết
 
-        public CardController(CardService cardService)
+        // Inject các Service vào Constructor
+        public CardController(
+            CardService cardService,
+            UserService userService,
+            MemberService memberService)
         {
             _cardService = cardService;
+            _userService = userService;
+            _memberService = memberService;
         }
 
         // GET: Admin/Card
+        // SỬA: Đổi tên hàm từ Card -> Index để khớp với RedirectToAction
         [Route("")]
         [Route("Index")]
         public async Task<IActionResult> Card(string search)
         {
-            search ??= ""; // Xử lý nếu search null
+            search ??= "";
             ViewData["CurrentSearch"] = search;
 
             var cards = await _cardService.SearchCard(search);
@@ -36,7 +46,8 @@ namespace Website.Areas.Admin.Controllers
             var newCard = new Card
             {
                 idCard = _cardService.GenerateCardID(),
-                dateCard = DateOnly.FromDateTime(DateTime.Now)
+                dateCard = DateOnly.FromDateTime(DateTime.Now),
+                statusCard = "CREATED"
             };
             return View(newCard);
         }
@@ -47,6 +58,14 @@ namespace Website.Areas.Admin.Controllers
         [Route("Create")]
         public async Task<IActionResult> Create(Card card)
         {
+            if (string.IsNullOrEmpty(card.statusCard)) card.statusCard = "CREATED";
+            if (card.dateCard == default) card.dateCard = DateOnly.FromDateTime(DateTime.Now);
+            if (string.IsNullOrEmpty(card.idCard)) card.idCard = _cardService.GenerateCardID();
+
+            ModelState.Remove(nameof(card.idCard));
+            ModelState.Remove(nameof(card.statusCard));
+            ModelState.Remove(nameof(card.dateCard));
+
             if (ModelState.IsValid)
             {
                 try
@@ -57,7 +76,7 @@ namespace Website.Areas.Admin.Controllers
                 }
                 catch (Exception ex)
                 {
-                    ModelState.AddModelError("", "Lỗi khi thêm thẻ (Check ID hoặc SQL): " + ex.Message);
+                    ModelState.AddModelError("", "Lỗi khi thêm thẻ: " + ex.Message);
                 }
             }
             return View(card);
@@ -68,10 +87,8 @@ namespace Website.Areas.Admin.Controllers
         public async Task<IActionResult> Edit(string id)
         {
             if (string.IsNullOrEmpty(id)) return NotFound();
-
             var card = await _cardService.GetCardByIdAsync(id);
             if (card == null) return NotFound();
-
             return View(card);
         }
 
@@ -82,6 +99,7 @@ namespace Website.Areas.Admin.Controllers
         public async Task<IActionResult> Edit(string id, Card card)
         {
             if (id != card.idCard) return NotFound();
+            ModelState.Remove(nameof(card.idCard));
 
             if (ModelState.IsValid)
             {
@@ -104,14 +122,13 @@ namespace Website.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(string id)
         {
             if (string.IsNullOrEmpty(id)) return NotFound();
-
             var card = await _cardService.GetCardByIdAsync(id);
             if (card == null) return NotFound();
-
             return View(card);
         }
 
         // POST: Admin/Card/Delete/5
+        // --- LOGIC QUAN TRỌNG Ở ĐÂY ---
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         [Route("Delete/{id}")]
@@ -119,12 +136,29 @@ namespace Website.Areas.Admin.Controllers
         {
             try
             {
+                // BƯỚC 1: Tìm xem thẻ này có đang liên kết với User nào không?
+                // (Dùng SearchMember để tìm trong bảng DOCGIA)
+                var members = await _memberService.SearchMember(id);
+
+                // Lọc chính xác ID (vì SearchMember có thể tìm gần đúng kiểu LIKE)
+                var linkedMember = members.FirstOrDefault(m => m.idCard == id);
+
+                // BƯỚC 2: Nếu tìm thấy -> Xóa User trước
+                if (linkedMember != null)
+                {
+                    // Khi xóa User, DB thường sẽ tự xóa dòng trong bảng Member (Cascade Delete)
+                    // Hoặc UserService.DeleteUser đã xử lý việc dọn dẹp.
+                    await _userService.DeleteUser(linkedMember.idUser);
+                }
+
+                // BƯỚC 3: Xóa thẻ (Dù có User hay không thì cuối cùng cũng xóa thẻ)
                 await _cardService.DeleteCard(id);
-                TempData["Success"] = "Xóa thẻ thành công";
+
+                TempData["Success"] = "Đã xóa thẻ và tài khoản liên kết (nếu có).";
             }
             catch (Exception ex)
             {
-                TempData["Error"] = "Lỗi khi xóa thẻ: " + ex.Message;
+                TempData["Error"] = "Lỗi khi xóa dữ liệu: " + ex.Message;
             }
             return RedirectToAction(nameof(Index));
         }
