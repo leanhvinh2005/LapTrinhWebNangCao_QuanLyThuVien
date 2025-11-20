@@ -1,15 +1,15 @@
-﻿@model Website.Models.ViewModels.CartListViewModel
+﻿@using Website.Areas.User.Views.Components.Blazor
 @{
     ViewBag.Title = "Cart";
     Layout = "~/Views/Shared/Master.cshtml";
 }
+<link rel="stylesheet" href="~/CSS/User/Views/Cart.css" />
+<link rel="stylesheet" href="~/CSS/User/Components/CartItem.css" />
 
-<main>
-    @foreach (var item in Model.Books)
-    {
-        <div>
-            @await Component.InvokeAsync("CartItem", new { book = item })
-        </div>
-    }
+<main class="main_cart">
+    <p>Giỏ hàng của bạn</p>
+    <div class="cartcontainer">
+        @(await Html.RenderComponentAsync<CartList>(RenderMode.Server))
+    </div>
 </main>
 

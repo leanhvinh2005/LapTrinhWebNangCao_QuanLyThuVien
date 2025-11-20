@@ -1,0 +1,54 @@
+﻿@model Website.Models.Borrow
+
+@{
+    ViewData["Title"] = "Cập nhật phiếu mượn";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
+}
+
+<h1>Cập nhật phiếu mượn #@Model.idBorrow</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="idBorrow" />
+
+            <div class="form-group mb-3">
+                <label asp-for="idCard" class="control-label">Mã thẻ độc giả</label>
+                <input asp-for="idCard" class="form-control" readonly /> <span asp-validation-for="idCard" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="idLibrarian" class="control-label">Mã thủ thư</label>
+                <input asp-for="idLibrarian" class="form-control" />
+                <span asp-validation-for="idLibrarian" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="dateBorrow" class="control-label">Ngày mượn</label>
+                <input asp-for="dateBorrow" type="date" class="form-control" />
+                <span asp-validation-for="dateBorrow" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="statusBorrow" class="control-label">Trạng thái</label>
+                <select asp-for="statusBorrow" class="form-control">
+                    <option value="Dang muon">Đang mượn</option>
+                    <option value="Da tra">Đã trả</option>
+                    <option value="Qua han">Quá hạn</option>
+                </select>
+                <span asp-validation-for="statusBorrow" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+            </div>
+        </form>
+    </div>
+</div>

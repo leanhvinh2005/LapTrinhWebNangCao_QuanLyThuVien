@@ -1,7 +1,8 @@
-﻿@model Website.Models.ViewModels.CartListViewModel
+﻿@using Website.Views.Shared.Components.Blazor
 @using System.Security.Claims
 
 <link rel="stylesheet" href="~/CSS/Shared/Navbar/User.css" />
+<link rel="stylesheet" href="~/CSS/Shared/DisplayNumber.css" />
 
 <nav class="navbar">
     <div class="left_navbar">
@@ -33,10 +34,7 @@
             </a>
         </div>
         <div class="buttonlink">
-            @if (Model.Books.Count > 0)
-            {
-                @await Component.InvokeAsync("DisplayNumber", new { count = Model.Books.Count })
-            }
+            @(await Html.RenderComponentAsync<DisplayNumber>(RenderMode.Server))
             <a asp-area="User" asp-controller="Cart" asp-action="Cart" class="buttonlink_link2">
                 <img src="~/Images/Navbar/Cart.png" alt="Cart" />
             </a>

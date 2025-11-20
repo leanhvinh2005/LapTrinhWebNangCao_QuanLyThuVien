@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using Website.Areas.User.Models
+@using Website.Models
+@using Website.Models.ViewModels
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Web;
+@using Website.Services
+@inject NavigationManager Nav
+@inject BorrowService BorrowService
+
+@foreach (var item in BookshelfItems)
+{
+    <div class="cardcontainer_bookshelf">
+    <a href="#" class="booklink_bookshelf">
+        <img src="@($"{Nav.BaseUri}{item.Book.imageBook.TrimStart('~', '/')}")" alt="bookimage" />
+    </a>
+    <div class="bottomcard_bookshelf">
+        <h1>@item.Book.nameBook</h1>
+        <h2>@item.Book.authorBook</h2>
+        <button @onclick="() => ReturnBook(item.BookBorrow.idBorrow, item.BookBorrow.idBook)" class="returnbutton">Trả sách</button>
+    </div>
+</div>
+}
+
+@code {
+    [Parameter]
+    public List<BookshelfItem> BookshelfItems { get; set; } = new();
+
+    private async Task ReturnBook(int idborrow, string idbook)
+    {
+        await BorrowService.EditBookBorrow(idborrow, idbook, "COMPLETE");
+
+        BookshelfItems.RemoveAll(b => b.BookBorrow.idBook == idbook);
+    }
+}

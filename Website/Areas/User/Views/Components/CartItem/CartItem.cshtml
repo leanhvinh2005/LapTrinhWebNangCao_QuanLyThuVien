@@ -1,13 +1,19 @@
 ﻿@model Website.Models.Book
 <link rel="stylesheet" href="~/CSS/User/Components/CartItem.css" />
 
-<div class="cardcontainer">
-    <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
-    <h1>@Model.nameBook</h1>
-    <h2>@Model.authorBook</h2>
-    <form action="/Cart/Remove" method="post">
-        <input type="hidden" name="idbook" value="@Model.idBook" />
-        <button>Remove from Cart</button>
-    </form>
+<div class="cartitemcontainer">
+    <div class="cartitem_left">
+        <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
+    </div>
+    <div class="cartitem_middle">
+        <div>
+            <h1>@Model.nameBook <span>@Model.idBook</span></h1>
+            <h2>@Model.authorBook</h2>
+        </div>
+        <h3>Thời gian mượn: 21 ngày</h3>
+    </div>
+    <div class="cartitem_right">
+        <input type="checkbox" name="selectedIDs" value="@Model.idBook" class="cartitem_checkbox" />
+    </div>
 </div>
 

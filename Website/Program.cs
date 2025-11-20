@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing.Text;
+using System.Text.Json;
+using Website.Areas.User.Controllers;
 using Website.Data;
 using Website.Models;
 using Website.Models.ViewModels;
@@ -30,6 +32,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<BookService>();
 builder.Services.AddScoped<BorrowService>();
 builder.Services.AddScoped<CardService>();
+builder.Services.AddScoped<CartService>(); 
 builder.Services.AddScoped<ChapterService>();
 builder.Services.AddScoped<CollectionService>();
 builder.Services.AddScoped<LibrarianService>();
@@ -60,6 +63,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
     });
 
+builder.Services.AddHttpClient();
+builder.Services.AddServerSideBlazor();
+builder.Services.AddRazorComponents()
+    .AddInteractiveServerComponents();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -83,6 +91,10 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();
+
+app.MapControllers();
+
+app.MapBlazorHub();
 
 app.MapControllerRoute(
     name: "Admin",

@@ -1,0 +1,68 @@
+﻿body {
+    margin: 0;
+}
+
+.cardcontainer_bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    min-width: 0;
+    width: 200px;
+}
+
+    .cardcontainer_bookshelf:hover {
+        transform: scale(1.1);
+        box-shadow: 16px 16px #B13DD6;
+        transition: 0.2s ease;
+    }
+
+    .booklink_bookshelf img {
+        width: 200px;
+        height: auto;
+        object-fit: contain;
+        cursor: pointer;
+    }
+
+    .bottomcard_bookshelf {
+        border: 2px solid white;
+        border-radius: 0 0 12px 12px;
+        background-color: white;
+        width: 200px;
+        padding-bottom: 6px;
+        text-align: center;
+    }
+
+        .bottomcard_bookshelf h1 {
+            font-size: 18px;
+            font-family: Raleway;
+            color: #1C1C1C;
+            cursor: pointer;
+        }
+
+        .bottomcard_bookshelf h1 {
+            font-size: 15px;
+            font-family: Raleway;
+            color: #D9D9D9;
+            cursor: pointer;
+        }
+
+        .returnbutton {
+            border: 2px solid lightgrey;
+            border-radius: 12px;
+            height: 35px;
+            width: 120px;
+            color: #1C1C1C;
+            background-color: lightgrey;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+            .returnbutton:hover {
+                border: 2px solid #1AC09B;
+                color: white;
+                background-color: #1AC09B;
+                transition: 0.2s;
+            }

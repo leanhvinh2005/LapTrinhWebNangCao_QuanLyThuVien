@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Website.Models.Card>
+
+@{
+    ViewData["Title"] = "Quản lý Thẻ thư viện";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Danh sách Thẻ thư viện</h1>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="fa fa-plus"></i> Tạo thẻ mới
+            </a>
+        </div>
+        <div class="col-md-6">
+            <form asp-action="Index" method="get" class="d-flex justify-content-end">
+                <div class="input-group" style="max-width: 400px;">
+                    <input type="text" name="search" class="form-control" placeholder="Tìm tên hoặc mã thẻ..." value="@ViewData["CurrentSearch"]" />
+                    <button type="submit" class="btn btn-primary">Tìm</button>
+                    <a asp-action="Index" class="btn btn-secondary">Reset</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã thẻ</th>
+                <th>Tên chủ thẻ</th>
+                <th>Email</th>
+                <th>Điện thoại</th>
+                <th>Ngày tạo</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.idCard</td>
+                    <td>@item.nameCard</td>
+                    <td>@item.emailCard</td>
+                    <td>@item.phoneCard</td>
+                    <td>@item.dateCard.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        @if (item.statusCard == "Active" || item.statusCard == "Hoat dong")
+                        {
+                            <span class="badge bg-success">Hoạt động</span>
+                        }
+                        else if (item.statusCard == "Locked" || item.statusCard == "Khoa")
+                        {
+                            <span class="badge bg-danger">Đã khóa</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">@item.statusCard</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.idCard" class="btn btn-sm btn-warning">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.idCard" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

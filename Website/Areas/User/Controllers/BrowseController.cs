@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using System.Drawing.Printing;
 using System.Threading.Tasks;
+using Website.Areas.User.Models;
 using Website.Data;
 using Website.Models;
 using Website.Models.ViewModels;
@@ -26,12 +27,11 @@ namespace Website.Areas.User.Controllers
         [Route("/Browse")]
         public async Task<IActionResult> Browse(int currentpage = 1)
         {
-
-            var books = await _bookService.GetAllBooks();
+            var books = await _bookService.GetAllBooksUnique();
 
             var skipbooks = books.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
 
-            BookListViewModel bookList = new BookListViewModel
+            BookList bookList = new BookList
             {
                 Books = skipbooks,
                 PagingInfo = new PagingInfo
@@ -49,11 +49,11 @@ namespace Website.Areas.User.Controllers
         [HttpPost("/Browse/Search")]
         public async Task<IActionResult> Search(string search, int currentpage = 1)
         {
-            var books = await _bookService.SearchBook(search);
+            var books = await _bookService.SearchBookUser(search);
 
             var skipbooks = books.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
 
-            BookListViewModel bookList = new BookListViewModel
+            BookList bookList = new BookList
             {
                 Books = skipbooks,
                 PagingInfo = new PagingInfo
@@ -75,7 +75,7 @@ namespace Website.Areas.User.Controllers
 
             var skipbooks = books.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
 
-            BookListViewModel bookList = new BookListViewModel
+            BookList bookList = new BookList
             {
                 Books = skipbooks,
                 PagingInfo = new PagingInfo

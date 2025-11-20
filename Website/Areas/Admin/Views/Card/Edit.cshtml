@@ -1,0 +1,79 @@
+﻿@model Website.Models.Card
+
+@{
+    ViewData["Title"] = "Chỉnh sửa thẻ thư viện";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Chỉnh sửa thẻ thư viện #@Model.idCard</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <input type="hidden" asp-for="idCard" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="idCard" class="control-label fw-bold">Mã thẻ</label>
+                    <input asp-for="idCard" class="form-control" readonly style="background-color: #e9ecef;" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="nameCard" class="control-label fw-bold">Tên chủ thẻ</label>
+                    <input asp-for="nameCard" class="form-control" />
+                    <span asp-validation-for="nameCard" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="emailCard" class="control-label fw-bold">Email</label>
+                    <input asp-for="emailCard" class="form-control" type="email" />
+                    <span asp-validation-for="emailCard" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="addressCard" class="control-label fw-bold">Địa chỉ</label>
+                    <input asp-for="addressCard" class="form-control" />
+                    <span asp-validation-for="addressCard" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="phoneCard" class="control-label fw-bold">Điện thoại</label>
+                    <input asp-for="phoneCard" class="form-control" />
+                    <span asp-validation-for="phoneCard" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="dateCard" class="control-label fw-bold">Ngày tạo</label>
+                    <input asp-for="dateCard" class="form-control" type="date" />
+                    <span asp-validation-for="dateCard" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="statusCard" class="control-label fw-bold">Trạng thái</label>
+                    <select asp-for="statusCard" class="form-control">
+                        <option value="Hoat dong">Hoạt động (Active)</option>
+                        <option value="Khoa">Đã khóa (Locked)</option>
+                    </select>
+                    <span asp-validation-for="statusCard" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

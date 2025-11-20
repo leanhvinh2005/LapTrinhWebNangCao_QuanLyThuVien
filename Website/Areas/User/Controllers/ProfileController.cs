@@ -14,16 +14,10 @@ namespace Website.Areas.User.Controllers
     public class ProfileController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserService _userService;
-        private readonly CardService _cardService;
-        private readonly MemberService _memberService;
 
-        public ProfileController(ApplicationDbContext context, UserService userService, CardService cardService, MemberService memberService)
+        public ProfileController(ApplicationDbContext context)
         {
             _context = context;
-            _userService = userService;
-            _cardService = cardService;
-            _memberService = memberService;
         }
 
         [Route("/Profile")]

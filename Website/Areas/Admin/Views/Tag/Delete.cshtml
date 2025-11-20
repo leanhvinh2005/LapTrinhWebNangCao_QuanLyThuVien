@@ -1,0 +1,50 @@
+﻿@model Website.Models.Tag
+
+@{
+    ViewData["Title"] = "Xóa Tag";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<h1>Xóa Tag</h1>
+
+<h3 class="text-danger">Bạn có chắc chắn muốn xóa Tag này không?</h3>
+
+<div class="alert alert-warning">
+    Lưu ý: Hành động này không thể hoàn tác. Nếu Tag này đang được gắn cho sách, việc xóa có thể làm mất thông tin phân loại của sách.
+</div>
+
+<div>
+    <h4>Thông tin chi tiết:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            ID Tag
+        </dt>
+        <dd class="col-sm-9">
+            @Model.idTag
+        </dd>
+
+        <dt class="col-sm-3">
+            Tên Tag
+        </dt>
+        <dd class="col-sm-9">
+            @Model.nameTag
+        </dd>
+
+        <dt class="col-sm-3">
+            Loại
+        </dt>
+        <dd class="col-sm-9">
+            @Model.typeTag
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idTag" />
+        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

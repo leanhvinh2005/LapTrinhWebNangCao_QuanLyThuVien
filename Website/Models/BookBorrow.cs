@@ -6,9 +6,11 @@ namespace Website.Models
 {
     public class BookBorrow
     {
+        [Key]
         [Required]
         public int idBorrow { get; set; }
 
+        [Key]
         [Required]
         [StringLength(4, MinimumLength = 4)]
         public string idBook { get; set; }

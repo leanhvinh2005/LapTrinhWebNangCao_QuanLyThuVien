@@ -68,5 +68,12 @@ namespace Website.Services
                 .FromSqlRaw("EXEC SearchCollection @search", new SqlParameter("@search", search))
                 .ToListAsync();
         }
+
+        //HoangTienDat
+        public async Task<Collection?> GetCollectionByIdAsync(string id)
+        {
+            return await _context.SUUTAP
+        .FirstOrDefaultAsync(c => c.idCollection == id);
+        }
     }
 }

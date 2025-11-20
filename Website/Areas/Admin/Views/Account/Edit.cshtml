@@ -1,0 +1,51 @@
+﻿@model Website.Models.User
+
+@{
+    ViewData["Title"] = "Cập nhật tài khoản";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<h1>Cập nhật tài khoản #@Model.idUser</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="idUser" />
+
+            <div class="form-group mb-3">
+                <label asp-for="nameUser" class="control-label">Tên User</label>
+                <input asp-for="nameUser" class="form-control" />
+                <span asp-validation-for="nameUser" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="emailUser" class="control-label">Email</label>
+                <input asp-for="emailUser" class="form-control" />
+                <span asp-validation-for="emailUser" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="passwordUser" class="control-label">Mật khẩu mới (bỏ trống nếu không đổi)</label>
+                <input asp-for="passwordUser" class="form-control" type="password" value="" />
+                <span asp-validation-for="passwordUser" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -26,9 +26,9 @@ namespace Website.Services
 
             await _context.Database.ExecuteSqlRawAsync(
                 "EXEC AddBorrow @idborrow OUTPUT, @idcard, @idlibrarian",
-                new SqlParameter("@idborrow", 0),
+                idParam,
                 new SqlParameter("@idcard", borrow.idCard),
-                new SqlParameter("@idlibrarian", null)
+                new SqlParameter("@idlibrarian", DBNull.Value)
             );
 
             int id = (int)idParam.Value;
@@ -44,14 +44,12 @@ namespace Website.Services
             );
         }
 
-        public async Task EditBorrow(Borrow borrow)
+        public async Task EditBorrow(int idborrow, string status)
         {
             await _context.Database.ExecuteSqlRawAsync(
-                "EXEC EditBorrow @idborrow, @idcard, @idlibrarian, @status",
-                new SqlParameter("@idborrow", borrow.idBorrow),
-                new SqlParameter("@idcard", borrow.idCard),
-                new SqlParameter("@idlibrarian", borrow.idLibrarian),
-                new SqlParameter("@status", borrow.statusBorrow)
+                "EXEC EditBorrow @idborrow, @status",
+                new SqlParameter("@idborrow", idborrow),
+                new SqlParameter("@status", status)
             );
         }
 
@@ -71,6 +69,48 @@ namespace Website.Services
                 new SqlParameter("@idborrow", idborrow),
                 new SqlParameter("@idbook", idbook)
             );
+        }
+
+        public async Task EditBookBorrow(int idborrow, string idbook, string status)
+        {
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC EditBookBorrow @idborrow, @idbook, @status",
+                new SqlParameter("@idborrow", idborrow),
+                new SqlParameter("@idbook", idbook),
+                new SqlParameter("@status", status)
+            );
+
+            var borrows = await _context.JOIN_BOOKBORROW
+                .Where(j => j.idBorrow == idborrow)
+                .ToListAsync();
+
+            if (borrows.All(b => b.statusBookBorrow == "COMPLETE"))
+                await EditBorrow(idborrow, "COMPLETE");
+        }
+
+        //HoangTienDat
+        public async Task EditBorrowFull(Borrow borrow)
+        {
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC EditBorrow @idborrow, @idcard, @idlibrarian, @status",
+                new SqlParameter("@idborrow", borrow.idBorrow),
+                new SqlParameter("@idcard", borrow.idCard),
+                new SqlParameter("@idlibrarian", borrow.idLibrarian),
+                new SqlParameter("@status", borrow.statusBorrow)
+            );
+        }
+        public async Task<List<Borrow>> GetAllBorrowsAsync()
+        {
+
+            return await _context.MUONTRA
+
+                .OrderByDescending(b => b.dateBorrow)
+                .ToListAsync();
+        }
+        public async Task<Borrow?> GetBorrowByIdAsync(int id)
+        {
+            return await _context.MUONTRA
+                .FirstOrDefaultAsync(b => b.idBorrow == id);
         }
     }
 }

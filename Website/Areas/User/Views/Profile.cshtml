@@ -9,15 +9,21 @@
 <main class="main_profile">
     <div class="profilecontainer">
         <div class="profilepart1">
-            <img src="~/Images/Navbar/User.png" alt="User" />
-            <button>Thay đổi hình ảnh</button>
-            <form asp-action="Logout" asp-controller="Login" method="post">
-                @Html.AntiForgeryToken()
-                <button type="submit">Logout</button>
-            </form>
+            <div class="accountinfo">
+                <img src="~/Images/Navbar/User.png" alt="User" />
+                <h1>@User.FindFirstValue(ClaimTypes.Name)</h1>
+                <h2>@User.FindFirstValue(ClaimTypes.Email)</h2>
+            </div>
+            <div class="profilebuttons">
+                <button>Thay đổi hình ảnh</button>
+                <form asp-action="Logout" asp-controller="Login" method="post">
+                    @Html.AntiForgeryToken()
+                    <button type="submit">Logout</button>
+                </form>
+            </div>
         </div>
         <div class="profilepart2">
-            <h1>Thẻ thư viện</h1>
+            <h1>Thông tin thẻ thư viện</h1>
             <div class="infofield">
                 <h2>Họ tên:</h2>
                 <h3>@Model.Card.nameCard</h3>

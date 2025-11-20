@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -52,6 +52,8 @@ namespace Website.Areas.User.Controllers
                 card.emailCard,
                 "Card ID",
                 $"Your newly created card comes with the following ID: {card.idCard}");
+
+            TempData["Message"] = "Đăng ký thẻ thư viện thành công. Xin kiểm tra email để nhận ID";
 
             return RedirectToAction("Home", "Home");    
         }

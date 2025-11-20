@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Website.Models.ViewModels.UserListViewModel>
+
+@{
+    ViewData["Title"] = "Quản lý Tài khoản";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Danh sách tài khoản</h1>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="fa fa-plus"></i> Tạo tài khoản mới
+            </a>
+        </div>
+        <div class="col-md-6">
+            <form asp-action="Index" method="get" class="d-flex justify-content-end">
+                <div class="input-group" style="max-width: 400px;">
+                    <input type="text" name="search" class="form-control" placeholder="Tìm tên hoặc email..." value="@ViewData["CurrentSearch"]" />
+                    <button type="submit" class="btn btn-primary">Tìm</button>
+                    <a asp-action="Index" class="btn btn-secondary">Reset</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID User</th>
+                <th>Tên hiển thị</th>
+                <th>Email</th>
+                <th>Vai trò (Role)</th>
+                <th>ID Chi tiết (Thẻ/Thủ thư)</th>
+                <th>Thao Tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.IdUser</td>
+                    <td>@item.NameUser</td>
+                    <td>@item.EmailUser</td>
+
+                    <td>
+                        @if (item.RoleName.Contains("Admin"))
+                        {
+                            <span class="badge bg-danger">@item.RoleName</span>
+                        }
+                        else if (item.RoleName.Contains("Thủ thư"))
+                        {
+                            <span class="badge bg-info text-dark">@item.RoleName</span>
+                        }
+                        else if (item.RoleName.Contains("Độc giả"))
+                        {
+                            <span class="badge bg-secondary">@item.RoleName</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">@item.RoleName</span>
+                        }
+                    </td>
+
+                    <td>
+                        <span class="fw-bold text-primary">@item.RoleSpecificId</span>
+                    </td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.IdUser" class="btn btn-sm btn-warning">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.IdUser" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,50 @@
+﻿@model Website.Models.User
+
+@{
+    ViewData["Title"] = "Xóa tài khoản";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<h1>Xóa tài khoản</h1>
+
+<h3 class="text-danger">Bạn có chắc chắn muốn xóa tài khoản này không?</h3>
+
+<div class="alert alert-warning">
+    Lưu ý: Hành động này không thể hoàn tác. Nếu tài khoản này đang liên kết với Thẻ thư viện hoặc dữ liệu Thủ thư, việc xóa có thể gây lỗi dữ liệu.
+</div>
+
+<div>
+    <h4>Thông tin chi tiết:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            ID Tài khoản
+        </dt>
+        <dd class="col-sm-9">
+            @Model.idUser
+        </dd>
+
+        <dt class="col-sm-3">
+            Tên người dùng
+        </dt>
+        <dd class="col-sm-9">
+            @Model.nameUser
+        </dd>
+
+        <dt class="col-sm-3">
+            Email
+        </dt>
+        <dd class="col-sm-9">
+            @Model.emailUser
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idUser" />
+        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

@@ -32,7 +32,7 @@ namespace Website.Models
         [NotMapped]
         public Librarian? librarinBorrow { get; set; }
 
-        [NotMapped]
-        public List<BookBorrow> bookborrows { get; set; } = new(); //List sách trong phiếu mượn và chi tiết từng sách như thế nào
+        //[NotMapped]
+        //public List<BookBorrow> bookborrows { get; set; } = new(); 
     }
 }

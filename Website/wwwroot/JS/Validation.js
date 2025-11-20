@@ -34,11 +34,11 @@
             formBackground.style.backgroundColor = "#1AC09B";
         } else {
             submitButton.disabled = true;
-            submitButton.style.backgroundColor = "lightgrey";
+            submitButton.style.backgroundColor = "#E6E6E6";
             submitButton.style.color = "#1C1C1C";
-            submitButton.style.borderColor = "lightgrey";
+            submitButton.style.borderColor = "#E6E6E6";
             submitButton.style.cursor = "not-allowed";
-            formBackground.style.backgroundColor = "lightgrey";
+            formBackground.style.backgroundColor = "#E6E6E6";
         }
     }
 

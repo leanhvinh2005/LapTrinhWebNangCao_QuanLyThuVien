@@ -1,0 +1,103 @@
+﻿@model Website.Models.ViewModels.UserCreationViewModel
+
+@{
+    ViewData["Title"] = "Tạo tài khoản mới";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1>Tạo tài khoản mới</h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="FullName" class="control-label fw-bold">Họ và Tên</label>
+                    <input asp-for="FullName" class="form-control" placeholder="Nhập họ tên người dùng" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="control-label fw-bold">Email</label>
+                    <input asp-for="Email" class="form-control" placeholder="example@email.com" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Password" class="control-label fw-bold">Mật khẩu</label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Role" class="control-label fw-bold">Vai trò hệ thống</label>
+                    <select asp-for="Role" class="form-control" id="roleSelect" onchange="toggleRoleInputs()">
+                        <option value="Member">Độc giả (Member)</option>
+                        <option value="Librarian">Thủ thư (Librarian)</option>
+                    </select>
+                </div>
+
+                <div id="memberSection" style="display:block;">
+                    <div class="form-group mb-3">
+                        <label asp-for="LibraryCardId" class="control-label fw-bold">Mã thẻ thư viện (Bắt buộc)</label>
+                        <input asp-for="LibraryCardId" class="form-control" placeholder="Nhập mã thẻ đã có" />
+                        <span asp-validation-for="LibraryCardId" class="text-danger"></span>
+                        <small class="text-muted fst-italic">* Mã thẻ phải tồn tại và chưa liên kết tài khoản.</small>
+                    </div>
+                </div>
+
+                <div id="librarianSection" style="display:none;">
+                    <div class="form-group mb-3">
+                        <label asp-for="JobTitle" class="control-label fw-bold">Chức vụ / Vị trí</label>
+                        <input asp-for="JobTitle" class="form-control" placeholder="VD: Quản lý kho" />
+                        <span asp-validation-for="JobTitle" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="HireDate" class="control-label fw-bold">Ngày vào làm</label>
+                        <input asp-for="HireDate" type="date" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                        <span asp-validation-for="HireDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Hàm xử lý ẩn hiện form dựa trên dropdown Role
+        function toggleRoleInputs() {
+            var role = document.getElementById("roleSelect").value;
+            var memberDiv = document.getElementById("memberSection");
+            var librarianDiv = document.getElementById("librarianSection");
+
+            if (role === "Member") {
+                memberDiv.style.display = "block";
+                librarianDiv.style.display = "none";
+            } else {
+                memberDiv.style.display = "none";
+                librarianDiv.style.display = "block";
+            }
+        }
+
+        // Chạy hàm này khi trang load xong để đảm bảo hiển thị đúng
+        document.addEventListener("DOMContentLoaded", function() {
+            toggleRoleInputs();
+        });
+    </script>
+}

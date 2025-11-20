@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -83,7 +83,9 @@ namespace Website.Areas.User.Controllers
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(claimsIdentity),
                 authProperties);
-            
+
+            TempData["Message"] = "Đăng nhập tài khoản thành công";
+
             if (role == "Admin")
                 return Redirect("/Dashboard");
             return RedirectToAction("Home", "Home");
@@ -96,6 +98,8 @@ namespace Website.Areas.User.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
             HttpContext.Session.Clear();
+
+            TempData["Message"] = "Đăng xuất tài khoản thành công";
 
             return RedirectToAction("Login", "Login");
         }

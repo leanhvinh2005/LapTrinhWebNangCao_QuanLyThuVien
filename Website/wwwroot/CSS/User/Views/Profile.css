@@ -2,17 +2,115 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #B13DD6;
+    background-color: white;
+    font-family: Raleway;
+    font-weight: 650;
+    color: #1C1C1C;
 }
 
-.profilecontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 12px;
-    height: 600px;
-    width: 700px;
-    margin: 50px 0;
-    background-color: white;
-}
+    .profilecontainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        height: 600px;
+        width: 1200px;
+        margin: 50px 0;
+        background-color: white;
+        box-shadow: 20px 20px #B13DD6;
+    }
+
+        .profilepart1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 12px 0 0 12px;
+            height: 600px;
+            width: 300px;
+            background-color: #1AC09B;
+        }
+
+            .accountinfo {
+                text-align: center;
+            }
+            
+                .accountinfo img {
+                    border: 2px solid white;
+                    border-radius: 100px;
+                    width: 120px;
+                    height: auto;
+                    background-color: white;
+                    padding: 15px;
+                }
+
+                .accountinfo h1 {
+                    font-size: 24px;
+                }
+
+                .accountinfo h2 {
+                    font-size: 17px;
+                }
+
+            .profilebuttons {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+                .profilebuttons button {
+                    border: 2px solid lightgrey;
+                    background-color: lightgrey;
+                    border-radius: 12px;
+                    height: 40px;
+                    width: 240px;
+                    color: #1C1C1C;
+                    font-size: 22px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+
+                .profilebuttons button:hover {
+                    border: 2px solid #B13DD6;
+                    background-color: #B13DD6;
+                    color: white;
+                    transition: 0.2s;
+                }
+
+        .profilepart2 {
+            display: flex;
+            flex-direction: column;
+            border-radius: 0 12px 12px 0;
+            height: 600px;
+            width: 900px;
+            background-color: #F0F0F0;
+        }
+
+            .profilepart2 h1 {
+                border-bottom: 4px solid #1C1C1C;
+                text-align: center;
+                margin: 18px 20px;
+                padding-bottom: 14px;
+            }
+
+            .infofield {
+                display: flex;
+                align-items: center;
+                margin-left: 15px;
+                gap: 12px;
+                height: 63px;
+            }
+
+                .infofield h2 {
+                    font-size: 20px;
+                }
+
+                .infofield h3 {
+                    display: flex;
+                    flex-grow: 1;
+                    font-size: 20px;
+                    padding: 8px;
+                    margin-right: 15px;
+                    background-color: white;
+                    color: #BABABA;
+                }

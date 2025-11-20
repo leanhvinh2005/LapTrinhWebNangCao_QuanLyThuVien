@@ -52,5 +52,9 @@ namespace Website.Models
 
         [NotMapped]
         public List<Chapter> chapters { get; set; } = new();
+
+        [NotMapped]
+        public bool IsSelected { get; set; }
+
     }
 }

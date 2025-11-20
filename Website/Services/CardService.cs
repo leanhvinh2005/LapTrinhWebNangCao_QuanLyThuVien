@@ -73,5 +73,12 @@ namespace Website.Services
 
             return firstChar + new string(rest);
         }
+
+        //HoangTienDat
+        public async Task<Card?> GetCardByIdAsync(string id)
+        {
+            return await _context.THETHUVIEN
+                .FirstOrDefaultAsync(c => c.idCard == id);
+        }
     }
 }

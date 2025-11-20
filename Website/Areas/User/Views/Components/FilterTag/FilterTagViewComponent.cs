@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using Website.Data;
 using Website.Models;
-using Website.Models.ViewModels;
+using Website.Areas.User.Models;
 
 namespace Website.Areas.User.Views.Components.FilterTag
 {

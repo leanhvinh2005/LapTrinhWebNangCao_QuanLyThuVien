@@ -1,0 +1,56 @@
+﻿@model Website.Models.Borrow
+
+@{
+    ViewData["Title"] = "Xóa phiếu mượn";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
+}
+
+<h1>Xóa phiếu mượn</h1>
+
+<h3 class="text-danger">Bạn có chắc chắn muốn xóa phiếu mượn này không?</h3>
+<div class="alert alert-warning">
+    Lưu ý: Xóa phiếu mượn có thể ảnh hưởng đến dữ liệu sách đang được mượn trong phiếu này.
+</div>
+
+<div>
+    <h4>Thông tin chi tiết:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            ID Phiếu mượn
+        </dt>
+        <dd class="col-sm-9">
+            @Model.idBorrow
+        </dd>
+
+        <dt class="col-sm-3">
+            Mã thẻ độc giả
+        </dt>
+        <dd class="col-sm-9">
+            @Model.idCard
+        </dd>
+
+        <dt class="col-sm-3">
+            Ngày mượn
+        </dt>
+        <dd class="col-sm-9">
+            @Model.dateBorrow.ToString("dd/MM/yyyy")
+        </dd>
+
+        <dt class="col-sm-3">
+            Trạng thái
+        </dt>
+        <dd class="col-sm-9">
+            @Model.statusBorrow
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idBorrow" />
+        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

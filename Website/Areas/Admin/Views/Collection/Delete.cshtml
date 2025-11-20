@@ -1,0 +1,50 @@
+﻿@model Website.Models.Collection
+
+@{
+    ViewData["Title"] = "Xóa Bộ sưu tập";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<h1>Xóa Bộ sưu tập</h1>
+
+<h3 class="text-danger">Bạn có chắc chắn muốn xóa Bộ sưu tập này không?</h3>
+
+<div class="alert alert-warning">
+    Lưu ý: Hành động này không thể hoàn tác. Nếu bộ sưu tập này đang chứa các tài liệu hoặc sách, việc xóa có thể gây mất liên kết dữ liệu.
+</div>
+
+<div>
+    <h4>Thông tin chi tiết:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            ID Bộ sưu tập
+        </dt>
+        <dd class="col-sm-9">
+            @Model.idCollection
+        </dd>
+
+        <dt class="col-sm-3">
+            Tên Bộ sưu tập
+        </dt>
+        <dd class="col-sm-9">
+            @Model.nameCollection
+        </dd>
+
+        <dt class="col-sm-3">
+            Mô tả
+        </dt>
+        <dd class="col-sm-9">
+            @Model.descriptionCollection
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idCollection" />
+        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

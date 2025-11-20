@@ -1,16 +1,34 @@
 ﻿@model Website.Models.Book
+@using System.Security.Claims
 @{
     ViewBag.Title = "BookDetail";
     Layout = "~/Views/Shared/Master.cshtml";
 }
+<link rel="stylesheet" href="~/CSS/User/Views/BookDetail.css" />
 
-<main>
+<main class="main_bookdetail">
     <div class="container_bookdetail">
         <div class="leftcontainer_bookdetail">
             <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
+            <div class="availableinfo">
+                <h1>Chưa mượn: @ViewData["Available"]</h1>
+                <h2>Đang mượn: @ViewData["Borrowing"]</h2>
+            </div>
+            @if (User.IsInRole("User"))
+            {
+                <form action="/Cart/Add" method="post">
+                    <input type="hidden" name="idbook" value="@Model.idBook" />
+                    <button class="addcartbutton">Add to Cart</button>
+                </form>
+            }
         </div>
         <div class="rightcontainer_bookdetail">
-
+            <div class="headerinfo">
+                <h1>@Model.nameBook <span>@Model.idBook</span></h1>
+                <h2>@Model.authorBook</h2>
+            </div>
+            <h3>@Html.Raw(Model.descriptionBook.Replace("\r\n", "<br/>"))</h3>
+            <h4>Xuất bản @Model.dateBook bởi @Model.publisherBook</h4>
         </div>
     </div>
 </main>

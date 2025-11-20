@@ -1,0 +1,65 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using Website.Models
+@using Website.Models.ViewModels
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Web;
+@using Website.Services.Other
+@inject NavigationManager Nav
+@inject CartService CartService
+
+@foreach (var item in Books)
+{
+    <div class="cartitemcontainer">
+        <div class="cartitem_left">
+            <img src="@($"{Nav.BaseUri}{item.imageBook.TrimStart('~', '/')}")" alt="bookimage" />
+        </div>
+        <div class="cartitem_middle">
+            <div>
+                <h1>@item.nameBook <span>@item.idBook</span></h1>
+                <h2>@item.authorBook</h2>
+            </div>
+            <h3>Thời gian mượn: 21 ngày</h3>
+        </div>
+        <div class="cartitem_right">
+            <input type="checkbox" @bind="@item.IsSelected" class="cartitem_checkbox" />
+        </div>
+    </div>
+}
+<div class="bottomcontainer">
+    <div class="cartinfo">
+        <h1>Số sách đang mượn: <span>0</span></h1>
+        <h2>Kệ sách: <span>0/20</span></h2>
+    </div>
+    <div class="cartbuttons">
+        <button @onclick="RemoveSelected" class="removebutton">Remove</button>
+        <button @onclick="BorrowSelected" class="borrowbutton">Borrow</button>
+    </div>
+</div>
+
+@code {
+    public List<Book> Books { get; set; } = new();
+
+    protected override void OnInitialized()
+    {
+        var cart = CartService.GetCart();
+        Books = cart.Books;
+    }
+
+    private void RemoveSelected()
+    {
+        var selectedBooks = Books.Where(b => b.IsSelected).Select(b => b.idBook).ToList();
+
+        CartService.RemoveFromCart(selectedBooks);
+
+        Books.RemoveAll(b => b.IsSelected);
+    }
+
+    private async Task BorrowSelected()
+    {
+        var selectedBooks = Books.Where(b => b.IsSelected).Select(b => b.idBook).ToList();
+
+        await CartService.BorrowBooks(selectedBooks);
+
+        Nav.NavigateTo("/", forceLoad: true);
+    }
+}

@@ -1,2 +1,172 @@
-﻿body {
+﻿.uppercontainer_bookshelf {
 }
+
+.lowercontainer_bookshelf {
+    margin: 16px 0;
+}
+
+    .title_bookshelf {
+        display: flex;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 15px 15px 0 0;
+        background-color: #1AC09B;
+        height: 60px;
+        width: 400px;
+        margin-left: 28px;
+        padding: 8px 16px;
+    }
+
+        .title_bookshelf h1 {
+            color: white;
+            font-family: Raleway;
+            font-size: 20px;
+            font-weight: 650;
+            line-height: 8px;
+            margin-top: 24px;
+        }
+
+        .title_bookshelf h2 {
+            color: lightgrey;
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+
+    .extracontainer_bookshelf {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 28px 0 28px;
+        padding: 6px 0;
+        border-top: 4px solid lightgrey;
+    }
+
+    .dropdown_bookshelf {
+        margin: 8px;
+    }
+
+        .dropdown_bookshelf:hover .dropcontent_bookshelf {
+            display: block;
+            transition: 0.2s;
+        }
+
+        .dropdown_bookshelf:hover .dropmenu_bookshelf {
+            border: 2px solid #1AC09B;
+            background-color: #1AC09B;
+            color: white;
+            transition: 0.2s;
+        }
+
+    .dropmenu_bookshelf {
+        border: 2px solid black;
+        border-radius: 20px;
+        height: 38px;
+        padding: 0 12px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .dropcontent_bookshelf {
+        display: none;
+        position: absolute;
+        background-color: ghostwhite;
+        min-width: 130px;
+    }
+
+        .dropcontent_bookshelf button {
+            display: block;
+            padding: 4px 6px;
+            padding: 8px;
+            text-decoration: none;
+            color: #1C1C1C;
+            font-size: 18px;
+            font-family: Raleway;
+            font-weight: 600;
+        }
+
+            .dropcontent_bookshelf button:hover {
+                background-color: #1AC09B;
+                color: white;
+                transition: 0.2s;
+            }
+
+    .catalogcontainer_bookshelf {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 80px 60px;
+        justify-items: center;
+        border: 2px solid white;
+        background-color: white;
+        padding: 6px 28px;
+    }
+
+    .pagenavigation_bookshelf {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        border-radius: 0 0 15px 15px;
+        background-color: white;
+    }
+
+        .arrowlink_bookshelf {
+            display: flex;
+        }
+
+            .arrowlink_bookshelf a:link, .arrowlink_bookshelf a:visited {
+                padding: 8px 10px;
+            }
+
+            .arrowlink_bookshelf:hover a:link, .arrowlink_bookshelf:hover a:visited {
+                background-color: #1C1C1C;
+                transition: 0.2s;
+            }
+
+            .arrowlink_bookshelf:hover .arrow {
+                border-color: white;
+                transition: 0.2s;
+            }
+
+        .arrow_bookshelf {
+            border: solid #1C1C1C;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .arrowleft_bookshelf {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .arrowright_bookshelf {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .pagelink_bookshelf {
+            display: flex;
+            border: 2px solid #1C1C1C;
+            margin: 1px;
+        }
+
+            .pagelink_bookshelf a:link, .pagelink_bookshelf a:visited {
+                padding: 8px 10px;
+                text-decoration: none;
+                color: #1C1C1C;
+                font-size: 15px;
+                font-family: Raleway;
+                font-weight: 550;
+            }
+
+            .pagelink_bookshelf:hover a:link, .pagelink_bookshelf:hover a:visited {
+                background-color: #1C1C1C;
+                color: white;
+                transition: 0.2s;
+            }

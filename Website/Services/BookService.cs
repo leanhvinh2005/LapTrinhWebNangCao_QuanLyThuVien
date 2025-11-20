@@ -19,6 +19,8 @@ namespace Website.Services
 
         public async Task AddBook(Book book)
         {
+            object noteBookValue = string.IsNullOrEmpty(book.noteBook) ? DBNull.Value : (object)book.noteBook;
+
             await _context.Database.ExecuteSqlRawAsync(
                 "EXEC AddBook @id, @name, @description, @author, @publisher, @date, @format, @note, @image",
                 new SqlParameter("@id", book.idBook),
@@ -28,7 +30,7 @@ namespace Website.Services
                 new SqlParameter("@publisher", book.publisherBook),
                 new SqlParameter("@date", book.dateBook),
                 new SqlParameter("@format", book.formatBook),
-                new SqlParameter("@note", book.noteBook),
+                new SqlParameter("@note", noteBookValue),
                 new SqlParameter("@image", book.imageBook)
             );
         }
@@ -65,6 +67,13 @@ namespace Website.Services
                 .ToListAsync();
         }
 
+        public async Task<List<Book>> SearchBookUser(string search)
+        {
+            return await _context.SACH
+                .FromSqlRaw("EXEC SearchBookUser @search", new SqlParameter("@search", search))
+                .ToListAsync();
+        }
+
         public async Task<List<Book>> FilterBook(List<int> tagids)
         {
             var table = new DataTable();
@@ -83,12 +92,41 @@ namespace Website.Services
                 .ToListAsync();
         }
 
-
         public async Task<List<Book>> GetAllBooks()
         {
             return await _context.SACH
                 .FromSqlRaw("SELECT * FROM SACH ORDER BY idBook")
                 .ToListAsync();
+        }
+
+        public async Task<List<Book>> GetAllBooksUnique()
+        {
+            return await _context.SACH
+                .GroupBy(x => x.idBook.Substring(0, 2))
+                .Select(g => g.OrderBy(x => x.idBook).First())
+                .ToListAsync();
+        }
+
+        public async Task<List<Book>> GetAllBooksMatch(string prefix, string? status)
+        {
+            if (status != null)
+            {
+                return await _context.SACH
+                    .Where(b => b.idBook.StartsWith(prefix))
+                    .Where(b => b.statusBook == status)
+                    .ToListAsync();
+            }
+
+            return await _context.SACH
+                .Where(b => b.idBook.StartsWith(prefix))
+                .ToListAsync();
+        }
+
+        //HoangTienDat
+        public async Task<Book?> GetBookById(string id)
+        {
+            return await _context.SACH
+                .FirstOrDefaultAsync(b => b.idBook == id);
         }
     }
 }

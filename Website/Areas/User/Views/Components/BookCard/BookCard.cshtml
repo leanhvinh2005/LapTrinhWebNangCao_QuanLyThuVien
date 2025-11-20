@@ -3,14 +3,14 @@
 <link rel="stylesheet" href="~/CSS/User/Components/BookCard.css" />
 
 <div class="cardcontainer">
-    <a asp-area="User" asp-controller="BookDetail" asp-action="BookDetail" asp-route-id="@Model" class="booklink1">
+    <a asp-area="User" asp-controller="BookDetail" asp-action="BookDetail" asp-route-idbook="@Model.idBook" class="booklink1">
         <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
     </a>
     <div class="bottomcard">
-        <a asp-area="User" asp-controller="BookDetail" asp-action="BookDetail" asp-route-id="@Model" class="booklink2">
+        <a asp-area="User" asp-controller="BookDetail" asp-action="BookDetail" asp-route-idbook="@Model.idBook" class="booklink2">
             <h1>@Model.nameBook</h1>
         </a>
-        <a asp-area="User" asp-controller="BookDetail" asp-action="BookDetail" asp-route-id="@Model" class="authorlink">
+        <a asp-area="User" asp-controller="BookDetail" asp-action="BookDetail" asp-route-idbook="@Model.idBook" class="authorlink">
             <h1>@Model.authorBook</h1>
         </a>
         @if (User.IsInRole("User"))

@@ -1,0 +1,64 @@
+﻿@model Website.Models.Book
+
+@{
+    ViewData["Title"] = "Xóa sách";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<h1>Xóa sách</h1>
+
+<h3 class="text-danger">Bạn có chắc chắn muốn xóa quyển sách này không?</h3>
+
+<div class="alert alert-warning">
+    Lưu ý: Hành động này không thể hoàn tác. Nếu sách này đang được mượn hoặc có trong các phiếu mượn cũ, việc xóa có thể gây lỗi dữ liệu.
+</div>
+
+<div>
+    <h4>Thông tin chi tiết:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            ID Sách
+        </dt>
+        <dd class="col-sm-9">
+            @Model.idBook
+        </dd>
+
+        <dt class="col-sm-3">
+            Tên sách
+        </dt>
+        <dd class="col-sm-9">
+            @Model.nameBook
+        </dd>
+
+        <dt class="col-sm-3">
+            Tác giả
+        </dt>
+        <dd class="col-sm-9">
+            @Model.authorBook
+        </dd>
+
+        <dt class="col-sm-3">
+            Nhà xuất bản
+        </dt>
+        <dd class="col-sm-9">
+            @Model.publisherBook
+        </dd>
+
+        <dt class="col-sm-3">
+            Trạng thái
+        </dt>
+        <dd class="col-sm-9">
+            @Model.statusBook
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idBook" />
+        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

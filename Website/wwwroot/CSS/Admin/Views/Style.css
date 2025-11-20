@@ -1,0 +1,137 @@
+﻿﻿
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+
+h2 {
+    color: #343a40; /* Màu chữ xám đậm */
+    border-bottom: 2px solid #007bff; /* Đường gạch chân màu xanh primary */
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+/* --- NÚT TẠO MỚI --- */
+
+.btn-create {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-decoration: none;
+    transition: all .15s ease-in-out;
+    margin-bottom: 15px; /* Thêm khoảng cách bên dưới */
+}
+
+    .btn-create:hover {
+        color: #fff;
+        background-color: #218838;
+        border-color: #1e7e34;
+        text-decoration: none;
+    }
+
+/* --- FORM TÌM KIẾM --- */
+.form-actions {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff; /* Nền trắng */
+    border: 1px solid #dee2e6; /* Viền xám nhạt */
+    border-radius: .25rem; /* Bo góc */
+    display: flex;
+    align-items: center; /* Căn giữa các mục theo chiều dọc */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+}
+
+    .form-actions p {
+        margin: 0; /* Bỏ margin mặc định của thẻ <p> */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap; /* Cho phép xuống hàng trên di động */
+    }
+
+    /* Ô input tìm kiếm */
+    .form-actions input[type="text"] {
+        display: inline-block;
+        width: auto;
+        min-width: 250px;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+        .form-actions input[type="text"]:focus {
+            color: #495057;
+            background-color: #fff;
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+        }
+
+    /* Link "Xem tất cả" */
+    .form-actions a {
+        display: inline-block;
+        font-weight: 400;
+        color: #fff;
+        background-color: #6c757d; /* Màu xám (secondary) */
+        border-color: #6c757d;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        text-decoration: none;
+        transition: all .15s ease-in-out;
+    }
+
+        .form-actions a:hover {
+            color: #fff;
+            background-color: #5a6268;
+            border-color: #545b62;
+            text-decoration: none;
+        }
+
+
+/* --- BẢNG DỮ LIỆU --- */
+.table {
+    background-color: #fff; /* Nền trắng cho bảng */
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Đổ bóng nhẹ */
+    border-radius: 8px; /* Bo góc bảng */
+    overflow: hidden; /* Giúp bo góc hoạt động cho các phần tử con */
+}
+
+    /* Tiêu đề bảng */
+    .table thead {
+        background-color: #007bff; /* Màu xanh primary */
+        color: white; /* Chữ trắng */
+    }
+
+    .table th {
+        border-top: none !important; /* Bỏ border-top mặc định */
+        border-bottom-width: 1px !important;
+        padding: 12px 15px;
+    }
+
+    .table td {
+        padding: 12px 15px;
+        vertical-align: middle; /* Căn giữa nội dung trong ô */
+    }
+
+    /* Hàng khi trỏ chuột vào */
+    .table tbody tr:hover {
+        background-color: #f1f1f1; /* Màu xám siêu nhạt */
+    }

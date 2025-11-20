@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Web;
-using Website.Models.ViewModels;
+using Website.Areas.User.Models;
 
 namespace Website.Views.Shared.Components.Navbar
 {
@@ -33,11 +33,11 @@ namespace Website.Views.Shared.Components.Navbar
                     var session = _httpContextAccessor.HttpContext.Session;
                     var cartJson = session.GetString("Cart");
 
-                    CartListViewModel cart;
+                    CartList cart;
                     if (string.IsNullOrEmpty(cartJson))
-                        cart = new CartListViewModel();
+                        cart = new CartList();
                     else
-                        cart = JsonConvert.DeserializeObject<CartListViewModel>(cartJson) ?? new CartListViewModel();
+                        cart = JsonConvert.DeserializeObject<CartList>(cartJson) ?? new CartList();
                     return View("User", cart);
                 }               
             }

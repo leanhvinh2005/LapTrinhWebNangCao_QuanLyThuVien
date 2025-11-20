@@ -1,16 +1,65 @@
-﻿@model Website.Models.ViewModels.BookshelfInfo
+﻿@using Website.Areas.User.Models
+@using Website.Areas.User.Views.Components.Blazor
+@model Website.Areas.User.Models.BookshelfList
 @{
     ViewBag.Title = "Bookshelf";
     Layout = "~/Views/Shared/Master.cshtml";
 }
 <link rel="stylesheet" href="~/CSS/User/Views/Bookshelf.css" />
+<link rel="stylesheet" href="~/CSS/User/Components/BookshelfCard.css" />
 
 <main>
     <div class="uppercontainer_bookshelf">
 
     </div>
     <div class="lowercontainer_bookshelf">
-        
+        <div class="title_bookshelf">
+            <div>
+                <h1>Danh mục sách</h1>
+                <h2>Vô số trải nghiệm nằm ngay trong tay</h2>
+            </div>
+        </div>
+        <div class="extracontainer_bookshelf">
+            <div class="dropdown_bookshelf">
+                <button type="button" class="dropmenu_bookshelf">View</button>
+                <div class="dropcontent_bookshelf">
+                    <button asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf">Đơn giản</button>
+                    <button asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf">Chi tiết</button>
+                </div>
+            </div>
+            <div class="dropdown_bookshelf">
+                <button type="button" class="dropmenu_bookshelf">Sort</button>
+                <div class="dropcontent_bookshelf">
+                    <button asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf">Top</button>
+                    <button asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf">Hot</button>
+                    <button asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf">Thứ tự chữ cái</button>
+                </div>
+            </div>
+        </div>
+        <div class="catalogcontainer_bookshelf">
+            @if (Model.BookshelfItems == null || Model.BookshelfItems.Count == 0)
+            {
+                <p>Không có sách đang mượn</p>
+            }
+            else
+            {
+                @(await Html.RenderComponentAsync<Website.Areas.User.Views.Components.Blazor.BookshelfList>(RenderMode.Server, new { BookshelfItems = Model.BookshelfItems }))
+            }
+        </div>
+        <div class="pagenavigation_bookshelf">
+            <div class="arrowlink_bookshelf">
+                <a asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf" asp-route-currentpage="@(Model.PagingInfo.CurrentPage - 1)"><i class="arrow_bookshelf arrowleft_bookshelf"></i></a>
+            </div>
+            @for (int i = 1; i <= Model.PagingInfo.TotalPage; i++)
+            {
+                <div class="pagelink_bookshelf">
+                    <a asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf" asp-route-currentpage="@i">@i</a>
+                </div>
+            }
+            <div class="arrowlink_bookshelf">
+                <a asp-area="User" asp-controller="Bookshelf" asp-action="Bookshelf" asp-route-currentpage="@(Model.PagingInfo.CurrentPage + 1)"><i class="arrow_bookshelf arrowright_bookshelf"></i></a>
+            </div>
+        </div>
     </div>
 </main>
 

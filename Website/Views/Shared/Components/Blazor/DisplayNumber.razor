@@ -1,0 +1,32 @@
+﻿@using Website.Services.Other
+@inject CartService CartService
+
+<div class="displaynumber">
+    @if (Number > 0)
+    {
+        <p>@Number</p>
+    }
+</div>
+
+@code {
+    public int Number { get; set; }
+
+    protected override void OnInitialized()
+    {
+        var cart = CartService.GetCart();
+        Number = cart.Books.Count;
+        CartService.OnChange += CartChanged;
+    }
+
+    private void CartChanged()
+    {
+        var cart = CartService.GetCart();
+        Number = cart.Books.Count;
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        CartService.OnChange -= CartChanged;
+    }
+}

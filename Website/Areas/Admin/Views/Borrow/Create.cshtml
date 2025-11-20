@@ -1,0 +1,57 @@
+﻿@model Website.Models.Borrow
+
+@{
+    ViewData["Title"] = "Tạo phiếu mượn";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS\Admin\Views\Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1>Tạo phiếu mượn mới</h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="idCard" class="control-label fw-bold">Mã thẻ độc giả</label>
+                    <select asp-for="idCard" class="form-control" asp-items="ViewBag.CardList">
+                        <option value="">-- Chọn thẻ --</option>
+                    </select>
+                    <span asp-validation-for="idCard" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="idLibrarian" class="control-label fw-bold">Mã thủ thư (Tùy chọn)</label>
+
+                    <input asp-for="idLibrarian" class="form-control" placeholder="Nhập mã nhân viên (ví dụ: 1, 2, NV01...)" />
+
+                    <span asp-validation-for="idLibrarian" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="dateBorrow" class="control-label fw-bold">Ngày mượn</label>
+                    <input asp-for="dateBorrow" type="date" class="form-control" />
+                    <span asp-validation-for="dateBorrow" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="statusBorrow" class="control-label fw-bold">Trạng thái</label>
+                    <select asp-for="statusBorrow" class="form-control">
+                        <option value="Dang muon">Đang mượn</option>
+                        <option value="Da tra">Đã trả</option>
+                        <option value="Qua han">Quá hạn</option>
+                    </select>
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

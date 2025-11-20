@@ -69,9 +69,9 @@
             cursor: pointer;
         }
 
-        .addcartbutton:hover {
-            border: 2px solid #1AC09B;
-            color: white;
-            background-color: #1AC09B;
-            transition: 0.2s;
-        }
+            .addcartbutton:hover {
+                border: 2px solid #1AC09B;
+                color: white;
+                background-color: #1AC09B;
+                transition: 0.2s;
+            }

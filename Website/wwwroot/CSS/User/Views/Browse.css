@@ -1,20 +1,5 @@
 ﻿.uppercontainer {
-    display: flex;
-    align-items: center;
-    background-color: #1AC09B;
-    height: 500px;
 }
-
-    .bannercontainer {
-        border-radius: 15px;
-        background-color: white;
-        height: 450px;
-        margin: 15px;
-    }
-
-        .bannerslide {
-
-        }
 
 .lowercontainer {
     margin: 16px 0;

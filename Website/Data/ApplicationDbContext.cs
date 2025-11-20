@@ -47,11 +47,11 @@ namespace Website.Data
             modelBuilder.Entity<BookBorrow>()
                 .HasKey(bb => new { bb.idBorrow, bb.idBook });
 
-            modelBuilder.Entity<Borrow>()
-               .HasMany(b => b.bookborrows)
-               .WithOne(bb => bb.borrow)
-               .HasForeignKey(bb => bb.idBorrow)
-               .IsRequired();
+            //modelBuilder.Entity<Borrow>()
+               //.HasMany(b => b.bookborrows)
+               //.WithOne(bb => bb.borrow)
+               //.HasForeignKey(bb => bb.idBorrow)
+               //.IsRequired();
 
             modelBuilder.Entity<Borrow>()
                 .HasOne(b => b.cardBorrow)

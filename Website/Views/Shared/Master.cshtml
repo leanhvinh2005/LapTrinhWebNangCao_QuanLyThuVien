@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>@ViewData["Title"] - Website</title>
         <link rel="stylesheet" href="~/CSS/Shared/Master.css" asp-append-version="true" />
+        <base href="~/" />
     </head>
     <body>
         <header>
@@ -20,5 +21,16 @@
         <footer>
             @await Component.InvokeAsync("Footer")
         </footer>
+
+        @if (TempData["Message"] != null)
+        {
+            <div id="popup" class="popup">
+                @TempData["Message"]
+            </div>
+
+            <script src="~/JS/PopupMessage.js"></script>
+        }
+
+        <script src="_framework/blazor.server.js"></script>
     </body>
 </html>
