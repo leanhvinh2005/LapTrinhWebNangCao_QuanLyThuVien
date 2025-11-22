@@ -91,6 +91,13 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();
+app.Use(async delegate (HttpContext Context, Func<Task> Next)
+{
+    var TempKey = Guid.NewGuid().ToString();
+    Context.Session.Set(TempKey, Array.Empty<byte>()); 
+    Context.Session.Remove(TempKey); 
+    await Next(); 
+});
 
 app.MapControllers();
 

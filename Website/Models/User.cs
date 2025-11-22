@@ -9,17 +9,17 @@ namespace Website.Models
         [Required]
         public int idUser { get; set; }
 
-        [Required(ErrorMessage = "Please enter username")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống username")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string nameUser { get; set; }
 
-        [Required(ErrorMessage = "Please enter email")]
-        [EmailAddress(ErrorMessage = "Invalid email")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống email")]
+        [EmailAddress(ErrorMessage = "Email không hợp lệ")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string emailUser { get; set; }
 
-        [Required(ErrorMessage = "Please enter password")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống mật khẩu")]
+        [StringLength(100, MinimumLength = 8, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string passwordUser { get; set; }
 
 

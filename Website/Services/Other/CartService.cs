@@ -86,8 +86,8 @@ namespace Website.Services.Other
 
         public CartList GetCart()
         {
-            var session = _httpContextAccessor.HttpContext.Session;
-            var cartJson = session.GetString(Session);
+            var session = _httpContextAccessor.HttpContext?.Session;
+            var cartJson = session?.GetString(Session);
 
             if (string.IsNullOrEmpty(cartJson))
                 return new CartList();

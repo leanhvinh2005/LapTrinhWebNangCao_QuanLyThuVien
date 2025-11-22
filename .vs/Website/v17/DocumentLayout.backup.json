@@ -3,76 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\Website2\\Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\user\\components\\bookcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\user\\components\\bookcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\book\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\book\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\admin\\views\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\admin\\views\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\admin\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\admin\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\admin\\views\\book.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\admin\\views\\book.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\components\\blazor\\booklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\components\\blazor\\booklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\components\\blazor\\bookshelflist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\components\\blazor\\bookshelflist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\services\\other\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\services\\other\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\bookshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\bookshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\user\\components\\bookshelfcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\user\\components\\bookshelfcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\wwwroot\\css\\user\\views\\bookshelf.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\css\\user\\views\\bookshelf.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\controllers\\bookshelfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\controllers\\bookshelfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\areas\\user\\views\\components\\blazor\\cartlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\areas\\user\\views\\components\\blazor\\cartlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|c:\\users\\pc\\desktop\\website2\\website\\website\\views\\shared\\components\\blazor\\displaynumber.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7410C0-D1DA-45F1-908D-8946076B97C8}|Website\\Website.csproj|solutionrelative:website\\views\\shared\\components\\blazor\\displaynumber.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,231 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Book.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Book.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T06:16:57.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T05:46:20.346Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Program.cs",
+              "RelativeDocumentMoniker": "Website\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Program.cs",
+              "RelativeToolTip": "Website\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T03:04:35.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAkwEkAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\Other\\CartService.cs",
+              "RelativeDocumentMoniker": "Website\\Services\\Other\\CartService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\Other\\CartService.cs",
+              "RelativeToolTip": "Website\\Services\\Other\\CartService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T05:35:58.426Z",
+              "WhenOpened": "2025-11-22T02:27:00.378Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Style.css",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "RelativeToolTip": "Website\\wwwroot\\CSS\\Admin\\Views\\Style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-20T05:04:00.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\UserService.cs",
-              "RelativeToolTip": "Website\\Services\\UserService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwEgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T04:45:20.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CollectionService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\CollectionService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\CollectionService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\CollectionService.cs",
-              "RelativeToolTip": "Website\\Services\\CollectionService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T04:44:20.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\BookService.cs",
-              "RelativeToolTip": "Website\\Services\\BookService.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAwwIAAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T04:42:29.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CardService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\CardService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\CardService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\CardService.cs",
-              "RelativeToolTip": "Website\\Services\\CardService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAuwE8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T04:43:31.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TagService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\TagService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\TagService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\TagService.cs",
-              "RelativeToolTip": "Website\\Services\\TagService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T04:44:56.444Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BorrowService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\BorrowService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\BorrowService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Services\\BorrowService.cs",
-              "RelativeToolTip": "Website\\Services\\BorrowService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA0wFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T06:41:14.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Book.css",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Admin\\Views\\Book.css",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\Admin\\Views\\Book.css",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\Admin\\Views\\Book.css",
-              "RelativeToolTip": "Website\\wwwroot\\CSS\\Admin\\Views\\Book.css",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAuwJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-20T05:03:19.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BorrowController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "RelativeToolTip": "Website\\Areas\\Admin\\Controllers\\BorrowController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAqwGAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T05:07:49.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Bookshelf.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Bookshelf.cshtml",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Bookshelf.cshtml",
               "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Bookshelf.cshtml",
               "RelativeToolTip": "Website\\Areas\\User\\Views\\Bookshelf.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwDAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T04:36:55.114Z"
+              "WhenOpened": "2025-11-21T14:15:58.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Bookshelf.css",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\User\\Views\\Bookshelf.css",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Views\\Bookshelf.css",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\User\\Views\\Bookshelf.css",
-              "RelativeToolTip": "Website\\wwwroot\\CSS\\User\\Views\\Bookshelf.css",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAuwIEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-19T05:23:45.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BookshelfCard.css",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\User\\Components\\BookshelfCard.css",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Components\\BookshelfCard.css",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\User\\Components\\BookshelfCard.css",
-              "RelativeToolTip": "Website\\wwwroot\\CSS\\User\\Components\\BookshelfCard.css",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-19T08:34:00.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "BookshelfList.razor",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\Blazor\\BookshelfList.razor",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\Blazor\\BookshelfList.razor",
               "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\Blazor\\BookshelfList.razor",
               "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\Blazor\\BookshelfList.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T04:34:47.723Z"
+              "WhenOpened": "2025-11-21T16:27:40.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BookshelfController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BookshelfController.cs",
-              "RelativeDocumentMoniker": "Website\\Areas\\User\\Controllers\\BookshelfController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Controllers\\BookshelfController.cs",
-              "RelativeToolTip": "Website\\Areas\\User\\Controllers\\BookshelfController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAiwC8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T04:36:44.312Z"
+              "DocumentIndex": 6,
+              "Title": "Browse.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Browse.cshtml",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Browse.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Browse.cshtml",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\Browse.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T16:21:55.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
+              "Title": "BookList.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\Blazor\\BookList.razor",
+              "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\Blazor\\BookList.razor",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\Blazor\\BookList.razor",
+              "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\Blazor\\BookList.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T14:15:24.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookCard.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\User\\Components\\BookCard.css",
+              "RelativeDocumentMoniker": "Website\\wwwroot\\CSS\\User\\Components\\BookCard.css",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\wwwroot\\CSS\\User\\Components\\BookCard.css",
+              "RelativeToolTip": "Website\\wwwroot\\CSS\\User\\Components\\BookCard.css",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwEIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-21T14:44:04.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DisplayNumber.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Blazor\\DisplayNumber.razor",
+              "RelativeDocumentMoniker": "Website\\Views\\Shared\\Components\\Blazor\\DisplayNumber.razor",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Views\\Shared\\Components\\Blazor\\DisplayNumber.razor",
+              "RelativeToolTip": "Website\\Views\\Shared\\Components\\Blazor\\DisplayNumber.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T16:05:35.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CartList.razor",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\Blazor\\CartList.razor",
               "RelativeDocumentMoniker": "Website\\Areas\\User\\Views\\Components\\Blazor\\CartList.razor",
               "ToolTip": "C:\\Users\\pc\\Desktop\\Website2\\Website\\Website\\Areas\\User\\Views\\Components\\Blazor\\CartList.razor",
               "RelativeToolTip": "Website\\Areas\\User\\Views\\Components\\Blazor\\CartList.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T08:31:49.989Z"
+              "WhenOpened": "2025-11-21T15:15:32.801Z",
+              "EditorCaption": ""
             }
           ]
         }

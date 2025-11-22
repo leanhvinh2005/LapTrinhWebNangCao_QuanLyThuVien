@@ -30,8 +30,8 @@ namespace Website.Views.Shared.Components.Navbar
                     return View("Admin");
                 else
                 {
-                    var session = _httpContextAccessor.HttpContext.Session;
-                    var cartJson = session.GetString("Cart");
+                    var session = _httpContextAccessor.HttpContext?.Session;
+                    var cartJson = session?.GetString("Cart");
 
                     CartList cart;
                     if (string.IsNullOrEmpty(cartJson))

@@ -7,28 +7,28 @@ namespace Website.Models
     public class Card
     {
         [Key]
-        [Required(ErrorMessage = "Please enter card ID")]
-        [StringLength(12, MinimumLength = 12, ErrorMessage = "Invalid card ID")]
-        public string idCard { get; set; } //Example: CA04B8AU91P. Mã random
+        [Required(ErrorMessage = "Không được để trống ID")]
+        [StringLength(12, MinimumLength = 12, ErrorMessage = "ID thẻ không hợp lệ (VD: CA04B8AU91P)")]
+        public string idCard { get; set; }
 
-        [Required(ErrorMessage = "Please enter full name")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống họ tên")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string nameCard { get; set; }
 
-        [Required(ErrorMessage = "Please enter email")]
+        [Required(ErrorMessage = "Không được để trống email")]
         [EmailAddress(ErrorMessage = "Invalid email")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string emailCard { get; set; }
 
-        [Required(ErrorMessage = "Please enter address")]
-        [StringLength(200, ErrorMessage = "Can't exceed 200 character limit")]
+        [Required(ErrorMessage = "Không được để trống địa chỉ")]
+        [StringLength(200, ErrorMessage = "Số ký tự không vượt quá 200")]
         public string addressCard { get; set; }
 
-        [Required(ErrorMessage = "Please enter phone number")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống số điện thoại")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string phoneCard { get; set; }
 
-        [Required(ErrorMessage = "Please enter date of birth")]
+        [Required(ErrorMessage = "Không được để trống ngày sinh")]
         [DataType(DataType.Date)]
         [BirthDate(16)]
         public DateOnly dateCard { get; set; }
@@ -42,7 +42,7 @@ namespace Website.Models
         public DateOnly expireCard { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string statusCard { get; set; }
 
 

@@ -1,10 +1,12 @@
 ﻿@using Website.Areas.User.Models
-@model BookList
+@using Website.Areas.User.Views.Components.Blazor
+@model Website.Areas.User.Models.BookList
 @{
     ViewBag.Title = "Browse";
     Layout = "~/Views/Shared/Master.cshtml";
 }
 <link rel="stylesheet" href="~/CSS/User/Views/Browse.css" />
+<link rel="stylesheet" href="~/CSS/User/Components/BookCard.css" />
 
 <main>
     <div class="uppercontainer">
@@ -45,12 +47,7 @@
             }
             else
             {
-                @foreach (var item in Model.Books)
-                {
-                    <div>
-                        @await Component.InvokeAsync("BookCard", new { book = item, count = "" })
-                    </div>
-                }
+                @(await Html.RenderComponentAsync<Website.Areas.User.Views.Components.Blazor.BookList>(RenderMode.Server, new { Books = Model.Books }))
             }
         </div>
         <div class="pagenavigation">

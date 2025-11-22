@@ -7,43 +7,44 @@ namespace Website.Models
     public class Book
     {
         [Key]
-        [Required(ErrorMessage = "Please enter book ID")]
-        [StringLength(4, MinimumLength = 4, ErrorMessage = "Invalid book ID")]
-        public string idBook { get; set; } //Example: CR01. Hai chữ đầu là tên sách, hai số cuối là bản copy thứ mấy
+        [Required(ErrorMessage = "Không được để trống ID")]
+        [StringLength(4, MinimumLength = 4, ErrorMessage = "ID sách không hợp lệ (VD: CL01)")]
+        [RegularExpression(@"^[A-Za-z]{2}.*[0-9]{2}$", ErrorMessage = "ID sách không hơp lệ (VD: CL01)")]
+        public string idBook { get; set; }
 
-        [Required(ErrorMessage = "Please enter name")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống tên sách")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string nameBook { get; set; }
 
-        [Required(ErrorMessage = "Please enter description")]
+        [Required(ErrorMessage = "Không được để trống mô tả sách")]
         public string descriptionBook { get; set; }
 
-        [Required(ErrorMessage = "Please enter author")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống tác giả")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string authorBook { get; set; }
 
-        [Required(ErrorMessage = "Please enter publisher")]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [Required(ErrorMessage = "Không được để trống nhà xuất bản")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string publisherBook { get; set; }
 
-        [Required(ErrorMessage = "Please enter date of publishing")]
+        [Required(ErrorMessage = "Không được để trống ngày xuất bản")]
         [DataType(DataType.Date)]
         [DateFuture]
         public DateOnly dateBook { get; set; }
 
-        [Required]
-        [StringLength(20, ErrorMessage = "Can't exceed 20 character limit")]
+        [Required(ErrorMessage = "Không được để trống format")]
+        [StringLength(20, ErrorMessage = "Số ký tự không vượt quá 20")]
         public string formatBook { get; set; }
 
-        [StringLength(200, ErrorMessage = "Can't exceed 200 character limit")]
+        [StringLength(200, ErrorMessage = "Số ký tự không vượt quá 200")]
         public string? noteBook { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Can't exceed 100 character limit")]
+        [StringLength(100, ErrorMessage = "Số ký tự không vượt quá 100")]
         public string statusBook { get; set; }
 
-        [Required(ErrorMessage = "Please enter image path")]
-        [StringLength(200, ErrorMessage = "Can't exceed 200 character limit")]
+        [Required(ErrorMessage = "Không được để trống path hình ảnh")]
+        [StringLength(200, ErrorMessage = "Số ký tự không vượt quá 200")]
         public string imageBook { get; set; }
 
 

@@ -8,12 +8,12 @@ namespace Website.Models
         [Required]
         public int idTag { get; set; }
 
-        [Required(ErrorMessage = "Please enter name")]
-        [StringLength(30, ErrorMessage = "Can't exceed 30 character limit")]
+        [Required(ErrorMessage = "Không được để trống tên")]
+        [StringLength(30, ErrorMessage = "Số ký tự không vượt quá 30")]
         public string nameTag { get; set; }
 
-        [Required(ErrorMessage = "Please enter type")]
-        [StringLength(30, ErrorMessage = "Can't exceed 30 character limit")]
+        [Required(ErrorMessage = "Không được để trống loại")]
+        [StringLength(30, ErrorMessage = "Số ký tự không vượt quá 30")]
         public string typeTag { get; set; }
     }
 }
