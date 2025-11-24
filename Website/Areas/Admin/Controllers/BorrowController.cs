@@ -24,7 +24,7 @@ namespace Website.Areas.Admin.Controllers
         // GET: Admin/Borrow
         [Route("")]
         [Route("Index")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Borrow()
         {
             var borrows = await _borrowService.GetAllBorrowsAsync();
             return View(borrows);

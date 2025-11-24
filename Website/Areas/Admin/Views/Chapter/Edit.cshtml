@@ -1,0 +1,69 @@
+﻿@model Website.Models.Chapter
+
+@{
+    ViewData["Title"] = "Chỉnh sửa Chương";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Chỉnh sửa Chương</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Danh sách Chương</a></li>
+        <li class="breadcrumb-item active">Chỉnh sửa</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-edit me-1"></i>
+            Cập nhật thông tin: <strong>@Model.titleChapter</strong>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="idChapter" class="control-label fw-bold">ID Chương</label>
+                            <input asp-for="idChapter" class="form-control" readonly style="background-color: #e9ecef;" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="numberChapter" class="control-label fw-bold">Số thứ tự chương/trang</label>
+                            <input asp-for="numberChapter" class="form-control" type="number" />
+                            <span asp-validation-for="numberChapter" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="titleChapter" class="control-label fw-bold">Tựa đề</label>
+                            <input asp-for="titleChapter" class="form-control" />
+                            <span asp-validation-for="titleChapter" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="contentChapter" class="control-label fw-bold">Nội dung</label>
+                            <textarea asp-for="contentChapter" class="form-control" rows="8"></textarea>
+                            <span asp-validation-for="contentChapter" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fa fa-save"></i> Cập nhật
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary ms-2">
+                                <i class="fa fa-arrow-left"></i> Quay lại
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,45 @@
+﻿@model Website.Models.Collection
+
+@{
+    ViewData["Title"] = "Xóa BST";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4 text-danger">Xác nhận xóa</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Danh sách BST</a></li>
+        <li class="breadcrumb-item active">Xóa</li>
+    </ol>
+
+    <div class="alert alert-warning">
+        <i class="fa fa-exclamation-triangle"></i> <strong>Cảnh báo:</strong> Hành động này không thể hoàn tác.
+    </div>
+
+    <div class="card mb-4 border-danger">
+        <div class="card-header bg-danger text-white">
+            <i class="fas fa-trash-alt me-1"></i> Thông tin BST cần xóa
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">ID:</dt>
+                <dd class="col-sm-9 fw-bold">@Model.idCollection</dd>
+
+                <dt class="col-sm-3">Tên BST:</dt>
+                <dd class="col-sm-9">@Model.nameCollection</dd>
+
+                <dt class="col-sm-3">Mô tả:</dt>
+                <dd class="col-sm-9">@Model.descriptionCollection</dd>
+            </dl>
+
+            <form asp-action="Delete" class="mt-4">
+                <input type="hidden" asp-for="idCollection" />
+                <button type="submit" class="btn btn-danger"><i class="fa fa-trash-alt"></i> Xóa vĩnh viễn</button>
+                <a asp-action="Index" class="btn btn-secondary ms-2"><i class="fa fa-times"></i> Hủy bỏ</a>
+            </form>
+        </div>
+    </div>
+</div>

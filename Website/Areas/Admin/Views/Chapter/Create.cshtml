@@ -1,0 +1,54 @@
+﻿@model Website.Models.Chapter
+
+@{
+    ViewData["Title"] = "Thêm Chương mới";
+     Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="idChapter" class="control-label">ID Chương (VD: CL001)</label>
+                <input asp-for="idChapter" class="form-control" />
+                <span asp-validation-for="idChapter" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="numberChapter" class="control-label">Số chương/trang</label>
+                <input asp-for="numberChapter" class="form-control" type="number" />
+                <span asp-validation-for="numberChapter" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="titleChapter" class="control-label">Tựa đề</label>
+                <input asp-for="titleChapter" class="form-control" />
+                <span asp-validation-for="titleChapter" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="contentChapter" class="control-label">Nội dung</label>
+                <textarea asp-for="contentChapter" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="contentChapter" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

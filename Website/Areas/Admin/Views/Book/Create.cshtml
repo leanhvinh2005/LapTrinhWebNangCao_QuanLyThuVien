@@ -10,72 +10,98 @@
 
 <div class="container-fluid">
     <h1 class="mt-4">Tạo sách mới</h1>
-    <hr />
 
-    <div class="row">
-        <div class="col-md-6">
-            <form asp-action="Create">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Danh sách Sách</a></li>
+        <li class="breadcrumb-item active">Tạo mới</li>
+    </ol>
 
-                <div class="form-group mb-3">
-                    <label asp-for="idBook" class="control-label fw-bold">ID Sách (ví dụ: B001)</label>
-                    <input asp-for="idBook" class="form-control" placeholder="Nhập mã sách..." />
-                    <span asp-validation-for="idBook" class="text-danger"></span>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-book me-1"></i>
+            Nhập thông tin sách
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="idBook" class="control-label fw-bold">ID Sách (ví dụ: BK001)</label>
+                            <input asp-for="idBook" class="form-control" placeholder="Nhập mã sách..." />
+                            <span asp-validation-for="idBook" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="nameBook" class="control-label fw-bold">Tên sách</label>
+                            <input asp-for="nameBook" class="form-control" placeholder="Nhập tên sách..." />
+                            <span asp-validation-for="nameBook" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="descriptionBook" class="control-label fw-bold">Mô tả</label>
+                            <textarea asp-for="descriptionBook" class="form-control" rows="4" placeholder="Nhập mô tả nội dung sách..."></textarea>
+                            <span asp-validation-for="descriptionBook" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="authorBook" class="control-label fw-bold">Tác giả</label>
+                                    <input asp-for="authorBook" class="form-control" placeholder="Tên tác giả..." />
+                                    <span asp-validation-for="authorBook" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="publisherBook" class="control-label fw-bold">Nhà xuất bản</label>
+                                    <input asp-for="publisherBook" class="form-control" placeholder="Tên NXB..." />
+                                    <span asp-validation-for="publisherBook" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="dateBook" class="control-label fw-bold">Ngày xuất bản</label>
+                                    <input asp-for="dateBook" class="form-control" type="date" />
+                                    <span asp-validation-for="dateBook" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="formatBook" class="control-label fw-bold">Định dạng</label>
+                                    <input asp-for="formatBook" class="form-control" placeholder="VD: Bìa cứng, PDF..." />
+                                    <span asp-validation-for="formatBook" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="noteBook" class="control-label fw-bold">Ghi chú</label>
+                            <textarea asp-for="noteBook" class="form-control" rows="2" placeholder="Ghi chú thêm..."></textarea>
+                            <span asp-validation-for="noteBook" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="imageBook" class="control-label fw-bold">Đường dẫn ảnh (URL)</label>
+                            <input asp-for="imageBook" class="form-control" placeholder="https://example.com/image.jpg" />
+                            <span asp-validation-for="imageBook" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa fa-save"></i> Tạo mới
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary ms-2">
+                                <i class="fa fa-arrow-left"></i> Quay lại
+                            </a>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="nameBook" class="control-label fw-bold">Tên sách</label>
-                    <input asp-for="nameBook" class="form-control" placeholder="Nhập tên sách..." />
-                    <span asp-validation-for="nameBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="descriptionBook" class="control-label fw-bold">Mô tả</label>
-                    <textarea asp-for="descriptionBook" class="form-control" rows="3"></textarea>
-                    <span asp-validation-for="descriptionBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="authorBook" class="control-label fw-bold">Tác giả</label>
-                    <input asp-for="authorBook" class="form-control" />
-                    <span asp-validation-for="authorBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="publisherBook" class="control-label fw-bold">Nhà xuất bản</label>
-                    <input asp-for="publisherBook" class="form-control" />
-                    <span asp-validation-for="publisherBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="dateBook" class="control-label fw-bold">Ngày xuất bản</label>
-                    <input asp-for="dateBook" class="form-control" type="date" />
-                    <span asp-validation-for="dateBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="formatBook" class="control-label fw-bold">Định dạng</label>
-                    <input asp-for="formatBook" class="form-control" placeholder="VD: PDF, Hardcover..." />
-                    <span asp-validation-for="formatBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="noteBook" class="control-label fw-bold">Ghi chú</label>
-                    <textarea asp-for="noteBook" class="form-control" rows="2"></textarea>
-                    <span asp-validation-for="noteBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="imageBook" class="control-label fw-bold">Đường dẫn ảnh (URL)</label>
-                    <input asp-for="imageBook" class="form-control" placeholder="https://..." />
-                    <span asp-validation-for="imageBook" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mt-4">
-                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
-                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>

@@ -51,5 +51,10 @@ namespace Website.Services
                 .FromSqlRaw("EXEC SearchChapter @search", new SqlParameter("@search", search))
                 .ToListAsync();
         }
+        // Hoàng Tiến Đạt
+        public async Task<Chapter?> GetChapterById(string id)
+        {
+            return await _context.TRANG.FindAsync(id);
+        }
     }
 }

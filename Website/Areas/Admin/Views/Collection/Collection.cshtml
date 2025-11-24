@@ -23,7 +23,7 @@
     <div class="row mb-3">
         <div class="col-md-6">
             <a asp-action="Create" class="btn btn-primary">
-                <i class="fa fa-plus"></i> Tạo Bộ sưu tập mới
+                <i class="fa fa-plus me-1"></i> Thêm Bộ sưu tập mới
             </a>
         </div>
         <div class="col-md-6">
@@ -40,22 +40,46 @@
     <table class="table table-bordered table-hover">
         <thead class="table-dark">
             <tr>
-                <th>ID</th>
-                <th>Tên Bộ sưu tập</th>
+                <th style="width: 15%;">ID</th>
+                <th style="width: 25%;">Tên Bộ sưu tập</th>
                 <th>Mô tả</th>
-                <th>Thao tác</th>
+                <th style="width: 15%;">Thao tác</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.idCollection</td>
+                        <td class="fw-bold">@item.nameCollection</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.descriptionCollection) && item.descriptionCollection.Length > 50)
+                            {
+                                <span>@item.descriptionCollection.Substring(0, 50)...</span>
+                            }
+                            else
+                            {
+                                <span>@item.descriptionCollection</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.idCollection" class="btn btn-sm btn-warning">
+                                <i class="fa fa-edit"></i> Sửa
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.idCollection" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
             {
                 <tr>
-                    <td>@item.idCollection</td>
-                    <td>@item.nameCollection</td>
-                    <td>@item.descriptionCollection</td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.idCollection" class="btn btn-sm btn-warning">Sửa</a>
-                        <a asp-action="Delete" asp-route-id="@item.idCollection" class="btn btn-sm btn-danger">Xóa</a>
+                    <td colspan="4" class="text-center text-muted">
+                        Không tìm thấy bộ sưu tập nào.
                     </td>
                 </tr>
             }

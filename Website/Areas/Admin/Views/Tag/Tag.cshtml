@@ -9,7 +9,7 @@
 }
 
 <div class="container-fluid">
-    <h1 class="mt-4">Danh sách Tag</h1>
+    <h1 class="mt-4">Danh sách Thẻ (Tag)</h1>
 
     @if (TempData["Success"] != null)
     {
@@ -23,7 +23,7 @@
     <div class="row mb-3">
         <div class="col-md-6">
             <a asp-action="Create" class="btn btn-primary">
-                <i class="fa fa-plus"></i> Tạo Tag mới
+                <i class="fa fa-plus me-1"></i> Thêm Tag mới
             </a>
         </div>
         <div class="col-md-6">
@@ -40,24 +40,39 @@
     <table class="table table-bordered table-hover">
         <thead class="table-dark">
             <tr>
-                <th>ID</th>
+                <th style="width: 10%;">ID</th>
                 <th>Tên Tag</th>
-                <th>Loại (Type)</th>
-                <th>Thao tác</th>
+                <th style="width: 20%;">Loại (Type)</th>
+                <th style="width: 15%;">Thao tác</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.idTag</td>
+                        <td class="fw-bold">@item.nameTag</td>
+                        <td>
+                            <span class="badge bg-info text-dark">@item.typeTag</span>
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.idTag" class="btn btn-sm btn-warning">
+                                <i class="fa fa-edit"></i> Sửa
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.idTag" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
             {
                 <tr>
-                    <td>@item.idTag</td>
-                    <td>@item.nameTag</td>
-                    <td>
-                        <span class="badge bg-info text-dark">@item.typeTag</span>
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.idTag" class="btn btn-sm btn-warning">Sửa</a>
-                        <a asp-action="Delete" asp-route-id="@item.idTag" class="btn btn-sm btn-danger">Xóa</a>
+                    <td colspan="4" class="text-center text-muted">
+                        Không tìm thấy thẻ nào.
                     </td>
                 </tr>
             }

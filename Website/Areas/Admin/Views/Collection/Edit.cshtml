@@ -10,41 +10,57 @@
 
 <div class="container-fluid">
     <h1 class="mt-4">Chỉnh sửa Bộ sưu tập</h1>
-    <hr />
 
-    <div class="row">
-        <div class="col-md-6">
-            <form asp-action="Edit">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Danh sách BST</a></li>
+        <li class="breadcrumb-item active">Chỉnh sửa</li>
+    </ol>
 
-                <div class="form-group mb-3">
-                    <label asp-for="idCollection" class="control-label fw-bold">ID Bộ sưu tập</label>
-                    <input asp-for="idCollection" class="form-control" readonly style="background-color: #e9ecef;" />
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-edit me-1"></i>
+            Cập nhật thông tin: <strong>@Model.nameCollection</strong>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="idCollection" class="control-label fw-bold">ID Bộ sưu tập</label>
+                            <input asp-for="idCollection" class="form-control" readonly style="background-color: #e9ecef;" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="nameCollection" class="control-label fw-bold">Tên Bộ sưu tập</label>
+                            <input asp-for="nameCollection" class="form-control" />
+                            <span asp-validation-for="nameCollection" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="descriptionCollection" class="control-label fw-bold">Mô tả</label>
+                            <textarea asp-for="descriptionCollection" class="form-control" rows="4"></textarea>
+                            <span asp-validation-for="descriptionCollection" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="imageCollection" class="control-label fw-bold">Đường dẫn ảnh (Image URL)</label>
+                            <input asp-for="imageCollection" class="form-control" />
+                            <span asp-validation-for="imageCollection" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fa fa-save"></i> Lưu thay đổi
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary ms-2">
+                                <i class="fa fa-arrow-left"></i> Quay lại
+                            </a>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="nameCollection" class="control-label fw-bold">Tên Bộ sưu tập</label>
-                    <input asp-for="nameCollection" class="form-control" />
-                    <span asp-validation-for="nameCollection" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="descriptionCollection" class="control-label fw-bold">Mô tả</label>
-                    <textarea asp-for="descriptionCollection" class="form-control" rows="3"></textarea>
-                    <span asp-validation-for="descriptionCollection" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="imageCollection" class="control-label fw-bold">Đường dẫn ảnh (Image URL)</label>
-                    <input asp-for="imageCollection" class="form-control" />
-                    <span asp-validation-for="imageCollection" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mt-3">
-                    <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
-                    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>

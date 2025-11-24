@@ -23,7 +23,7 @@
     <div class="row mb-3">
         <div class="col-md-6">
             <a asp-action="Create" class="btn btn-primary">
-                <i class="fa fa-plus"></i> Tạo thẻ mới
+                <i class="fa fa-plus me-1"></i> Tạo thẻ mới
             </a>
         </div>
         <div class="col-md-6">
@@ -40,41 +40,56 @@
     <table class="table table-bordered table-hover">
         <thead class="table-dark">
             <tr>
-                <th>Mã thẻ</th>
-                <th>Tên chủ thẻ</th>
+                <th style="width: 10%;">Mã thẻ</th>
+                <th style="width: 20%;">Tên chủ thẻ</th>
                 <th>Email</th>
-                <th>Điện thoại</th>
-                <th>Ngày tạo</th>
-                <th>Trạng thái</th>
-                <th>Thao tác</th>
+                <th style="width: 15%;">Điện thoại</th>
+                <th style="width: 10%;">Ngày tạo</th>
+                <th style="width: 10%;">Trạng thái</th>
+                <th style="width: 15%;">Thao tác</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.idCard</td>
+                        <td class="fw-bold">@item.nameCard</td>
+                        <td>@item.emailCard</td>
+                        <td>@item.phoneCard</td>
+                        <td>@item.dateCard.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            @if (item.statusCard == "Active" || item.statusCard == "Hoat dong")
+                            {
+                                <span class="badge bg-success">Hoạt động</span>
+                            }
+                            else if (item.statusCard == "Locked" || item.statusCard == "Khoa")
+                            {
+                                <span class="badge bg-danger">Đã khóa</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">@item.statusCard</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.idCard" class="btn btn-sm btn-warning">
+                                <i class="fa fa-edit"></i> Sửa
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.idCard" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
             {
                 <tr>
-                    <td>@item.idCard</td>
-                    <td>@item.nameCard</td>
-                    <td>@item.emailCard</td>
-                    <td>@item.phoneCard</td>
-                    <td>@item.dateCard.ToString("dd/MM/yyyy")</td>
-                    <td>
-                        @if (item.statusCard == "Active" || item.statusCard == "Hoat dong")
-                        {
-                            <span class="badge bg-success">Hoạt động</span>
-                        }
-                        else if (item.statusCard == "Locked" || item.statusCard == "Khoa")
-                        {
-                            <span class="badge bg-danger">Đã khóa</span>
-                        }
-                        else
-                        {
-                            <span class="badge bg-secondary">@item.statusCard</span>
-                        }
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.idCard" class="btn btn-sm btn-warning">Sửa</a>
-                        <a asp-action="Delete" asp-route-id="@item.idCard" class="btn btn-sm btn-danger">Xóa</a>
+                    <td colspan="7" class="text-center text-muted">
+                        Không tìm thấy thẻ thư viện nào.
                     </td>
                 </tr>
             }

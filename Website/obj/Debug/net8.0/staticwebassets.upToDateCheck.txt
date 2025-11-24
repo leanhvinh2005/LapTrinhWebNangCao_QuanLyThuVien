@@ -12,6 +12,7 @@ wwwroot\CSS\Shared\Master.css
 wwwroot\CSS\Shared\Navbar\Admin.css
 wwwroot\CSS\Shared\Navbar\NoLogin.css
 wwwroot\CSS\Shared\Navbar\User.css
+wwwroot\CSS\User\Components\BookCard.css
 wwwroot\CSS\User\Components\BookshelfCard.css
 wwwroot\CSS\User\Components\CartItem.css
 wwwroot\CSS\User\Components\FilterTag.css
@@ -124,4 +125,3 @@ wwwroot\Lib\jquery\dist\jquery.js
 wwwroot\Lib\jquery\dist\jquery.min.js
 wwwroot\Lib\jquery\dist\jquery.min.map
 wwwroot\Lib\jquery\LICENSE.txt
-wwwroot\CSS\User\Components\BookCard.css

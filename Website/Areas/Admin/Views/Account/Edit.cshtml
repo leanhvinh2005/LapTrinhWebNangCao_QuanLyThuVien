@@ -8,39 +8,59 @@
     <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h1>Cập nhật tài khoản #@Model.idUser</h1>
-<hr />
+<div class="container-fluid">
+    <h1 class="mt-4">Cập nhật tài khoản</h1>
 
-<div class="row">
-    <div class="col-md-6">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Danh sách Tài khoản</a></li>
+        <li class="breadcrumb-item active">Cập nhật</li>
+    </ol>
 
-            <input type="hidden" asp-for="idUser" />
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-user-edit me-1"></i>
+            Cập nhật thông tin: <strong>@Model.nameUser</strong>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <div class="form-group mb-3">
-                <label asp-for="nameUser" class="control-label">Tên User</label>
-                <input asp-for="nameUser" class="form-control" />
-                <span asp-validation-for="nameUser" class="text-danger"></span>
+                        <div class="form-group mb-3">
+                            <label asp-for="idUser" class="control-label fw-bold">ID Tài khoản</label>
+                            <input asp-for="idUser" class="form-control" readonly style="background-color: #e9ecef;" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="nameUser" class="control-label fw-bold">Tên hiển thị</label> <input asp-for="nameUser" class="form-control" />
+                            <span asp-validation-for="nameUser" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="emailUser" class="control-label fw-bold">Email</label>
+                            <input asp-for="emailUser" class="form-control" />
+                            <span asp-validation-for="emailUser" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="passwordUser" class="control-label fw-bold">Mật khẩu mới</label>
+                            <input asp-for="passwordUser" class="form-control" type="password" placeholder="Bỏ trống nếu không đổi mật khẩu" value="" />
+                            <span asp-validation-for="passwordUser" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fa fa-save"></i> Lưu thay đổi
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary ms-2">
+                                <i class="fa fa-arrow-left"></i> Quay lại
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </div>
-
-            <div class="form-group mb-3">
-                <label asp-for="emailUser" class="control-label">Email</label>
-                <input asp-for="emailUser" class="form-control" />
-                <span asp-validation-for="emailUser" class="text-danger"></span>
-            </div>
-
-            <div class="form-group mb-3">
-                <label asp-for="passwordUser" class="control-label">Mật khẩu mới (bỏ trống nếu không đổi)</label>
-                <input asp-for="passwordUser" class="form-control" type="password" value="" />
-                <span asp-validation-for="passwordUser" class="text-danger"></span>
-            </div>
-
-            <div class="form-group mt-3">
-                <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
-                <a asp-action="Index" class="btn btn-secondary">Hủy</a>
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 

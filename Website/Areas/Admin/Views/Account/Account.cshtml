@@ -9,7 +9,7 @@
 }
 
 <div class="container-fluid">
-    <h1 class="mt-4">Danh sách tài khoản</h1>
+    <h1 class="mt-4">Danh sách Tài khoản</h1>
 
     @if (TempData["Success"] != null)
     {
@@ -44,44 +44,66 @@
                 <th>Tên hiển thị</th>
                 <th>Email</th>
                 <th>Vai trò (Role)</th>
-                <th>ID Chi tiết (Thẻ/Thủ thư)</th>
-                <th>Thao Tác</th>
+                <th>ID Chi tiết</th>
+                <th style="width: 15%;">Thao tác</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdUser</td>
+                        <td>@item.NameUser</td>
+                        <td>@item.EmailUser</td>
+
+                        <td>
+                            @if (item.RoleName.Contains("Admin"))
+                            {
+                                <span class="badge bg-danger">@item.RoleName</span>
+                            }
+                            else if (item.RoleName.Contains("Thủ thư"))
+                            {
+                                <span class="badge bg-info text-dark">@item.RoleName</span>
+                            }
+                            else if (item.RoleName.Contains("Độc giả"))
+                            {
+                                <span class="badge bg-success">@item.RoleName</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">@item.RoleName</span>
+                            }
+                        </td>
+
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.RoleSpecificId))
+                            {
+                                <span class="fw-bold text-primary">@item.RoleSpecificId</span>
+                            }
+                            else
+                            {
+                                <span class="text-muted">---</span>
+                            }
+                        </td>
+
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.IdUser" class="btn btn-sm btn-warning">
+                                <i class="fa fa-edit"></i> Sửa
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.IdUser" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
             {
                 <tr>
-                    <td>@item.IdUser</td>
-                    <td>@item.NameUser</td>
-                    <td>@item.EmailUser</td>
-
-                    <td>
-                        @if (item.RoleName.Contains("Admin"))
-                        {
-                            <span class="badge bg-danger">@item.RoleName</span>
-                        }
-                        else if (item.RoleName.Contains("Thủ thư"))
-                        {
-                            <span class="badge bg-info text-dark">@item.RoleName</span>
-                        }
-                        else if (item.RoleName.Contains("Độc giả"))
-                        {
-                            <span class="badge bg-secondary">@item.RoleName</span>
-                        }
-                        else
-                        {
-                            <span class="text-muted">@item.RoleName</span>
-                        }
-                    </td>
-
-                    <td>
-                        <span class="fw-bold text-primary">@item.RoleSpecificId</span>
-                    </td>
-
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.IdUser" class="btn btn-sm btn-warning">Sửa</a>
-                        <a asp-action="Delete" asp-route-id="@item.IdUser" class="btn btn-sm btn-danger">Xóa</a>
+                    <td colspan="6" class="text-center text-muted">
+                        Không tìm thấy tài khoản nào.
                     </td>
                 </tr>
             }

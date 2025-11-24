@@ -55,7 +55,7 @@ namespace Website.Services
                 new SqlParameter("@date", book.dateBook),
                 new SqlParameter("@format", book.formatBook),
                 new SqlParameter("@note", book.noteBook),
-                new SqlParameter("@image", book.statusBook),
+                new SqlParameter("@status", book.statusBook),
                 new SqlParameter("@image", book.imageBook)
             );
         }

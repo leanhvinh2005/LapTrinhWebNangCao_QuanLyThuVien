@@ -10,30 +10,46 @@
 
 <div class="container-fluid">
     <h1 class="mt-4">Tạo Tag mới</h1>
-    <hr />
 
-    <div class="row">
-        <div class="col-md-6">
-            <form asp-action="Create">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Danh sách Tag</a></li>
+        <li class="breadcrumb-item active">Tạo mới</li>
+    </ol>
 
-                <div class="form-group mb-3">
-                    <label asp-for="nameTag" class="control-label fw-bold">Tên Tag</label>
-                    <input asp-for="nameTag" class="form-control" placeholder="Nhập tên tag..." />
-                    <span asp-validation-for="nameTag" class="text-danger"></span>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-tags me-1"></i>
+            Nhập thông tin thẻ
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="nameTag" class="control-label fw-bold">Tên Tag</label>
+                            <input asp-for="nameTag" class="form-control" placeholder="Nhập tên tag (VD: Truyện tranh, Kinh dị...)" />
+                            <span asp-validation-for="nameTag" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="typeTag" class="control-label fw-bold">Loại (Phân loại)</label>
+                            <input asp-for="typeTag" class="form-control" placeholder="Nhập loại (VD: Thể loại, Tác giả...)" />
+                            <span asp-validation-for="typeTag" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa fa-save"></i> Tạo mới
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary ms-2">
+                                <i class="fa fa-arrow-left"></i> Quay lại
+                            </a>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="form-group mb-3">
-                    <label asp-for="typeTag" class="control-label fw-bold">Loại (ví dụ: Thể loại, Tác giả)</label>
-                    <input asp-for="typeTag" class="form-control" placeholder="Nhập loại phân loại..." />
-                    <span asp-validation-for="typeTag" class="text-danger"></span>
-                </div>
-
-                <div class="form-group mt-4">
-                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
-                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>

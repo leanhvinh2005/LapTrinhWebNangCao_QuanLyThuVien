@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Website.Models.Chapter>
+
+@{
+    ViewData["Title"] = "Quản lý Chương";
+    Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Danh sách Chương/Trang</h1>
+
+    @if (ViewData["CurrentPrefix"] != null)
+    {
+        <div class="alert alert-info d-flex justify-content-between align-items-center">
+            <span>
+                <i class="fa fa-filter me-2"></i>
+                Đang hiển thị các chương thuộc bộ sách có mã bắt đầu bằng: <strong>@ViewData["CurrentPrefix"]</strong>
+            </span>
+            <a asp-action="Index" class="btn btn-sm btn-outline-primary">Xem tất cả</a>
+        </div>
+    }
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <a asp-action="Create" asp-route-bookId="@ViewData["CurrentBookId"]" class="btn btn-primary">
+                <i class="fa fa-plus"></i> Thêm Chương mới
+            </a>
+
+            <a asp-controller="Book" asp-action="Index" class="btn btn-secondary ms-2">
+                <i class="fa fa-arrow-left"></i> Về DS Sách
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <form asp-action="Index" method="get" class="d-flex justify-content-end">
+                <input type="hidden" name="bookId" value="@ViewData["CurrentBookId"]" />
+
+                <div class="input-group" style="max-width: 400px;">
+                    <input type="text" name="search" class="form-control" placeholder="Tìm ID hoặc Tựa đề..." value="@ViewData["CurrentSearch"]" />
+                    <button type="submit" class="btn btn-primary">Tìm</button>
+
+                    <a asp-action="Index" asp-route-bookId="@ViewData["CurrentBookId"]" class="btn btn-secondary">Reset</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID Chương</th>
+                <th style="width: 10%;">Số trang</th>
+                <th style="width: 25%;">Tựa đề</th>
+                <th>Nội dung (Tóm tắt)</th>
+                <th style="width: 15%;">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.idChapter</td>
+                        <td class="text-center">@item.numberChapter</td>
+                        <td>@item.titleChapter</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.contentChapter) && item.contentChapter.Length > 100)
+                            {
+                                <span>@item.contentChapter.Substring(0, 100)...</span>
+                            }
+                            else
+                            {
+                                <span>@item.contentChapter</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.idChapter" class="btn btn-sm btn-warning">
+                                <i class="fa fa-edit"></i> Sửa
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.idChapter" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center text-muted">
+                        Không tìm thấy dữ liệu chương nào.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
