@@ -36,8 +36,6 @@ namespace Website.Areas.Admin.Controllers
                 .OrderByDescending(b => b.dateBorrow)
                 .Take(5)
                 .ToListAsync();
-
-            // 3. Tạo ViewModel
             var viewModel = new DashboardViewModel
             {
                 TotalBooks = totalBooks,

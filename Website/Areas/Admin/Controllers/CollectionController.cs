@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Website.Models;
 using Website.Services;
-using System.Linq; // Cần để lọc dữ liệu
+using System.Linq; 
 using System.Threading.Tasks;
 
 namespace Website.Areas.Admin.Controllers
@@ -22,15 +22,11 @@ namespace Website.Areas.Admin.Controllers
         // GET: /Admin/Collection
         [Route("")]
         [Route("Index")]
-        public async Task<IActionResult> Collection(string search) // Đổi tên action thành Index cho chuẩn
+        public async Task<IActionResult> Collection(string search) 
         {
             search ??= "";
-            // 1. Lấy tất cả
             var allItems = await _collectionService.SearchCollection(search);
-
-            // 2. LỌC: Chỉ lấy ID bắt đầu bằng "CL"
             var collections = allItems.Where(c => c.idCollection.StartsWith("CL")).ToList();
-
             ViewData["CurrentSearch"] = search;
             return View(collections);
         }
@@ -46,13 +42,11 @@ namespace Website.Areas.Admin.Controllers
         [Route("Create")]
         public async Task<IActionResult> Create(Collection collection)
         {
-            // VALIDATE: Bắt buộc ID phải là CL
+           
             if (!collection.idCollection.StartsWith("CL"))
             {
                 ModelState.AddModelError("idCollection", "ID Bộ sưu tập phải bắt đầu bằng 'CL'.");
             }
-
-            // Kiểm tra trùng ID
             var existing = await _collectionService.GetCollectionByIdAsync(collection.idCollection);
             if (existing != null) ModelState.AddModelError("idCollection", "ID này đã tồn tại.");
 
@@ -67,7 +61,6 @@ namespace Website.Areas.Admin.Controllers
         [Route("Edit/{id}")]
         public async Task<IActionResult> Edit(string id)
         {
-            // Bảo mật: Không cho sửa nếu không phải CL
             if (!id.StartsWith("CL")) return NotFound();
 
             var collection = await _collectionService.GetCollectionByIdAsync(id);
@@ -82,7 +75,6 @@ namespace Website.Areas.Admin.Controllers
         {
             if (id != collection.idCollection) return NotFound();
 
-            // Bảo mật logic
             if (!collection.idCollection.StartsWith("CL")) return BadRequest("Sai định dạng ID");
 
             if (ModelState.IsValid)

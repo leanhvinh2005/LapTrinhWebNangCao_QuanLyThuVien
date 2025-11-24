@@ -42,7 +42,7 @@ namespace Website.Areas.Admin.Controllers
         [Route("Create")]
         public async Task<IActionResult> Create(Chapter chapter)
         {
-            // Kiểm tra ID đã tồn tại chưa (vì ID này nhập tay)
+            
             var existingChapter = await _chapterService.GetChapterById(chapter.idChapter);
             if (existingChapter != null)
             {
