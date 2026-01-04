@@ -1,0 +1,108 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims
+@using Website.Data
+@using Website.Models
+@using Website.Services.Other
+@inject AuthenticationStateProvider AuthStateProvider
+@inject CartService CartService
+@inject ApplicationDbContext Context
+
+<div class="availableinfo">
+    <h1>Chưa mượn: @Available</h1>
+    <h2>Đang mượn: @Borrowing </h2>
+</div>
+@if (CurrentUser?.Identity?.IsAuthenticated == true)
+{
+    @if (IsLocked)
+    {
+        <button class="disabledcartbutton_bookdetail">Không thêm</button>
+    }
+    else
+    {
+        <button @onclick="() => AddToCart(Book.idBook)" class="addcartbutton_bookdetail">Thêm vào giỏ</button>
+    }
+}
+
+@code {
+    [Parameter]
+    public Book Book { get; set; }
+
+    private ClaimsPrincipal? CurrentUser;
+    private int Available;
+    private int Borrowing;
+    private bool IsLocked;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var auth = await AuthStateProvider.GetAuthenticationStateAsync();
+        CurrentUser = auth.User;
+
+        IsLocked = false;
+        IsLocked = await Lock(Book.idBook);
+    }
+
+    private async Task AddToCart(string idbook)
+    {
+        await CartService.AddToCart(idbook);
+    }
+
+    private async Task<bool> Lock(string idbook)
+    {
+        var available = await Context.SACH
+            .Where(b => b.idBook.Substring(0, 2) == idbook.Substring(0, 2))
+            .Where(b => b.statusBook == "AVAILABLE")
+            .ToListAsync();
+
+        var borrowing = await Context.SACH
+            .Where(b => b.idBook.Substring(0, 2) == idbook.Substring(0, 2))
+            .Where(b => b.statusBook == "BORROWING")
+            .ToListAsync();
+
+        if (available == null || available.Count == 0)
+            return true;
+        else
+            Available = available.Count;
+
+        if (borrowing != null && borrowing.Count > 0)
+            Borrowing = borrowing.Count;
+
+        if (CurrentUser.Identity?.IsAuthenticated == true)
+        {
+            var cardid = CurrentUser.FindFirst("CardId").Value;
+            var borrow = await Context.MUONTRA
+                .Where(b => b.idCard == cardid)
+                .Where(b => b.statusBorrow == "ACTIVE")
+                .FirstOrDefaultAsync();
+
+            if (borrow != null)
+            {
+                var joinborrow = await Context.JOIN_BOOKBORROW
+                    .Where(j => j.idBorrow == borrow.idBorrow)
+                    .Where(j => j.idBook.Substring(0, 2) == idbook.Substring(0, 2))
+                    .Where(j => j.statusBookBorrow == "PENDING")
+                    .ToListAsync();
+
+                if (joinborrow == null || joinborrow.Count > 0)
+                    return true;
+            }
+
+            var cart = CartService.GetCart();
+
+            if (cart.Books.Any(b => b.idBook.Substring(0, 2) == idbook.Substring(0, 2)))
+                return true;
+        }
+
+        return false;
+    }
+
+    private async void RecalculateLocksOnCartChange()
+    {
+        await RecalculateLocks();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task RecalculateLocks()
+    {
+        IsLocked = await Lock(Book.idBook);
+    }
+}

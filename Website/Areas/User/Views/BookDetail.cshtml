@@ -1,5 +1,6 @@
 ﻿@model Website.Models.Book
 @using System.Security.Claims
+@using Website.Areas.User.Views.Components.Blazor
 @{
     ViewBag.Title = "BookDetail";
     Layout = "~/Views/Shared/Master.cshtml";
@@ -10,17 +11,7 @@
     <div class="container_bookdetail">
         <div class="leftcontainer_bookdetail">
             <img src="@Url.Content(@Model.imageBook)" alt="bookimage" />
-            <div class="availableinfo">
-                <h1>Chưa mượn: @ViewData["Available"]</h1>
-                <h2>Đang mượn: @ViewData["Borrowing"]</h2>
-            </div>
-            @if (User.IsInRole("User"))
-            {
-                <form action="/Cart/Add" method="post">
-                    <input type="hidden" name="idbook" value="@Model.idBook" />
-                    <button class="addcartbutton">Add to Cart</button>
-                </form>
-            }
+            @(await Html.RenderComponentAsync<BookDetailInfo>(RenderMode.Server, new { Book = Model }))
         </div>
         <div class="rightcontainer_bookdetail">
             <div class="headerinfo">

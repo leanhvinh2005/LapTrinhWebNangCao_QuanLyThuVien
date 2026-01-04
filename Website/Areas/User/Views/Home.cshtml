@@ -1,75 +1,93 @@
-﻿@{
+﻿@using System.Security.Claims
+@using Website.Areas.User.Views.Components.Blazor
+@model Website.Areas.User.Models.HomeList?
+@{
     ViewBag.Title = "Home";
     Layout = "~/Views/Shared/Master.cshtml";
 }
 <link rel="stylesheet" href="~/CSS/User/Views/Home.css" />
+<link rel="stylesheet" href="~/CSS/User/Components/HomeList.css" />
 
 <main>
-    <div class="introblack">
-        <div class="paddingcontainer">
-            <div class="textcontainer_intro">
-                <h1>Khám phá thế giới tri thức cùng Arcadia</h1>
-                <p>
-                    Arcadia được tạo ra với mong muốn mang tri thức đến gần hơn với mọi người.
-                    Chúng tôi tin rằng việc đọc không chỉ là một hoạt động giải trí, mà còn là hành
-                    trình mở rộng tâm hồn và nuôi dưỡng tư duy. Với Arcadia, bạn có thể dễ dàng tiếp
-                    cận kho sách đa dạng thuộc nhiều lĩnh vực, từ văn học, khoa học, lịch sử cho đến kỹ
-                    năng sống và công nghệ. Dù bạn là học sinh, sinh viên hay đọc giả yêu sách lâu năm,
-                    Arcadia luôn có những điều thú vị đang chờ bạn khám phá.
-                </p>
-            </div>
-            <img src="~/Images/Home/BookFlipping.png" alt="BookFlipping" class="bookflipping" />
-        </div>
-    </div>
-    <div class="introwhite">
-        <div class="paddingcontainer">
-            <img src="~/Images/Home/HandHoldingBook.png" alt="HandHoldingBook" class="handholdingbook" />
-            <div class="textcontainer_intro">
-                <h1>Trải nghiệm đọc tiện lợi, hiện đại và cá nhân hóa</h1>
-                <p>
-                    Arcadia mang đến cho bạn trải nghiệm thư viện trực tuyến hoàn chỉnh, nơi mọi hoạt động
-                    đọc và quản lý sách được tối ưu hóa. Bạn có thể đăng ký thẻ thư viện, mượn và trả sách dễ
-                    dàng, lưu trữ danh sách yêu thích, và theo dõi lịch sử đọc của mình chỉ với vài thao tác đơn
-                    giản. Giao diện thân thiện và hiện đại giúp bạn tập trung vào điều quan trọng nhất, tận hưởng
-                    từng trang sách mà không bị gián đoạn. Mục tiêu của chúng tôi là biến việc đọc trở thành một phần
-                    tự nhiên trong cuộc sống hàng ngày của bạn.
-                </p>
+    @if (User.IsInRole("User"))
+    {
+        @(await Html.RenderComponentAsync<Website.Areas.User.Views.Components.Blazor.HomeList>(RenderMode.Server, new 
+        { 
+            Banner = Model.Banner, 
+            Carousel1 = Model.Carousel1,
+            Carousel2 = Model.Carousel2,
+            Carousel3 = Model.Carousel3,
+            Carousel4 = Model.Carousel4
+        }))
+    }
+    else
+    {
+        <div class="introblack">
+            <div class="paddingcontainer">
+                <div class="textcontainer_intro">
+                    <h1>Khám phá thế giới tri thức cùng Arcadia</h1>
+                    <p>
+                        Arcadia được tạo ra với mong muốn mang tri thức đến gần hơn với mọi người.
+                        Chúng tôi tin rằng việc đọc không chỉ là một hoạt động giải trí, mà còn là hành
+                        trình mở rộng tâm hồn và nuôi dưỡng tư duy. Với Arcadia, bạn có thể dễ dàng tiếp
+                        cận kho sách đa dạng thuộc nhiều lĩnh vực, từ văn học, khoa học, lịch sử cho đến kỹ
+                        năng sống và công nghệ. Dù bạn là học sinh, sinh viên hay đọc giả yêu sách lâu năm,
+                        Arcadia luôn có những điều thú vị đang chờ bạn khám phá.
+                    </p>
+                </div>
+                <img src="~/Images/Home/BookFlipping.png" alt="BookFlipping" class="bookflipping" />
             </div>
         </div>
-    </div>
-    <div class="introblack">
-        <div class="paddingcontainer">
-            <div class="textcontainer_intro">
-                <h1>Cộng đồng đọc, nơi tri thức được chia sẻ</h1>
-                <p>
-                    Arcadia không chỉ là nơi đọc sách, mà còn là nơi kết nối con người. Chúng tôi mong muốn
-                    xây dựng một cộng đồng nơi mọi người có thể trao đổi ý tưởng, chia sẻ cảm nhận về những cuốn
-                    sách yêu thích, và cùng nhau lan tỏa niềm đam mê đọc. Mỗi đọc giả đều là một phần của hành trình
-                    nuôi dưỡng văn hóa tri thức — và Arcadia là nơi để hành trình ấy bắt đầu. Hãy cùng chúng tôi mở
-                    ra những trang mới, không chỉ trong sách, mà còn trong chính cuộc sống của bạn.
-                </p>
-            </div>
-            <img src="~/Images/Home/GuyHoldingBook.png" alt="GuyHoldingBook" class="guyholdingbook" />
-        </div>
-    </div>
-    <div class="introwhite">
-        <div class="paddingcontainer2">
-            <div class="point">
-                <img src="~/Images/Home/Clock.png" alt="Clock" class="clock" />
-                <h1>5+ năm hoạt động</h1>
-                <p>Thư viện không ngừng phát triển và đổi mới để mang đến trải nghiệm đọc tốt nhất</p>
-            </div>
-            <div class="point">
-                <img src="~/Images/Home/Book.png" alt="Book" class="book" />
-                <h1>100.000+ sách khác nhau</h1>
-                <p>Danh mục sách luôn luôn phát triển, với bộ sách và thể loại mới hằng ngày</p>
-            </div>
-            <div class="point">
-                <img src="~/Images/Home/ManHoldingBook.png" alt="ManHoldingBook" class="manholdingbook" />
-                <h1>1.000.000+ đọc giả</h1>
-                <p>Trải nghiệm đọc sách ngày càng được nâng cao và tiện nghi được phát triển</p>
+        <div class="introwhite">
+            <div class="paddingcontainer">
+                <img src="~/Images/Home/HandHoldingBook.png" alt="HandHoldingBook" class="handholdingbook" />
+                <div class="textcontainer_intro">
+                    <h1>Trải nghiệm đọc tiện lợi, hiện đại và cá nhân hóa</h1>
+                    <p>
+                        Arcadia mang đến cho bạn trải nghiệm thư viện trực tuyến hoàn chỉnh, nơi mọi hoạt động
+                        đọc và quản lý sách được tối ưu hóa. Bạn có thể đăng ký thẻ thư viện, mượn và trả sách dễ
+                        dàng, lưu trữ danh sách yêu thích, và theo dõi lịch sử đọc của mình chỉ với vài thao tác đơn
+                        giản. Giao diện thân thiện và hiện đại giúp bạn tập trung vào điều quan trọng nhất, tận hưởng
+                        từng trang sách mà không bị gián đoạn. Mục tiêu của chúng tôi là biến việc đọc trở thành một phần
+                        tự nhiên trong cuộc sống hàng ngày của bạn.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="introblack">
+            <div class="paddingcontainer">
+                <div class="textcontainer_intro">
+                    <h1>Cộng đồng đọc, nơi tri thức được chia sẻ</h1>
+                    <p>
+                        Arcadia không chỉ là nơi đọc sách, mà còn là nơi kết nối con người. Chúng tôi mong muốn
+                        xây dựng một cộng đồng nơi mọi người có thể trao đổi ý tưởng, chia sẻ cảm nhận về những cuốn
+                        sách yêu thích, và cùng nhau lan tỏa niềm đam mê đọc. Mỗi đọc giả đều là một phần của hành trình
+                        nuôi dưỡng văn hóa tri thức — và Arcadia là nơi để hành trình ấy bắt đầu. Hãy cùng chúng tôi mở
+                        ra những trang mới, không chỉ trong sách, mà còn trong chính cuộc sống của bạn.
+                    </p>
+                </div>
+                <img src="~/Images/Home/GuyHoldingBook.png" alt="GuyHoldingBook" class="guyholdingbook" />
+            </div>
+        </div>
+        <div class="introwhite">
+            <div class="paddingcontainer2">
+                <div class="point">
+                    <img src="~/Images/Home/Clock.png" alt="Clock" class="clock" />
+                    <h1>5+ năm hoạt động</h1>
+                    <p>Thư viện không ngừng phát triển và đổi mới để mang đến trải nghiệm đọc tốt nhất</p>
+                </div>
+                <div class="point">
+                    <img src="~/Images/Home/Book.png" alt="Book" class="book" />
+                    <h1>100.000+ sách khác nhau</h1>
+                    <p>Danh mục sách luôn luôn phát triển, với bộ sách và thể loại mới hằng ngày</p>
+                </div>
+                <div class="point">
+                    <img src="~/Images/Home/ManHoldingBook.png" alt="ManHoldingBook" class="manholdingbook" />
+                    <h1>1.000.000+ đọc giả</h1>
+                    <p>Trải nghiệm đọc sách ngày càng được nâng cao và tiện nghi được phát triển</p>
+                </div>
+            </div>
+        </div>
+    }
 </main>
 

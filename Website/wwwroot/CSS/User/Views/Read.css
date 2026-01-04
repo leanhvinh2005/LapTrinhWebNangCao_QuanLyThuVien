@@ -1,0 +1,45 @@
+﻿.main_chapter {
+    display: flex;
+    justify-content: center;
+    background-color: #1AC09B;
+}
+
+    .chaptercontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        margin: 50px 300px;
+    }
+
+        .topchapter {
+            display: flex;
+            justify-content: center;
+            padding: 8px 0;
+            gap: 12px;
+            background-color: #D9D9D9;
+        }
+
+            .prevbutton, .nextbutton {
+                border: none;
+                padding: 8px;
+                cursor: pointer;
+                z-index: 100;
+            }
+
+        .bottomchapter {
+            padding: 20px;
+        }
+
+            .bottomchapter h1 {
+                border-bottom: 3px solid #D9D9D9;
+                font-family: Raleway;
+                text-align : center;
+                font-size: 24px;
+                padding-bottom: 12px;
+            }
+
+            .bottomchapter h2 {
+                font-family: Raleway;
+                font-size: 20px;
+            }

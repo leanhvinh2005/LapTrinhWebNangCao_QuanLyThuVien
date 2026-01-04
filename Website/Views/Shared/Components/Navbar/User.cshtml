@@ -7,12 +7,7 @@
 <nav class="navbar">
     <div class="left_navbar">
         <img src="~/Images/Logos/ArcadiaLogoSmall.png" alt="ArcadiaLogo" class="arcadialogo_navbar" />
-        <form action="/Browse/Search" method="post">
-            <input type="text" name="search" placeholder="Search..." />
-            <button type="submit">
-                <img src="~/Images/Navbar/Search.png" alt="Search" class="search_navbar" />
-            </button>
-        </form>
+        @(await Html.RenderComponentAsync<Search>(RenderMode.Server))
     </div>
     <div class="right_navbar">
         <div class="navlink">

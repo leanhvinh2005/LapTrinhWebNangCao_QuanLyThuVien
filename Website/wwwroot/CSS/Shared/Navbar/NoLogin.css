@@ -22,12 +22,12 @@
             margin-right: 12px;
         }
 
-        .left_navbar form {
-            display: flex;
-            align-items: center;
-        }
+    .searchcontainer {
+        display: flex;
+        align-items: center;
+    }
 
-        .left_navbar input {
+        .searchcontainer input {
             border: 3px solid #1C1C1C;
             border-radius: 12px;
             height: 24px;
@@ -41,18 +41,18 @@
             outline: none;
         }
 
-        .left_navbar input:focus {
+        .searchcontainer input:focus {
             border: 3px solid #B13DD6;
             background-color: #B13DD6;
             transition: 0.2s;
         }
 
-        .left_navbar input:focus::placeholder{
+        .searchcontainer input:focus::placeholder {
             color: #B13DD6;
             transition: 0.2s;
         }
 
-        .left_navbar button {
+        .searchcontainer button {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -65,7 +65,7 @@
             cursor: pointer;
         }
 
-        .left_navbar button:hover {
+        .searchcontainer button:hover {
             border: 3px solid #1AC09B;
             background-color: #1AC09B;
             transition: 0.2s;

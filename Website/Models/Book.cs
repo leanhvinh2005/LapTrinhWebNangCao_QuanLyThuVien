@@ -49,7 +49,7 @@ namespace Website.Models
 
 
         [NotMapped]
-        public List<Tag> tags { get; set; } = new();
+        public List<Tag>? tags { get; set; } = new();
 
         [NotMapped]
         public List<Chapter> chapters { get; set; } = new();

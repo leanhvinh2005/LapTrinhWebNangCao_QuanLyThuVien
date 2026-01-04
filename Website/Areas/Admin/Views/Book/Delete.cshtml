@@ -8,57 +8,65 @@
     <link rel="stylesheet" href="~/CSS/Admin/Views/Style.css" asp-append-version="true" />
 }
 
-<h1>Xóa sách</h1>
+<div class="container-fluid">
+    <h1 class="mt-4 text-danger">Xác nhận xóa</h1>
 
-<h3 class="text-danger">Bạn có chắc chắn muốn xóa quyển sách này không?</h3>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Danh sách Sách</a></li>
+        <li class="breadcrumb-item active">Xóa</li>
+    </ol>
 
-<div class="alert alert-warning">
-    Lưu ý: Hành động này không thể hoàn tác. Nếu sách này đang được mượn hoặc có trong các phiếu mượn cũ, việc xóa có thể gây lỗi dữ liệu.
-</div>
+    <div class="alert alert-warning" role="alert">
+        <i class="fa fa-exclamation-triangle me-2"></i>
+        <strong>Cảnh báo:</strong> Hành động này không thể hoàn tác. Nếu sách này đang được mượn hoặc có trong các phiếu mượn cũ, việc xóa có thể gây lỗi dữ liệu hệ thống.
+    </div>
 
-<div>
-    <h4>Thông tin chi tiết:</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-3">
-            ID Sách
-        </dt>
-        <dd class="col-sm-9">
-            @Model.idBook
-        </dd>
+    <div class="card mb-4 border-danger">
+        <div class="card-header bg-danger text-white">
+            <i class="fas fa-book-dead me-1"></i> Thông tin sách cần xóa
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">ID Sách:</dt>
+                <dd class="col-sm-9 fw-bold">@Model.idBook</dd>
 
-        <dt class="col-sm-3">
-            Tên sách
-        </dt>
-        <dd class="col-sm-9">
-            @Model.nameBook
-        </dd>
+                <dt class="col-sm-3">Tên sách:</dt>
+                <dd class="col-sm-9 text-uppercase fw-bold text-primary">@Model.nameBook</dd>
 
-        <dt class="col-sm-3">
-            Tác giả
-        </dt>
-        <dd class="col-sm-9">
-            @Model.authorBook
-        </dd>
+                <dt class="col-sm-3">Tác giả:</dt>
+                <dd class="col-sm-9">@Model.authorBook</dd>
 
-        <dt class="col-sm-3">
-            Nhà xuất bản
-        </dt>
-        <dd class="col-sm-9">
-            @Model.publisherBook
-        </dd>
+                <dt class="col-sm-3">Nhà xuất bản:</dt>
+                <dd class="col-sm-9">@Model.publisherBook</dd>
 
-        <dt class="col-sm-3">
-            Trạng thái
-        </dt>
-        <dd class="col-sm-9">
-            @Model.statusBook
-        </dd>
-    </dl>
+                <dt class="col-sm-3">Trạng thái:</dt>
+                <dd class="col-sm-9">
+                    @if (Model.statusBook == "Available")
+                    {
+                        <span class="badge bg-success">Có sẵn</span>
+                    }
+                    else if (Model.statusBook == "Borrowed")
+                    {
+                        <span class="badge bg-warning text-dark">Đang mượn</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">@Model.statusBook</span>
+                    }
+                </dd>
+            </dl>
 
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="idBook" />
-        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
-        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
-    </form>
+            <form asp-action="Delete" class="mt-4">
+                <input type="hidden" asp-for="idBook" />
+
+                <button type="submit" class="btn btn-danger">
+                    <i class="fa fa-trash-alt me-1"></i> Xóa vĩnh viễn
+                </button>
+
+                <a asp-action="Index" class="btn btn-secondary ms-2">
+                    <i class="fa fa-times me-1"></i> Hủy bỏ
+                </a>
+            </form>
+        </div>
+    </div>
 </div>

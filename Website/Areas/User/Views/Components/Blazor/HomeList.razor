@@ -1,0 +1,470 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+@using Microsoft.AspNetCore.WebUtilities
+@using Website.Data
+@using Website.Models
+@using Website.Models.ViewModels
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Web;
+@using System.Security.Claims
+@using Website.Services.Other
+@inject AuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Nav
+@inject CartService CartService
+@inject ApplicationDbContext Context
+@inject IJSRuntime JS
+
+<div class="homecontainer">
+    <div class="bannercontainer_home">
+        @foreach (var item in Banner) 
+        {
+            <div class="banneritem_home @(item == CurrentItem ? "active" : "")">
+                <img src="@($"{Nav.BaseUri}{item.imageBook.TrimStart('~', '/')}")" alt="banneritem">
+                <div class="bannerinfo_home">
+                    <div>
+                        <h1>@item.nameBook</h1>
+                        <h2>@item.authorBook</h2>
+                    </div>
+                    <h3>@((MarkupString)item.descriptionBook.Replace("\r\n", "<br/>"))</h3>
+                </div>
+            </div>
+        }
+    </div>
+    <div>
+        <p>Mới nhất</p>
+        <div class="carouselcontainer_home">
+            <button @onclick="() => PrevCarousel(1)" class="carouselprev_home">&#10094;</button>
+            <div class="carousel_home">
+                <div class="carouseltrack_home @AnimationClass1">
+                    @foreach (var entry in GetDisplayItems(1))
+                    {
+                        LockedStates.TryGetValue(entry.item.idBook, out var isLocked);
+                        <div class="carouselitem_home weight_@entry.weight">
+                            <img src="@($"{Nav.BaseUri}{entry.item.imageBook.TrimStart('~', '/')}")" style="@(isLocked ? "opacity: 0.25;" : "opacity: 1;")" alt="carouselitem">
+                            <h1>@entry.item.nameBook</h1>
+                            <h2>@entry.item.authorBook</h2>
+                            @if (isLocked)
+                            {
+                                <button class="disabledcartbutton_home">Không thêm</button>
+                            }
+                            else
+                            {
+                                <button @onclick="() => AddToCart(entry.item.idBook)" class="addcartbutton_home">Thêm vào giỏ</button>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+            <button @onclick="() => NextCarousel(1)" class="carouselnext_home">&#10095;</button>
+        </div>
+    </div>
+
+    <div>
+        <p>Popular</p>
+        <div class="carouselcontainer_home">
+            <button @onclick="() => PrevCarousel(2)" class="carouselprev_home">&#10094;</button>
+            <div class="carousel_home">
+                <div class="carouseltrack_home @AnimationClass2">
+                    @foreach (var entry in GetDisplayItems(2))
+                    {
+                        LockedStates.TryGetValue(entry.item.idBook, out var isLocked);
+                        <div class="carouselitem_home weight_@entry.weight">
+                            <img src="@($"{Nav.BaseUri}{entry.item.imageBook.TrimStart('~', '/')}")" style="@(isLocked ? "opacity: 0.25;" : "opacity: 1;")" alt="carouselitem">
+                            <h1>@entry.item.nameBook</h1>
+                            <h2>@entry.item.authorBook</h2>
+                            @if (isLocked)
+                            {
+                                <button class="disabledcartbutton_home">Không thêm</button>
+                            }
+                            else
+                            {
+                                <button @onclick="() => AddToCart(entry.item.idBook)" class="addcartbutton_home">Thêm vào giỏ</button>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+            <button @onclick="() => NextCarousel(2)" class="carouselnext_home">&#10095;</button>
+        </div>
+    </div>
+
+    <div>
+        <p>Best Rated</p>
+        <div class="carouselcontainer_home">
+            <button @onclick="() => PrevCarousel(3)" class="carouselprev_home">&#10094;</button>
+            <div class="carousel_home">
+                <div class="carouseltrack_home @AnimationClass3">
+                    @foreach (var entry in GetDisplayItems(3))
+                    {
+                        LockedStates.TryGetValue(entry.item.idBook, out var isLocked);
+                        <div class="carouselitem_home weight_@entry.weight">
+                            <img src="@($"{Nav.BaseUri}{entry.item.imageBook.TrimStart('~', '/')}")" style="@(isLocked ? "opacity: 0.25;" : "opacity: 1;")" alt="carouselitem">
+                            <h1>@entry.item.nameBook</h1>
+                            <h2>@entry.item.authorBook</h2>
+                            @if (isLocked)
+                            {
+                                <button class="disabledcartbutton_home">Không thêm</button>
+                            }
+                            else
+                            {
+                                <button @onclick="() => AddToCart(entry.item.idBook)" class="addcartbutton_home">Thêm vào giỏ</button>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+            <button @onclick="() => NextCarousel(3)" class="carouselnext_home">&#10095;</button>
+        </div>
+    </div>
+
+    <div>
+        <p>Our Choice</p>
+        <div class="carouselcontainer_home">
+            <button @onclick="() => PrevCarousel(4)" class="carouselprev_home">&#10094;</button>
+            <div class="carousel_home">
+                <div class="carouseltrack_home @AnimationClass4">
+                    @foreach (var entry in GetDisplayItems(4))
+                    {
+                        LockedStates.TryGetValue(entry.item.idBook, out var isLocked);
+                        <div class="carouselitem_home weight_@entry.weight">
+                            <img src="@($"{Nav.BaseUri}{entry.item.imageBook.TrimStart('~', '/')}")" alt="carouselitem">
+                            <h1>@entry.item.nameBook</h1>
+                            <h2>@entry.item.authorBook</h2>
+                            @if (isLocked)
+                            {
+                                <button class="disabledcartbutton_home">Không thêm</button>
+                            }
+                            else
+                            {
+                                <button @onclick="() => AddToCart(entry.item.idBook)" class="addcartbutton_home">Thêm vào giỏ</button>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+            <button @onclick="() => NextCarousel(4)" class="carouselnext_home">&#10095;</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public List<Book> Banner { get; set; } = new();
+    [Parameter]
+    public List<Book> Carousel1 { get; set; } = new();
+    [Parameter]
+    public List<Book> Carousel2 { get; set; } = new();
+    [Parameter]
+    public List<Book> Carousel3 { get; set; } = new();
+    [Parameter]
+    public List<Book> Carousel4 { get; set; } = new();
+
+    private Book CurrentItem => Banner[CurrentIndex];
+    private int CurrentIndex = 0;
+    private int CurrentIndex1 = 0;
+    private int CurrentIndex2 = 0;
+    private int CurrentIndex3 = 0;
+    private int CurrentIndex4 = 0;
+    private string AnimationClass = "";
+    private string AnimationClass1 = "";
+    private string AnimationClass2 = "";
+    private string AnimationClass3 = "";
+    private string AnimationClass4 = "";
+
+    private ClaimsPrincipal? CurrentUser;
+    private Dictionary<string, bool> LockedStates = new();
+
+    private System.Threading.Timer Timer;
+    private bool animating = false;
+
+    protected override void OnInitialized()
+    {
+        CartService.OnChange += RecalculateLocksOnCartChange;
+        Timer = new System.Threading.Timer(AutoSlide, null, 5000, 5000);
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var auth = await AuthStateProvider.GetAuthenticationStateAsync();
+        CurrentUser = auth.User;
+
+        var allbooks = Carousel1.Concat(Carousel2).Concat(Carousel3).Concat(Carousel4);
+
+        foreach (var book in allbooks)
+        {
+            LockedStates[book.idBook] = false;
+        }
+
+        foreach (var book in allbooks)
+        {
+            LockedStates[book.idBook] = await Lock(book.idBook);
+        }
+    }
+
+    private async Task AddToCart(string idbook)
+    {
+        await CartService.AddToCart(idbook);
+    }
+
+    private void NavBookDetail(string idbook)
+    {
+        var uri = QueryHelpers.AddQueryString("/BookDetail", "idbook", idbook);
+        Nav.NavigateTo(uri, forceLoad: true);
+    }
+
+    private void NavAuthorDetail(string nameauthor)
+    {
+        var uri = QueryHelpers.AddQueryString("/BookDetail", "idbook", nameauthor);
+        Nav.NavigateTo(uri, forceLoad: true);
+    }
+
+    private async Task<bool> Lock(string idbook)
+    {
+        var available = await Context.SACH
+            .Where(b => b.idBook.Substring(0, 2) == idbook.Substring(0, 2))
+            .Where(b => b.statusBook == "AVAILABLE")
+            .ToListAsync();
+
+        if (available == null || available.Count == 0)
+            return true;
+
+        if (CurrentUser?.Identity?.IsAuthenticated == true)
+        {
+            var cardid = CurrentUser?.FindFirst("CardId")?.Value;
+            var borrow = await Context.MUONTRA
+                .Where(b => b.idCard == cardid)
+                .Where(b => b.statusBorrow == "ACTIVE")
+                .FirstOrDefaultAsync();
+
+            if (borrow != null)
+            {
+                var joinborrow = await Context.JOIN_BOOKBORROW
+                    .Where(j => j.idBorrow == borrow.idBorrow)
+                    .Where(j => j.idBook.Substring(0, 2) == idbook.Substring(0, 2))
+                    .Where(j => j.statusBookBorrow == "PENDING")
+                    .ToListAsync();
+
+                if (joinborrow == null || joinborrow.Count > 0)
+                    return true;
+            }
+
+            var cart = CartService.GetCart();
+
+            if (cart.Books.Any(b => b.idBook.Substring(0, 2) == idbook.Substring(0, 2)))
+                return true;
+        }
+
+        return false;
+    }
+
+    private async void RecalculateLocksOnCartChange()
+    {
+        await RecalculateLocks();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task RecalculateLocks()
+    {
+        LockedStates.Clear();
+        var allbooks = Carousel1.Concat(Carousel2).Concat(Carousel3).Concat(Carousel4);
+        foreach (var book in allbooks)
+        {
+            LockedStates[book.idBook] = await Lock(book.idBook);
+        }
+    }
+
+    private IEnumerable<(Book item, int weight)> GetDisplayItems(int i)
+    {
+        int count = 0;
+        switch (i)
+        {
+            case 1:
+                count = Carousel1.Count;
+                break;
+            case 2:
+                count = Carousel2.Count;
+                break;
+            case 3:
+                count = Carousel3.Count;
+                break;
+            case 4:
+                count = Carousel4.Count;
+                break;
+        }
+
+        int[] offsets = { -2, -1, 0, 1, 2 };
+
+        foreach (var offset in offsets)
+        {
+            int index = 0;
+            switch (i)
+            {
+                case 1:
+                    index = (CurrentIndex1 + offset + count) % count;
+                    break;
+                case 2:
+                    index = (CurrentIndex2 + offset + count) % count;
+                    break;
+                case 3:
+                    index = (CurrentIndex3 + offset + count) % count;
+                    break;
+                case 4:
+                    index = (CurrentIndex4 + offset + count) % count;
+                    break;
+            }
+
+            int weight = offset switch
+            {
+                0 => 3,
+                -1 or 1 => 2,
+                -2 or 2 => 1,
+                _ => 0
+            };
+
+            switch (i)
+            {
+                case 1:
+                    yield return (Carousel1[index], weight);
+                    break;
+                case 2:
+                    yield return (Carousel2[index], weight);
+                    break;
+                case 3:
+                    yield return (Carousel3[index], weight);
+                    break;
+                case 4:
+                    yield return (Carousel4[index], weight);
+                    break;
+            }
+        }
+    }
+
+    private void AutoSlide(object state)
+    {
+        InvokeAsync(() =>
+        {
+            CurrentIndex = (CurrentIndex + 1) % Banner.Count;
+            StateHasChanged(); 
+        });
+    }
+
+    public void Dispose()
+    {
+        Timer?.Dispose();
+    }
+
+    private async Task NextCarousel(int i)
+    {
+        if (animating) return;
+        animating = true;
+
+        switch (i)
+        {
+            case 1:
+                AnimationClass1 = "slide-next";
+                break;
+            case 2:
+                AnimationClass2 = "slide-next";
+                break;
+            case 3:
+                AnimationClass3 = "slide-next";
+                break;
+            case 4:
+                AnimationClass4 = "slide-next";
+                break;
+        }
+        StateHasChanged();
+
+        await Task.Delay(200);
+
+        switch (i)
+        {
+            case 1:
+                CurrentIndex1 = (CurrentIndex1 + 1) % Carousel1.Count;
+                break;
+            case 2:
+                CurrentIndex2 = (CurrentIndex2 + 1) % Carousel2.Count;
+                break;
+            case 3:
+                CurrentIndex3 = (CurrentIndex3 + 1) % Carousel3.Count;
+                break;
+            case 4:
+                CurrentIndex4 = (CurrentIndex4 + 1) % Carousel4.Count;
+                break;
+        }
+
+        switch (i)
+        {
+            case 1:
+                AnimationClass1 = "";
+                break;
+            case 2:
+                AnimationClass2 = "";
+                break;
+            case 3:
+                AnimationClass3 = "";
+                break;
+            case 4:
+                AnimationClass4 = "";
+                break;
+        }
+        animating = false;
+    }
+
+    private async Task PrevCarousel(int i)
+    {
+        if (animating) return;
+        animating = true;
+
+        switch (i)
+        {
+            case 1:
+                AnimationClass1 = "slide-prev";
+                break;
+            case 2:
+                AnimationClass2 = "slide-prev";
+                break;
+            case 3:
+                AnimationClass3 = "slide-prev";
+                break;
+            case 4:
+                AnimationClass4 = "slide-prev";
+                break;
+        }
+        StateHasChanged();
+
+        await Task.Delay(200);
+        switch (i)
+        {
+            case 1:
+                CurrentIndex1 = (CurrentIndex1 - 1 + Carousel1.Count) % Carousel1.Count;
+                break;
+            case 2:
+                CurrentIndex2 = (CurrentIndex2 - 1 + Carousel2.Count) % Carousel2.Count;
+                break;
+            case 3:
+                CurrentIndex3 = (CurrentIndex3 - 1 + Carousel3.Count) % Carousel3.Count;
+                break;
+            case 4:
+                CurrentIndex4 = (CurrentIndex4 - 1 + Carousel4.Count) % Carousel4.Count;
+                break;
+        }
+
+        switch (i)
+        {
+            case 1:
+                AnimationClass1 = "";
+                break;
+            case 2:
+                AnimationClass2 = "";
+                break;
+            case 3:
+                AnimationClass3 = "";
+                break;
+            case 4:
+                AnimationClass4 = "";
+                break;
+        }
+        animating = false;
+    }
+}

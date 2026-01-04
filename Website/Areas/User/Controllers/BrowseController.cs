@@ -46,12 +46,13 @@ namespace Website.Areas.User.Controllers
             return View(bookList);
         }
 
-        [HttpPost("/Browse/Search")]
+        [Route("/Browse/Search")]
         public async Task<IActionResult> Search(string search, int currentpage = 1)
         {
-            var books = await _bookService.SearchBookUser(search);
+            var books = await _bookService.GetAllBooksUnique();
+            var searchbooks = _bookService.SearchBookUser(books, search);
 
-            var skipbooks = books.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
+            var skipbooks = searchbooks.Skip((currentpage - 1) * itemperpage).Take(itemperpage).ToList();
 
             BookList bookList = new BookList
             {

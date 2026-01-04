@@ -9,6 +9,8 @@
         <base href="~/" />
     </head>
     <body>
+        @using System.Security.Claims
+
         <header>
             @await Component.InvokeAsync("Navbar")
         </header>
@@ -19,7 +21,10 @@
         </main>
 
         <footer>
-            @await Component.InvokeAsync("Footer")
+            @if (!User.IsInRole("Admin"))
+            {
+                @await Component.InvokeAsync("Footer")
+            }
         </footer>
 
         @if (TempData["Message"] != null)
@@ -32,5 +37,6 @@
         }
 
         <script src="_framework/blazor.server.js"></script>
+        <script src="~/JS/ProductSlider.js"></script>
     </body>
 </html>

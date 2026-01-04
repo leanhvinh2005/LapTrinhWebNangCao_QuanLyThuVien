@@ -22,54 +22,54 @@
         margin-right: 12px;
     }
 
-    .left_navbar form {
+    .searchcontainer {
         display: flex;
         align-items: center;
     }
 
-    .left_navbar input {
-        border: 3px solid #1C1C1C;
-        border-radius: 12px;
-        height: 24px;
-        width: 240px;
-        background-color: #1C1C1C;
-        color: white;
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 600;
-        padding-left: 8px;
-        outline: none;
-    }
+        .searchcontainer input {
+            border: 3px solid #1C1C1C;
+            border-radius: 12px;
+            height: 24px;
+            width: 240px;
+            background-color: #1C1C1C;
+            color: white;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 8px;
+            outline: none;
+        }
 
-    .left_navbar input:focus {
-        border: 3px solid #B13DD6;
-        background-color: #B13DD6;
-        transition: 0.2s;
-    }
+        .searchcontainer input:focus {
+            border: 3px solid #B13DD6;
+            background-color: #B13DD6;
+            transition: 0.2s;
+        }
 
-    .left_navbar input:focus::placeholder {
-        color: #B13DD6;
-        transition: 0.2s;
-    }
+        .searchcontainer input:focus::placeholder {
+            color: #B13DD6;
+            transition: 0.2s;
+        }
 
-    .left_navbar button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid #1C1C1C;
-        border-radius: 12px;
-        height: 32px;
-        width: 32px;
-        margin-left: 4px;
-        background-color: #1C1C1C;
-        cursor: pointer;
-    }
+        .searchcontainer button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #1C1C1C;
+            border-radius: 12px;
+            height: 32px;
+            width: 32px;
+            margin-left: 4px;
+            background-color: #1C1C1C;
+            cursor: pointer;
+        }
 
-    .left_navbar button:hover {
-        border: 3px solid #1AC09B;
-        background-color: #1AC09B;
-        transition: 0.2s;
-    }
+        .searchcontainer button:hover {
+            border: 3px solid #1AC09B;
+            background-color: #1AC09B;
+            transition: 0.2s;
+        }
 
         .search_navbar {
             width: 19px;

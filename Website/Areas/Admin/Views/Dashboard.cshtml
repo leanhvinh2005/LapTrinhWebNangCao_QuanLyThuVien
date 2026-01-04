@@ -1,7 +1,209 @@
-﻿@{
-    ViewBag.Title = "Dashboard";
+﻿@using Website.Models.ViewModels
+@model DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
     Layout = "~/Views/Shared/Master.cshtml";
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 }
-<main>
-    <p>Dashboard</p>
-</main>
+
+<style>
+    /* Custom CSS nhỏ cho Dashboard đẹp hơn */
+    .card-box {
+        position: relative;
+        color: #fff;
+        padding: 20px 10px 40px;
+        margin: 20px 0px;
+        border-radius: 5px;
+    }
+
+        .card-box:hover {
+            text-decoration: none;
+            color: #f1f1f1;
+        }
+
+    .card-box-icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 5rem;
+        opacity: 0.3;
+    }
+
+    .bg-blue {
+        background-color: #007bff;
+    }
+
+    .bg-green {
+        background-color: #28a745;
+    }
+
+    .bg-orange {
+        background-color: #ffc107;
+        color: #333 !important;
+    }
+
+    .bg-red {
+        background-color: #dc3545;
+    }
+</style>
+
+<div class="container-fluid">
+    <h1 class="mt-4 mb-4"><i class="fas fa-tachometer-alt me-2"></i>Tổng quan hệ thống</h1>
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="card-box bg-blue">
+                <div class="inner">
+                    <h3>@Model.TotalBooks</h3>
+                    <p>Đầu sách hiện có</p>
+                </div>
+                <div class="card-box-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <a asp-controller="Book" asp-action="Index" class="small-box-footer text-white d-block mt-3">
+                    Chi tiết <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card-box bg-orange">
+                <div class="inner">
+                    <h3>@Model.BorrowingCount</h3>
+                    <p>Phiếu đang mượn</p>
+                </div>
+                <div class="card-box-icon">
+                    <i class="fas fa-hand-holding-open"></i>
+                </div>
+                <a asp-controller="Borrow" asp-action="Index" class="small-box-footer text-dark d-block mt-3">
+                    Chi tiết <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card-box bg-green">
+                <div class="inner">
+                    <h3>@Model.TotalReaders</h3>
+                    <p>Độc giả thành viên</p>
+                </div>
+                <div class="card-box-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <a asp-controller="Account" asp-action="Index" class="small-box-footer text-white d-block mt-3">
+                    Chi tiết <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card-box bg-red">
+                <div class="inner">
+                    <h3>@Model.OverdueCount</h3>
+                    <p>Phiếu quá hạn</p>
+                </div>
+                <div class="card-box-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <a asp-controller="Borrow" asp-action="Index" asp-route-search="Qua han" class="small-box-footer text-white d-block mt-3">
+                    Xử lý ngay <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-xl-8">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-bar me-1"></i>
+                    Thống kê lượt mượn sách (7 ngày qua)
+                </div>
+                <div class="card-body">
+                    <canvas id="myBarChart" width="100%" height="40"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-clock me-1"></i>
+                    Hoạt động gần đây
+                </div>
+                <div class="card-body p-0">
+                    <ul class="list-group list-group-flush">
+                        @if (Model.RecentBorrows != null && Model.RecentBorrows.Any())
+                        {
+                            @foreach (var item in Model.RecentBorrows)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="fw-bold">#@item.idBorrow</span> - @item.idCard
+                                        <br />
+                                        <small class="text-muted">@item.dateBorrow.ToString("dd/MM/yyyy")</small>
+                                    </div>
+                                    @if (item.statusBorrow == "Dang muon")
+                                    {
+                                        <span class="badge bg-warning text-dark">Mượn</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">@item.statusBorrow</span>
+                                    }
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="list-group-item text-center text-muted">Chưa có hoạt động nào.</li>
+                        }
+                    </ul>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-controller="Borrow" asp-action="Index" class="text-decoration-none">Xem tất cả</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Lấy context của canvas
+        var ctx = document.getElementById("myBarChart");
+
+        // Dữ liệu từ C# truyền sang JS
+        var labels = @Html.Raw(Json.Serialize(Model.ChartLabels));
+        var data = @Html.Raw(Json.Serialize(Model.ChartData));
+
+        var myLineChart = new Chart(ctx, {
+            type: 'bar', // Loại biểu đồ: bar (cột), line (đường), pie (tròn)
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: "Lượt mượn",
+                    backgroundColor: "rgba(2,117,216,1)",
+                    borderColor: "rgba(2,117,216,1)",
+                    data: data,
+                }],
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        time: { unit: 'day' },
+                        gridLines: { display: false },
+                        ticks: { maxTicksLimit: 7 }
+                    }],
+                    yAxes: [{
+                        ticks: { min: 0, maxTicksLimit: 5 },
+                        gridLines: { display: true }
+                    }],
+                },
+                legend: { display: false }
+            }
+        });
+    </script>
+}

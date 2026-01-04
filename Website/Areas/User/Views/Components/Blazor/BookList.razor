@@ -11,11 +11,12 @@
 @inject AuthenticationStateProvider AuthStateProvider
 @inject NavigationManager Nav
 @inject CartService CartService
+@inject SearchService SearchService
 @inject ApplicationDbContext Context
 
 @if (CurrentUser?.Identity?.IsAuthenticated == true)
 {
-    @foreach (var item in Books)
+    @foreach (var item in FilteredBooks)
     {
         LockedStates.TryGetValue(item.idBook, out var isLocked);
         <div class="cardcontainer">
@@ -23,12 +24,14 @@
                 <img src="@($"{Nav.BaseUri}{item.imageBook.TrimStart('~', '/')}")" style="@(isLocked ? "opacity: 0.25;" : "opacity: 1;")" alt="bookimage" />
             </a>
             <div class="bottomcard">
-                <a @onclick="() => NavBookDetail(item.idBook)" class="booklink2">
-                    <h1>@item.nameBook</h1>
-                </a>
-                <a @onclick="() => NavAuthorDetail(item.idBook)" class="authorlink">
-                    <h1>@item.authorBook</h1>
-                </a>
+                <div>
+                    <a @onclick="() => NavBookDetail(item.idBook)" class="booklink2">
+                        <h1>@item.nameBook</h1>
+                    </a>
+                    <a @onclick="() => NavAuthorDetail(item.idBook)" class="authorlink">
+                        <h1>@item.authorBook</h1>
+                    </a>
+                </div>
                 @if (isLocked)
                 {
                     <button class="disabledcartbutton">Không thêm</button>
@@ -66,12 +69,15 @@ else
     [Parameter]
     public List<Book> Books { get; set; } = new();
 
+    private List<Book> FilteredBooks = new();
     private ClaimsPrincipal? CurrentUser;
     private Dictionary<string, bool> LockedStates = new();
 
     protected override void OnInitialized()
     {
         CartService.OnChange += RecalculateLocksOnCartChange;
+        SearchService.OnSearchChanged += UpdateFilter;
+        FilteredBooks = Books;
     }
 
     protected override async Task OnParametersSetAsync()
@@ -159,5 +165,27 @@ else
         {
             LockedStates[book.idBook] = await Lock(book.idBook);
         }
+    }
+
+    private void UpdateFilter()
+    {
+        var q = SearchService.CurrentQuery?.Trim().ToLower() ?? "";
+
+        if (string.IsNullOrWhiteSpace(q))
+        {
+            FilteredBooks = Books;
+        }
+        else
+        {
+            FilteredBooks = Books
+            .Where(b =>
+            {
+                var name = b.nameBook?.ToLower() ?? "";
+                return name.StartsWith(q);
+            })
+            .ToList();
+        }
+
+        InvokeAsync(StateHasChanged);
     }
 }

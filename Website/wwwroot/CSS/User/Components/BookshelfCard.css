@@ -1,8 +1,4 @@
-﻿body {
-    margin: 0;
-}
-
-.cardcontainer_bookshelf {
+﻿.cardcontainer_bookshelf {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -66,3 +62,23 @@
                 background-color: #1AC09B;
                 transition: 0.2s;
             }
+
+    .readbutton {
+        border: 2px solid lightgrey;
+        border-radius: 12px;
+        height: 35px;
+        width: 120px;
+        color: #1C1C1C;
+        background-color: lightgrey;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 8px;
+    }
+
+        .readbutton:hover {
+            border: 2px solid #B13DD6;
+            color: white;
+            background-color: #B13DD6;
+            transition: 0.2s;
+        }

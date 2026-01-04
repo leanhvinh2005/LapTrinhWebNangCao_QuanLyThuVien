@@ -5,6 +5,7 @@ using System.Data;
 using Website.Areas.User.Controllers;
 using Website.Data;
 using Website.Models;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace Website.Services
 {
@@ -67,11 +68,15 @@ namespace Website.Services
                 .ToListAsync();
         }
 
-        public async Task<List<Book>> SearchBookUser(string search)
+        public List<Book> SearchBookUser(List<Book> books, string search)
         {
-            return await _context.SACH
-                .FromSqlRaw("EXEC SearchBookUser @search", new SqlParameter("@search", search))
-                .ToListAsync();
+            return books
+                .Where(b =>
+                {
+                    var name = b.nameBook?.ToLower() ?? "";
+                    return name.StartsWith(search);
+                })
+                .ToList();
         }
 
         public async Task<List<Book>> FilterBook(List<int> tagids)

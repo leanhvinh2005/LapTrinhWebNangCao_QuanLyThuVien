@@ -24,7 +24,7 @@ namespace Website.Areas.Admin.Controllers
         // GET: Admin/Borrow
         [Route("")]
         [Route("Index")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Borrow()
         {
             var borrows = await _borrowService.GetAllBorrowsAsync();
             return View(borrows);
@@ -34,10 +34,10 @@ namespace Website.Areas.Admin.Controllers
         [Route("Create")]
         public IActionResult Create()
         {
-           
+
             ViewBag.CardList = new SelectList(_context.THETHUVIEN, "idCard", "idCard");
 
-            
+
 
             var model = new Borrow
             {
@@ -67,10 +67,10 @@ namespace Website.Areas.Admin.Controllers
                 }
             }
 
-            
+
             ViewBag.CardList = new SelectList(_context.THETHUVIEN, "idCard", "idCard", borrow.idCard);
 
-            
+
             return View(borrow);
         }
 

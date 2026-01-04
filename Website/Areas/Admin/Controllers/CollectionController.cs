@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Website.Models;
 using Website.Services;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Website.Areas.Admin.Controllers
@@ -18,12 +19,14 @@ namespace Website.Areas.Admin.Controllers
             _collectionService = collectionService;
         }
 
+        // GET: /Admin/Collection
         [Route("")]
         [Route("Index")]
         public async Task<IActionResult> Collection(string search)
         {
             search ??= "";
-            var collections = await _collectionService.SearchCollection(search);
+            var allItems = await _collectionService.SearchCollection(search);
+            var collections = allItems.Where(c => c.idCollection.StartsWith("CL")).ToList();
             ViewData["CurrentSearch"] = search;
             return View(collections);
         }
@@ -39,6 +42,14 @@ namespace Website.Areas.Admin.Controllers
         [Route("Create")]
         public async Task<IActionResult> Create(Collection collection)
         {
+
+            if (!collection.idCollection.StartsWith("CL"))
+            {
+                ModelState.AddModelError("idCollection", "ID Bộ sưu tập phải bắt đầu bằng 'CL'.");
+            }
+            var existing = await _collectionService.GetCollectionByIdAsync(collection.idCollection);
+            if (existing != null) ModelState.AddModelError("idCollection", "ID này đã tồn tại.");
+
             if (ModelState.IsValid)
             {
                 await _collectionService.AddCollection(collection);
@@ -50,6 +61,8 @@ namespace Website.Areas.Admin.Controllers
         [Route("Edit/{id}")]
         public async Task<IActionResult> Edit(string id)
         {
+            if (!id.StartsWith("CL")) return NotFound();
+
             var collection = await _collectionService.GetCollectionByIdAsync(id);
             if (collection == null) return NotFound();
             return View(collection);
@@ -61,6 +74,9 @@ namespace Website.Areas.Admin.Controllers
         public async Task<IActionResult> Edit(string id, Collection collection)
         {
             if (id != collection.idCollection) return NotFound();
+
+            if (!collection.idCollection.StartsWith("CL")) return BadRequest("Sai định dạng ID");
+
             if (ModelState.IsValid)
             {
                 await _collectionService.EditCollection(collection);
@@ -72,6 +88,7 @@ namespace Website.Areas.Admin.Controllers
         [Route("Delete/{id}")]
         public async Task<IActionResult> Delete(string id)
         {
+            if (!id.StartsWith("CL")) return NotFound();
             var collection = await _collectionService.GetCollectionByIdAsync(id);
             if (collection == null) return NotFound();
             return View(collection);
@@ -82,6 +99,7 @@ namespace Website.Areas.Admin.Controllers
         [Route("Delete/{id}")]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
+            if (!id.StartsWith("CL")) return BadRequest();
             await _collectionService.DeleteCollection(id);
             return RedirectToAction(nameof(Index));
         }

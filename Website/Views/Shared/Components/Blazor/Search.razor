@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.WebUtilities
+@using Website.Services.Other
+@inject NavigationManager Nav
+@inject SearchService SearchService
+
+<div class="searchcontainer">
+    <input type="text" @oninput="OnInput" placeholder="Search..." />
+    <button @onclick="NavSearchBrowse">
+        <img src="@($"{Nav.BaseUri}{image.TrimStart('~', '/')}")" alt="Search" class="search_navbar" />
+    </button>
+</div>
+
+@code {
+    private string image = "~/Images/Navbar/Search.png";
+
+    private void OnInput(ChangeEventArgs e)
+    {
+        var value = e.Value?.ToString() ?? "";
+        SearchService.UpdateQuery(value);
+    }
+
+    private void NavSearchBrowse()
+    {
+        var q = SearchService.CurrentQuery?.Trim().ToLower() ?? "";
+        var uri = QueryHelpers.AddQueryString("/Browse/Search", "search", q);
+        Nav.NavigateTo(uri, forceLoad: true);
+    }
+}

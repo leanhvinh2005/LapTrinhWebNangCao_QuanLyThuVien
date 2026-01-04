@@ -39,6 +39,7 @@ builder.Services.AddScoped<LibrarianService>();
 builder.Services.AddScoped<MemberService>();
 builder.Services.AddScoped<TagService>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<SearchService>();
 builder.Services.AddScoped<EmailService>();
 
 builder.Services.Configure<EmailSettings>(
@@ -64,6 +65,10 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 
 builder.Services.AddHttpClient();
+builder.Services.AddSignalR(hubOptions =>
+{
+    hubOptions.MaximumReceiveMessageSize = 10 * 1024 * 1024; 
+});
 builder.Services.AddServerSideBlazor();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
